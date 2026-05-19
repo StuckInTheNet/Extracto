@@ -1,0 +1,62 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicaid",
+  "patient_name": "Wilson, Alex",
+  "patient_dob": "09/19/1965",
+  "patient_sex": "F",
+  "relationship_to_insured": "Child",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "R51.9",
+    "S13.4XXA",
+    "M54.5",
+    "G44.311",
+    "S39.012A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "10/18/2024",
+      "cpt": "98941",
+      "pos": "23",
+      "charge": 130.0,
+      "units": 2
+    },
+    {
+      "date_from": "10/18/2024",
+      "cpt": "72141",
+      "pos": "23",
+      "charge": 3600.0,
+      "units": 3
+    },
+    {
+      "date_from": "10/18/2024",
+      "cpt": "97140",
+      "pos": "21",
+      "charge": 240.0,
+      "units": 3
+    },
+    {
+      "date_from": "10/18/2024",
+      "cpt": "72141",
+      "pos": "11",
+      "charge": 3600.0,
+      "units": 3
+    },
+    {
+      "date_from": "10/18/2024",
+      "cpt": "98941",
+      "pos": "12",
+      "charge": 195.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 7765.0,
+  "accept_assignment": false,
+  "tax_id": "78-9012345",
+  "tax_id_type": "EIN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

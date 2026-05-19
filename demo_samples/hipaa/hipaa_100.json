@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jamie Williams",
+  "patient_dob": "09/29/1967",
+  "date_range_from": "10/05/2022",
+  "date_range_to": "05/12/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Office Notes"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Insurance Claim",
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

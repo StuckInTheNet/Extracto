@@ -1,0 +1,70 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Other",
+  "patient_name": "Jones, Riley",
+  "patient_dob": "10/04/1980",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "T14.90XA",
+    "F41.1",
+    "M62.830",
+    "S06.0X0A",
+    "M25.511",
+    "F43.10"
+  ],
+  "service_lines": [
+    {
+      "date_from": "06/22/2024",
+      "cpt": "99213",
+      "pos": "12",
+      "charge": 125.0,
+      "units": 1
+    },
+    {
+      "date_from": "06/22/2024",
+      "cpt": "64483",
+      "pos": "12",
+      "charge": 1700.0,
+      "units": 2
+    },
+    {
+      "date_from": "06/22/2024",
+      "cpt": "72141",
+      "pos": "11",
+      "charge": 3600.0,
+      "units": 3
+    },
+    {
+      "date_from": "06/22/2024",
+      "cpt": "73721",
+      "pos": "12",
+      "charge": 3300.0,
+      "units": 3
+    },
+    {
+      "date_from": "06/22/2024",
+      "cpt": "98941",
+      "pos": "21",
+      "charge": 65.0,
+      "units": 1
+    },
+    {
+      "date_from": "06/22/2024",
+      "cpt": "20610",
+      "pos": "22",
+      "charge": 320.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 9110.0,
+  "accept_assignment": true,
+  "tax_id": "67-8901234",
+  "tax_id_type": "SSN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

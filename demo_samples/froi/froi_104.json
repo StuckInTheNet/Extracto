@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jamie Williams",
+  "employer_name": "Apex Manufacturing Corp",
+  "injury_date": "01/30/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Chest"
+  ],
+  "nature_of_injury": "Laceration",
+  "causes": [
+    "Struck By Object"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

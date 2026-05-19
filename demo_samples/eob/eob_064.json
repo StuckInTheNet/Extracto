@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Riley Miller",
+  "claim_number": "CLM23429380",
+  "check_number": "824423",
+  "service_line_count": 4,
+  "service_line_cpts": [
+    "99213",
+    "97110",
+    "97140",
+    "64483"
+  ],
+  "total_billed": 1099.75,
+  "total_allowed": 615.24,
+  "total_plan_paid": 557.13,
+  "total_patient_resp": 144.9,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2"
+  ]
+}

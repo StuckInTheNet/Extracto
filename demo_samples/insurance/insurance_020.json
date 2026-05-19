@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Alex White",
+    "dob": "01/01/2004",
+    "phone": "(575) 355-3645",
+    "address": [
+      "4712 Pine Rd",
+      "Clinton, UT 57779"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "D4360321",
+    "ins_type": "PPO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": []
+}

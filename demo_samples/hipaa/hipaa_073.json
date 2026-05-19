@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Avery Brown",
+  "patient_dob": "07/09/2001",
+  "date_range_from": "04/22/2023",
+  "date_range_to": "03/03/2024",
+  "record_types": [
+    "Billing Records",
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Continuity of Care",
+    "Other",
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

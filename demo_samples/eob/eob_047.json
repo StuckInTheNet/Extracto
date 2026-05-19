@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Aetna Health Insurance",
+  "member_name": "Drew Rodriguez",
+  "claim_number": "CLM33427561",
+  "check_number": "740195",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "99213",
+    "72148",
+    "97110",
+    "99214",
+    "99213",
+    "99213"
+  ],
+  "total_billed": 1876.25,
+  "total_allowed": 1113.32,
+  "total_plan_paid": 817.46,
+  "total_patient_resp": 295.86,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

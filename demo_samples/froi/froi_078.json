@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Taylor Miller",
+  "employer_name": "Pioneer Warehousing Corp",
+  "injury_date": "05/17/2022",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Chest",
+    "Shoulder-L"
+  ],
+  "nature_of_injury": "Other",
+  "causes": [
+    "Lifting",
+    "Struck By Object"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "Hospitalized"
+  ]
+}

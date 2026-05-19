@@ -1,0 +1,38 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicare",
+  "patient_name": "Jones, Avery",
+  "patient_dob": "01/07/1955",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "IL",
+  "diagnoses": [
+    "M51.26",
+    "G44.311"
+  ],
+  "service_lines": [
+    {
+      "date_from": "01/16/2024",
+      "cpt": "98941",
+      "pos": "23",
+      "charge": 65.0,
+      "units": 1
+    },
+    {
+      "date_from": "01/16/2024",
+      "cpt": "73721",
+      "pos": "23",
+      "charge": 3300.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 3365.0,
+  "accept_assignment": false,
+  "tax_id": "67-8901234",
+  "tax_id_type": "SSN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

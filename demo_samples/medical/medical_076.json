@@ -1,0 +1,31 @@
+{
+  "person": {
+    "name": "Sawyer Thomas",
+    "dob": "06/02/1948",
+    "phone": "(500) 427-8464",
+    "address": [
+      "8377 Ash Ct",
+      "Franklin, LA 37823"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "153717-60",
+    "physician": "Dr. Taylor",
+    "emergency_contact": "Taylor Jackson",
+    "emergency_phone": "(970) 662-6757",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Shellfish",
+      "Peanuts",
+      "Dust"
+    ],
+    "symptoms": [
+      4,
+      6
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

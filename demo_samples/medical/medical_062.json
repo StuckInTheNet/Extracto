@@ -1,0 +1,29 @@
+{
+  "person": {
+    "name": "Sawyer Brown",
+    "dob": "11/26/1992",
+    "phone": "(677) 980-7798",
+    "address": [
+      "846 Maple Ave",
+      "Clinton, GA 56501"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "850034-88",
+    "physician": "Dr. Johnson",
+    "emergency_contact": "Logan Rodriguez",
+    "emergency_phone": "(300) 795-5667",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Penicillin",
+      "Dust"
+    ],
+    "symptoms": [
+      3
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

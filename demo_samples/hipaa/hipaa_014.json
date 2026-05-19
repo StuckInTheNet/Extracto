@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jamie Smith",
+  "patient_dob": "01/29/1966",
+  "date_range_from": "11/22/2022",
+  "date_range_to": "08/01/2024",
+  "record_types": [
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [
+    "Genetic Information",
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

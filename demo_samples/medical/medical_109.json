@@ -1,0 +1,29 @@
+{
+  "person": {
+    "name": "Avery Jones",
+    "dob": "11/13/1991",
+    "phone": "(848) 368-7366",
+    "address": [
+      "4958 Birch Blvd",
+      "Clinton, IL 35068"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "214173-68",
+    "physician": "Dr. Jones",
+    "emergency_contact": "Emerson Thompson",
+    "emergency_phone": "(845) 507-1185",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "Pollen",
+      "Penicillin"
+    ],
+    "symptoms": [
+      2
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

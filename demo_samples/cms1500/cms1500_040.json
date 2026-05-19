@@ -1,0 +1,31 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicaid",
+  "patient_name": "Rodriguez, Morgan",
+  "patient_dob": "08/21/1951",
+  "patient_sex": "F",
+  "relationship_to_insured": "Other",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M62.830",
+    "M54.5"
+  ],
+  "service_lines": [
+    {
+      "date_from": "06/07/2024",
+      "cpt": "73721",
+      "pos": "12",
+      "charge": 3300.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 3300.0,
+  "accept_assignment": true,
+  "tax_id": "67-8901234",
+  "tax_id_type": "EIN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

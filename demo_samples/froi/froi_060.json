@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jordan Williams",
+  "employer_name": "Acme Retail Trade Corp",
+  "injury_date": "11/04/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ear-L"
+  ],
+  "nature_of_injury": "Strain/Sprain",
+  "causes": [
+    "Chemical Exposure"
+  ],
+  "treatments": [
+    "Hospitalized"
+  ]
+}

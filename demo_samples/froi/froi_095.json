@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Cameron Davis",
+  "employer_name": "Pioneer Warehousing Corp",
+  "injury_date": "06/22/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Back-Upper",
+    "Thigh-L"
+  ],
+  "nature_of_injury": "Laceration",
+  "causes": [
+    "Caught In/Between"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Rowan Rodriguez",
+    "dob": "10/05/1948",
+    "phone": "(412) 940-5123",
+    "address": [
+      "5315 Cedar Ln",
+      "Riverton, ME 61067"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "A5066150",
+    "ins_type": "HMO",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

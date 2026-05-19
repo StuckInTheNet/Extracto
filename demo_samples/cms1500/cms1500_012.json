@@ -1,0 +1,63 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "FECA Blk Lung",
+  "patient_name": "Johnson, Robin",
+  "patient_dob": "02/22/1988",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "FL",
+  "diagnoses": [
+    "S06.0X0A",
+    "M79.2",
+    "T14.90XA",
+    "G44.311",
+    "S22.5XXA",
+    "F41.1"
+  ],
+  "service_lines": [
+    {
+      "date_from": "12/05/2024",
+      "cpt": "72040",
+      "pos": "21",
+      "charge": 350.0,
+      "units": 2
+    },
+    {
+      "date_from": "12/05/2024",
+      "cpt": "95910",
+      "pos": "22",
+      "charge": 1425.0,
+      "units": 3
+    },
+    {
+      "date_from": "12/05/2024",
+      "cpt": "97110",
+      "pos": "22",
+      "charge": 85.0,
+      "units": 1
+    },
+    {
+      "date_from": "12/05/2024",
+      "cpt": "99203",
+      "pos": "22",
+      "charge": 450.0,
+      "units": 2
+    },
+    {
+      "date_from": "12/05/2024",
+      "cpt": "72141",
+      "pos": "12",
+      "charge": 3600.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 5910.0,
+  "accept_assignment": true,
+  "tax_id": "67-8901234",
+  "tax_id_type": "SSN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

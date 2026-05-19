@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Cameron Wilson",
+  "patient_dob": "05/14/1994",
+  "date_range_from": "01/07/2023",
+  "date_range_to": "02/04/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Office Notes"
+  ],
+  "excluded_categories": [
+    "Genetic Information"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

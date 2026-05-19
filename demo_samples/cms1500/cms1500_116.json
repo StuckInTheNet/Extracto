@@ -1,0 +1,41 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicaid",
+  "patient_name": "Smith, Morgan",
+  "patient_dob": "02/01/1972",
+  "patient_sex": "M",
+  "relationship_to_insured": "Child",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "F43.10",
+    "S39.012A",
+    "S22.5XXA",
+    "F32.9",
+    "F41.1"
+  ],
+  "service_lines": [
+    {
+      "date_from": "02/21/2024",
+      "cpt": "97140",
+      "pos": "21",
+      "charge": 80.0,
+      "units": 1
+    },
+    {
+      "date_from": "02/21/2024",
+      "cpt": "97112",
+      "pos": "12",
+      "charge": 180.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 260.0,
+  "accept_assignment": true,
+  "tax_id": "45-6789012",
+  "tax_id_type": "SSN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

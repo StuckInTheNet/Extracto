@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Brown",
+  "employer_name": "Apex Healthcare Corp",
+  "injury_date": "08/07/2023",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Back-Lower",
+    "Multiple"
+  ],
+  "nature_of_injury": "Fracture",
+  "causes": [
+    "Fall - Same Level",
+    "Motor Vehicle"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jamie Davis",
+  "patient_dob": "04/11/1975",
+  "date_range_from": "02/19/2022",
+  "date_range_to": "09/19/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries"
+  ],
+  "excluded_categories": [
+    "Genetic Information",
+    "HIV/AIDS",
+    "Mental Health",
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Other"
+  ],
+  "expiration_type": "specific_date"
+}

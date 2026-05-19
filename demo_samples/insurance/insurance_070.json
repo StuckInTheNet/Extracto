@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Avery Miller",
+    "dob": "12/03/2002",
+    "phone": "(438) 908-4793",
+    "address": [
+      "159 Pine Rd",
+      "Arlington, VT 34370"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "D5794469",
+    "ins_type": "HMO",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

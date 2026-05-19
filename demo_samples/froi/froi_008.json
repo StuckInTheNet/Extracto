@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jamie Jones",
+  "employer_name": "Pioneer Warehousing Corp",
+  "injury_date": "03/12/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Knee-R"
+  ],
+  "nature_of_injury": "Fracture",
+  "causes": [
+    "Fall - Same Level"
+  ],
+  "treatments": [
+    "Hospitalized"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Casey Garcia",
+  "employer_name": "Pioneer Warehousing Corp",
+  "injury_date": "01/30/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Back-Upper",
+    "Thigh-L"
+  ],
+  "nature_of_injury": "Puncture",
+  "causes": [
+    "Other"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "Hospitalized"
+  ]
+}

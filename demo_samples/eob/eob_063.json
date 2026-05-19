@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Drew Miller",
+  "claim_number": "CLM16055696",
+  "check_number": "234425",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "72100",
+    "20610",
+    "72148",
+    "72100",
+    "95910",
+    "99214"
+  ],
+  "total_billed": 2513.0,
+  "total_allowed": 1578.87,
+  "total_plan_paid": 1288.75,
+  "total_patient_resp": 290.12,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "person": {
+    "name": "Logan Smith",
+    "dob": "12/11/1996",
+    "phone": "(308) 972-5784",
+    "address": [
+      "4257 Pine Rd",
+      "Georgetown, OK 97864"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "693571-29",
+    "physician": "Dr. Miller",
+    "emergency_contact": "Morgan Anderson",
+    "emergency_phone": "(614) 258-7177",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "Latex"
+    ],
+    "symptoms": [
+      6
+    ]
+  },
+  "type": "medical",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Male",
+      "selected": false,
+      "bbox_pt": [
+        94,
+        598.0,
+        16,
+        16
+      ],
+      "parent": "Sex"
+    },
+    {
+      "kind": "radio",
+      "label": "Female",
+      "selected": false,
+      "bbox_pt": [
+        174,
+        598.0,
+        16,
+        16
+      ],
+      "parent": "Sex"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": true,
+      "bbox_pt": [
+        254,
+        598.0,
+        16,
+        16
+      ],
+      "parent": "Sex"
+    },
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        177,
+        571.0,
+        16,
+        16
+      ],
+      "parent": "Smoker"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        252,
+        565.0,
+        16,
+        16
+      ],
+      "parent": "Smoker"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        174,
+        537.0,
+        16,
+        16
+      ],
+      "parent": "Diabetic"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        253,
+        537.0,
+        16,
+        16
+      ],
+      "parent": "Diabetic"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Penicillin",
+      "selected": false,
+      "bbox_pt": [
+        54,
+        504.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Peanuts",
+      "selected": false,
+      "bbox_pt": [
+        57,
+        484.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Latex",
+      "selected": true,
+      "bbox_pt": [
+        51,
+        469.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Shellfish",
+      "selected": false,
+      "bbox_pt": [
+        52,
+        445.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Pollen",
+      "selected": false,
+      "bbox_pt": [
+        54,
+        432.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Dust",
+      "selected": false,
+      "bbox_pt": [
+        53,
+        410.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "None Known",
+      "selected": false,
+      "bbox_pt": [
+        197,
+        503.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Fever",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        611.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Cough",
+      "selected": false,
+      "bbox_pt": [
+        315.0,
+        592.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Headache",
+      "selected": false,
+      "bbox_pt": [
+        319.0,
+        571.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Fatigue",
+      "selected": false,
+      "bbox_pt": [
+        316.0,
+        551.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Shortness of breath",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        533.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Nausea",
+      "selected": false,
+      "bbox_pt": [
+        316.0,
+        521.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Dizziness",
+      "selected": true,
+      "bbox_pt": [
+        456.0,
+        608.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Chest pain",
+      "selected": false,
+      "bbox_pt": [
+        460.0,
+        587.0,
+        16,
+        16
+      ]
+    }
+  ]
+}

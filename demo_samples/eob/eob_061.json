@@ -1,0 +1,24 @@
+{
+  "form_type": "eob",
+  "payer_name": "Kaiser Permanente",
+  "member_name": "Jamie Johnson",
+  "claim_number": "CLM98388851",
+  "check_number": "809381",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "99214",
+    "72148",
+    "97140",
+    "98941",
+    "97110"
+  ],
+  "total_billed": 1703.0,
+  "total_allowed": 1089.99,
+  "total_plan_paid": 839.99,
+  "total_patient_resp": 250.0,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

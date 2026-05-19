@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Drew Martinez",
+    "dob": "08/17/1970",
+    "phone": "(837) 688-8868",
+    "address": [
+      "7716 Pine Rd",
+      "Clinton, ME 89070"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "D5972528",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        174,
+        616.0,
+        14,
+        14
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        254,
+        616.0,
+        14,
+        14
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        172,
+        588.0,
+        15,
+        15
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        252,
+        588.0,
+        15,
+        15
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": true,
+      "bbox_pt": [
+        318.0,
+        544.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": false,
+      "bbox_pt": [
+        318.0,
+        526.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": true,
+      "bbox_pt": [
+        318.0,
+        508.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": false,
+      "bbox_pt": [
+        318.0,
+        490.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": false,
+      "bbox_pt": [
+        318.0,
+        472.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": false,
+      "bbox_pt": [
+        318.0,
+        454.0,
+        15,
+        15
+      ]
+    }
+  ]
+}

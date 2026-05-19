@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Taylor Jones",
+  "date": "03/18/2023",
+  "scores": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+  ],
+  "total": 2,
+  "difficulty": 1,
+  "severity": "Minimal depression"
+}

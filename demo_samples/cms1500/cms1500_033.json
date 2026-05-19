@@ -1,0 +1,60 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Group Health Plan",
+  "patient_name": "Johnson, Jordan",
+  "patient_dob": "08/29/1957",
+  "patient_sex": "M",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "CA",
+  "diagnoses": [
+    "R51.9",
+    "F32.9",
+    "S22.5XXA"
+  ],
+  "service_lines": [
+    {
+      "date_from": "11/05/2024",
+      "cpt": "72148",
+      "pos": "11",
+      "charge": 3750.0,
+      "units": 3
+    },
+    {
+      "date_from": "11/05/2024",
+      "cpt": "95910",
+      "pos": "21",
+      "charge": 1425.0,
+      "units": 3
+    },
+    {
+      "date_from": "11/05/2024",
+      "cpt": "72148",
+      "pos": "12",
+      "charge": 1250.0,
+      "units": 1
+    },
+    {
+      "date_from": "11/05/2024",
+      "cpt": "97112",
+      "pos": "12",
+      "charge": 180.0,
+      "units": 2
+    },
+    {
+      "date_from": "11/05/2024",
+      "cpt": "20610",
+      "pos": "11",
+      "charge": 640.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 7245.0,
+  "accept_assignment": true,
+  "tax_id": "67-8901234",
+  "tax_id_type": "EIN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

@@ -1,0 +1,24 @@
+{
+  "form_type": "eob",
+  "payer_name": "Blue Cross Blue Shield",
+  "member_name": "Morgan Davis",
+  "claim_number": "CLM97767609",
+  "check_number": "773292",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "97140",
+    "97110",
+    "98941",
+    "97110",
+    "20610"
+  ],
+  "total_billed": 640.5,
+  "total_allowed": 335.31,
+  "total_plan_paid": 305.78,
+  "total_patient_resp": 29.53,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

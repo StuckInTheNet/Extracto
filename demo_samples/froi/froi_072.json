@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Cameron Williams",
+  "employer_name": "Pioneer Retail Trade Corp",
+  "injury_date": "08/31/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Head",
+    "Lower Leg-L"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Other"
+  ],
+  "treatments": [
+    "Emergency Room",
+    "First Aid Only"
+  ]
+}

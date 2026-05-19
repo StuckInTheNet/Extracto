@@ -1,0 +1,28 @@
+{
+  "person": {
+    "name": "Taylor Moore",
+    "dob": "08/31/1986",
+    "phone": "(867) 729-3994",
+    "address": [
+      "2736 Elm St",
+      "Madison, KS 21808"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "540071-19",
+    "physician": "Dr. Taylor",
+    "emergency_contact": "Hayden Anderson",
+    "emergency_phone": "(206) 693-2079",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "None Known"
+    ],
+    "symptoms": [
+      1
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

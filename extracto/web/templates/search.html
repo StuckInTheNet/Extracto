@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% block title %}Search — Extracto{% endblock %}
+
+{% block head %}
+<style>
+    .search-header {
+        padding: 48px 0 32px;
+    }
+    .search-header p { color: var(--ink-light); font-size: 16px; margin-top: 8px; }
+
+    .search-bar {
+        display: flex;
+        gap: 8px;
+    }
+    .search-bar select {
+        min-width: 140px;
+    }
+    .search-bar input[type="text"] {
+        flex: 1;
+    }
+
+    .search-examples {
+        margin-top: 12px;
+        font-size: 13px;
+        color: var(--ink-muted);
+    }
+    .search-examples code {
+        background: var(--surface);
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+    }
+
+    .results-count {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--ink-light);
+        margin-bottom: 16px;
+    }
+
+    .empty-state {
+        text-align: center;
+        padding: 48px 24px;
+        color: var(--ink-muted);
+    }
+    .empty-state .icon { font-size: 40px; margin-bottom: 12px; opacity: 0.5; }
+    .empty-state p { font-size: 14px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="search-header">
+        <h1>Search Extracted Data</h1>
+        <p>Query across all documents processed in this session.</p>
+    </div>
+
+    <div class="card mb-24">
+        <form action="/search" method="get" class="search-bar">
+            <select name="type">
+                <option value="field" {{ 'selected' if search_type == 'field' else '' }}>Field Name</option>
+                <option value="diagnosis" {{ 'selected' if search_type == 'diagnosis' else '' }}>ICD-10 Code</option>
+                <option value="cpt" {{ 'selected' if search_type == 'cpt' else '' }}>CPT Code</option>
+                <option value="provider" {{ 'selected' if search_type == 'provider' else '' }}>Provider</option>
+            </select>
+            <input type="text" name="q" value="{{ query }}" placeholder="Search..." autofocus>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+        <div class="search-examples">
+            Examples: ICD-10 <code>M54.2</code> &middot; CPT <code>97110</code> &middot; field <code>patient_name</code> &middot; provider <code>Mitchell</code>
+        </div>
+    </div>
+
+    {% if results is not none %}
+    <div class="card">
+        <div class="results-count">{{ results|length }} result{{ 's' if results|length != 1 else '' }}</div>
+        {% if results %}
+        <div style="overflow-x: auto;">
+            <table>
+                <thead>
+                    <tr>
+                        {% for key in results[0].keys() %}
+                            {% if key != 'doc_id' %}
+                            <th>{{ key }}</th>
+                            {% endif %}
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in results %}
+                    <tr>
+                        {% for key, val in row.items() %}
+                            {% if key != 'doc_id' %}
+                                {% if key == 'file_name' and row.get('doc_id') %}
+                                <td><a href="/document/{{ row.doc_id }}" style="color: var(--accent); text-decoration: none; font-weight: 500;">{{ val }}</a></td>
+                                {% elif key == 'field_value' and row.get('doc_id') %}
+                                <td><a href="/document/{{ row.doc_id }}" style="color: var(--accent); text-decoration: none;">{{ val }}</a></td>
+                                {% else %}
+                                <td>{{ val }}</td>
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <div class="icon">&#128269;</div>
+            <p>No results found for "{{ query }}"</p>
+        </div>
+        {% endif %}
+    </div>
+    {% else %}
+    <div class="card">
+        <div class="empty-state">
+            <div class="icon">&#128462;</div>
+            <p>Upload some documents first, then search across their extracted data.</p>
+            <a href="/demo" class="btn btn-primary mt-16">Go to Demo</a>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

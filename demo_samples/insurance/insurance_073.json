@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Taylor Miller",
+    "dob": "09/13/1989",
+    "phone": "(584) 538-6914",
+    "address": [
+      "8600 Maple Ave",
+      "Clinton, NH 55241"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "B4609319",
+    "ins_type": "PPO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

@@ -1,0 +1,62 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Anderson, Casey",
+  "patient_dob": "10/06/1955",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M54.5",
+    "S22.5XXA",
+    "S39.012A",
+    "G44.311",
+    "S06.0X0A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "08/16/2024",
+      "cpt": "98941",
+      "pos": "22",
+      "charge": 195.0,
+      "units": 3
+    },
+    {
+      "date_from": "08/16/2024",
+      "cpt": "72141",
+      "pos": "23",
+      "charge": 1200.0,
+      "units": 1
+    },
+    {
+      "date_from": "08/16/2024",
+      "cpt": "64483",
+      "pos": "21",
+      "charge": 1700.0,
+      "units": 2
+    },
+    {
+      "date_from": "08/16/2024",
+      "cpt": "97140",
+      "pos": "12",
+      "charge": 80.0,
+      "units": 1
+    },
+    {
+      "date_from": "08/16/2024",
+      "cpt": "97110",
+      "pos": "23",
+      "charge": 170.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 3345.0,
+  "accept_assignment": false,
+  "tax_id": "67-8901234",
+  "tax_id_type": "SSN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

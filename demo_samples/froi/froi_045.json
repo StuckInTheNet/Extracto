@@ -1,0 +1,22 @@
+{
+  "form_type": "froi",
+  "employee_name": "Drew Jones",
+  "employer_name": "Summit Transportation Corp",
+  "injury_date": "03/25/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Face",
+    "Fingers-L",
+    "Forearm-R",
+    "Lower Leg-L"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Struck Against Object",
+    "Struck By Object"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "First Aid Only"
+  ]
+}

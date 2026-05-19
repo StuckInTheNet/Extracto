@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "extracto"
+version = "0.1.0"
+description = "Intelligent document extraction pipeline for medical and insurance forms"
+requires-python = ">=3.10"
+dependencies = [
+    "PyMuPDF>=1.24",
+    "opencv-python>=4.9",
+    "opencv-contrib-python>=4.9",
+    "numpy>=1.26",
+    "joblib>=1.3",
+    "scikit-learn>=1.4",
+    "reportlab>=4.1",
+]
+
+[project.optional-dependencies]
+ocr = ["paddleocr>=2.7", "paddlepaddle>=2.6"]
+yolo = ["ultralytics>=8.1"]
+llm = ["openai>=1.12"]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+    "ruff>=0.3",
+]
+all = ["extracto[ocr,yolo,llm,dev]"]
+
+[project.scripts]
+extracto = "extracto.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["extracto*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

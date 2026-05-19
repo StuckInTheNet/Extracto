@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Jones",
+  "employer_name": "Summit Retail Trade Corp",
+  "injury_date": "06/07/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Abdomen",
+    "Foot-R",
+    "Head",
+    "Knee-L"
+  ],
+  "nature_of_injury": "Puncture",
+  "causes": [
+    "Lifting"
+  ],
+  "treatments": [
+    "Hospitalized"
+  ]
+}

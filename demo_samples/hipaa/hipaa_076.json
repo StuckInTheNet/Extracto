@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jordan Miller",
+  "patient_dob": "12/31/1996",
+  "date_range_from": "04/08/2023",
+  "date_range_to": "09/06/2023",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports"
+  ],
+  "excluded_categories": [
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Insurance Claim"
+  ],
+  "expiration_type": "one_year"
+}

@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Alex Garcia",
+  "patient_dob": "09/01/1954",
+  "date_range_from": "11/23/2022",
+  "date_range_to": "11/19/2023",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Continuity of Care",
+    "Insurance Claim"
+  ],
+  "expiration_type": "specific_date"
+}

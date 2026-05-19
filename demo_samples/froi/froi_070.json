@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Brown",
+  "employer_name": "Summit Retail Trade Corp",
+  "injury_date": "01/11/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Chest",
+    "Fingers-R",
+    "Hip-L",
+    "Upper Arm-L"
+  ],
+  "nature_of_injury": "Concussion",
+  "causes": [
+    "Fall - Same Level"
+  ],
+  "treatments": [
+    "Hospitalized"
+  ]
+}

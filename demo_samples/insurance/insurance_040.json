@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Taylor Anderson",
+    "dob": "08/17/1957",
+    "phone": "(257) 460-5491",
+    "address": [
+      "5306 Oak St",
+      "Springfield, IA 10770"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "F7329770",
+    "ins_type": "PPO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

@@ -1,0 +1,62 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicare",
+  "patient_name": "Davis, Avery",
+  "patient_dob": "01/14/1950",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "S22.5XXA",
+    "S83.511A",
+    "M25.511",
+    "S06.0X0A",
+    "S42.201A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "12/17/2024",
+      "cpt": "20610",
+      "pos": "22",
+      "charge": 640.0,
+      "units": 2
+    },
+    {
+      "date_from": "12/17/2024",
+      "cpt": "99213",
+      "pos": "23",
+      "charge": 375.0,
+      "units": 3
+    },
+    {
+      "date_from": "12/17/2024",
+      "cpt": "72040",
+      "pos": "11",
+      "charge": 525.0,
+      "units": 3
+    },
+    {
+      "date_from": "12/17/2024",
+      "cpt": "73721",
+      "pos": "23",
+      "charge": 3300.0,
+      "units": 3
+    },
+    {
+      "date_from": "12/17/2024",
+      "cpt": "97112",
+      "pos": "12",
+      "charge": 270.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 5110.0,
+  "accept_assignment": true,
+  "tax_id": "56-7890123",
+  "tax_id_type": "EIN",
+  "provider_name": "Priya Patel, MD",
+  "provider_npi": "5678901234"
+}

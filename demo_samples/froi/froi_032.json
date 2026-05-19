@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Riley Williams",
+  "employer_name": "Summit Retail Trade Corp",
+  "injury_date": "03/15/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Elbow-L"
+  ],
+  "nature_of_injury": "Laceration",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "First Aid Only",
+    "Hospitalized"
+  ]
+}

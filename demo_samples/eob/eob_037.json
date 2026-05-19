@@ -1,0 +1,21 @@
+{
+  "form_type": "eob",
+  "payer_name": "United Healthcare",
+  "member_name": "Avery Smith",
+  "claim_number": "CLM58216998",
+  "check_number": "215027",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "20610",
+    "97140",
+    "99213"
+  ],
+  "total_billed": 605.0,
+  "total_allowed": 382.27,
+  "total_plan_paid": 352.27,
+  "total_patient_resp": 30.0,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-3"
+  ]
+}

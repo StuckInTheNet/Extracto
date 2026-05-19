@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Jamie Johnson",
+    "dob": "06/02/1964",
+    "phone": "(208) 819-4370",
+    "address": [
+      "4575 Willow Way",
+      "Madison, UT 55611"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "F2154396",
+    "ins_type": "PPO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        174,
+        615.0,
+        16,
+        16
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        253,
+        615.0,
+        16,
+        16
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        172,
+        587.0,
+        16,
+        16
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        251,
+        587.0,
+        16,
+        16
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": true,
+      "bbox_pt": [
+        318.0,
+        543.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        525.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        507.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": true,
+      "bbox_pt": [
+        319.0,
+        491.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        472.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        453.0,
+        16,
+        16
+      ]
+    }
+  ]
+}

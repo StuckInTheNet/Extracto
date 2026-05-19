@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Riley Jones",
+  "claim_number": "CLM59301266",
+  "check_number": "112166",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "72100",
+    "72148",
+    "95910",
+    "20610",
+    "99203",
+    "95910"
+  ],
+  "total_billed": 3008.5,
+  "total_allowed": 2059.08,
+  "total_plan_paid": 1704.11,
+  "total_patient_resp": 383.57,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

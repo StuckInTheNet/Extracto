@@ -1,0 +1,33 @@
+{
+  "person": {
+    "name": "Finley Moore",
+    "dob": "06/09/1975",
+    "phone": "(820) 741-9074",
+    "address": [
+      "3764 Maple Ave",
+      "Fairview, NH 87374"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "818437-25",
+    "physician": "Dr. Thomas",
+    "emergency_contact": "Skyler White",
+    "emergency_phone": "(769) 967-5794",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "Penicillin",
+      "Peanuts",
+      "Pollen"
+    ],
+    "symptoms": [
+      0,
+      3,
+      4,
+      5
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

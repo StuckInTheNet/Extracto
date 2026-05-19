@@ -1,0 +1,21 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Casey Rodriguez",
+  "patient_dob": "03/17/1988",
+  "date_range_from": "04/21/2022",
+  "date_range_to": "08/06/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Lab Results",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Genetic Information"
+  ],
+  "purposes": [
+    "Other",
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

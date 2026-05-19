@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Jordan Johnson",
+    "dob": "10/22/2004",
+    "phone": "(238) 803-1858",
+    "address": [
+      "8723 Spruce Ter",
+      "Arlington, KS 18646"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "D9741619",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        172,
+        616.0,
+        10,
+        10
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        256,
+        618.0,
+        10,
+        10
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        171,
+        590.0,
+        11,
+        11
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        250,
+        590.0,
+        11,
+        11
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": true,
+      "bbox_pt": [
+        319.0,
+        545.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": true,
+      "bbox_pt": [
+        316.0,
+        525.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": true,
+      "bbox_pt": [
+        319.0,
+        507.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        488.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        470.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        453.0,
+        11,
+        11
+      ]
+    }
+  ]
+}

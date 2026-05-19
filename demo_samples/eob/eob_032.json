@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Alex Garcia",
+  "claim_number": "CLM55649583",
+  "check_number": "606957",
+  "service_line_count": 4,
+  "service_line_cpts": [
+    "72148",
+    "64483",
+    "99203",
+    "97110"
+  ],
+  "total_billed": 2409.5,
+  "total_allowed": 1647.25,
+  "total_plan_paid": 1285.81,
+  "total_patient_resp": 361.44,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

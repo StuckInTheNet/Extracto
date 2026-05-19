@@ -1,0 +1,39 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "TRICARE",
+  "patient_name": "Anderson, Kelly",
+  "patient_dob": "09/25/1990",
+  "patient_sex": "M",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "M54.2",
+    "G44.311",
+    "F43.10"
+  ],
+  "service_lines": [
+    {
+      "date_from": "05/02/2024",
+      "cpt": "99214",
+      "pos": "21",
+      "charge": 175.0,
+      "units": 1
+    },
+    {
+      "date_from": "05/02/2024",
+      "cpt": "99203",
+      "pos": "12",
+      "charge": 450.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 625.0,
+  "accept_assignment": false,
+  "tax_id": "67-8901234",
+  "tax_id_type": "EIN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

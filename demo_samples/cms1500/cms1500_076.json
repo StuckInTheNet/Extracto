@@ -1,0 +1,40 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "TRICARE",
+  "patient_name": "Johnson, Sam",
+  "patient_dob": "05/09/1958",
+  "patient_sex": "F",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "S22.5XXA",
+    "S39.012A",
+    "R51.9",
+    "M25.511"
+  ],
+  "service_lines": [
+    {
+      "date_from": "12/25/2024",
+      "cpt": "95910",
+      "pos": "22",
+      "charge": 475.0,
+      "units": 1
+    },
+    {
+      "date_from": "12/25/2024",
+      "cpt": "20610",
+      "pos": "23",
+      "charge": 320.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 795.0,
+  "accept_assignment": true,
+  "tax_id": "45-6789012",
+  "tax_id_type": "EIN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

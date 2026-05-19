@@ -1,0 +1,29 @@
+{
+  "person": {
+    "name": "Quinn Davis",
+    "dob": "12/09/1941",
+    "phone": "(789) 621-1735",
+    "address": [
+      "6954 Hickory Dr",
+      "Clinton, KY 96412"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "757138-98",
+    "physician": "Dr. Smith",
+    "emergency_contact": "Emerson Miller",
+    "emergency_phone": "(377) 717-9791",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Latex",
+      "Dust"
+    ],
+    "symptoms": [
+      3
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

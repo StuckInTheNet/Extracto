@@ -1,0 +1,494 @@
+{% extends "base.html" %}
+{% block title %}Live Demo — Extracto{% endblock %}
+
+{% block head %}
+<style>
+    .demo-header {
+        padding: 48px 0 32px;
+    }
+    .demo-header p {
+        color: var(--ink-light);
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    /* ── Accordion ──────────────────────────────────────── */
+    .accordion {
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        background: var(--surface-raised);
+        overflow: hidden;
+        box-shadow: var(--shadow-sm);
+    }
+    .accordion-item {
+        border-bottom: 1px solid var(--border-light);
+    }
+    .accordion-item:last-child { border-bottom: none; }
+    .accordion-trigger {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px 28px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-family: inherit;
+        text-align: left;
+        transition: background 0.15s;
+    }
+    .accordion-trigger:hover { background: var(--surface); }
+    .accordion-trigger-left {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+    .accordion-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        flex-shrink: 0;
+    }
+    .accordion-trigger h3 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+    .accordion-trigger p {
+        font-size: 13px;
+        color: var(--ink-muted);
+        margin: 0;
+    }
+    .accordion-arrow {
+        font-size: 12px;
+        color: var(--ink-muted);
+        transition: transform 0.2s;
+        flex-shrink: 0;
+    }
+    .accordion-item.open .accordion-arrow { transform: rotate(180deg); }
+    .accordion-body {
+        display: none;
+        padding: 0 28px 24px;
+    }
+    .accordion-item.open .accordion-body { display: block; }
+    .accordion-item.open .accordion-trigger { background: var(--surface); }
+
+    /* ── Drop zone ─────────────────────────────────────── */
+    .drop-zone {
+        border: 2px dashed var(--border);
+        border-radius: var(--radius-lg);
+        padding: 48px 40px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.2s;
+        background: var(--surface);
+    }
+    .drop-zone:hover, .drop-zone.dragover {
+        border-color: var(--accent);
+        background: var(--accent-subtle);
+    }
+    .drop-zone-icon {
+        font-size: 36px;
+        margin-bottom: 10px;
+        opacity: 0.6;
+    }
+    .drop-zone h3 { color: var(--ink); font-weight: 600; font-size: 15px; margin-bottom: 4px; }
+    .drop-zone p { color: var(--ink-muted); font-size: 13px; }
+    .drop-zone input[type="file"] { display: none; }
+
+    .file-list {
+        margin-top: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+    .file-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 5px 12px;
+        background: var(--accent-subtle);
+        color: var(--accent);
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .upload-actions {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+
+    /* ── Processing indicator ──────────────────────────── */
+    .processing {
+        display: none;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 20px;
+        background: var(--accent-subtle);
+        border-radius: var(--radius);
+        color: var(--accent);
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .processing.active { display: flex; }
+    .spinner {
+        width: 18px;
+        height: 18px;
+        border: 2.5px solid var(--accent-glow);
+        border-top-color: var(--accent);
+        border-radius: 50%;
+        animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Stats bar ─────────────────────────────────────── */
+    .demo-stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+    }
+    .demo-stat {
+        text-align: center;
+        padding: 20px;
+        background: var(--surface);
+        border-radius: var(--radius);
+    }
+    .demo-stat .num {
+        font-size: 28px;
+        font-weight: 800;
+        color: var(--accent);
+        letter-spacing: -0.02em;
+    }
+    .demo-stat .label {
+        font-size: 11px;
+        color: var(--ink-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-top: 4px;
+    }
+
+    /* ── Confidence colors ─────────────────────────────── */
+    .conf-high { color: var(--success); }
+    .conf-med { color: var(--warning); }
+    .conf-low { color: var(--danger); font-weight: 700; }
+
+    /* ── Doc table ─────────────────────────────────────── */
+    .doc-actions a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    .doc-actions a:hover { text-decoration: underline; }
+
+    .hipaa-bar {
+        background: var(--success-bg);
+        border: 1px solid #a7f3d0;
+        border-radius: var(--radius);
+        padding: 12px 20px;
+        font-size: 13px;
+        color: #065f46;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* ── Clear button ──────────────────────────────────── */
+    .btn-danger {
+        background: white;
+        color: var(--danger);
+        border: 1px solid var(--danger);
+        font-size: 13px;
+        padding: 8px 16px;
+    }
+    .btn-danger:hover { background: #fef2f2; }
+
+    .session-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media (max-width: 768px) {
+        .demo-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="demo-header">
+        <h1>Try Extracto</h1>
+        <p>Upload your own PDF documents and see structured extraction results in real time.</p>
+    </div>
+
+    <div class="hipaa-bar mb-24">
+        &#128737; All processing happens on your infrastructure. No patient data is sent to cloud APIs or third-party services.
+    </div>
+
+    <!-- Accordion -->
+    <div class="accordion mb-24">
+
+        <!-- 1. Extract from PDFs -->
+        <div class="accordion-item open" id="acc-extract">
+            <button class="accordion-trigger" onclick="toggleAccordion('acc-extract')">
+                <div class="accordion-trigger-left">
+                    <div class="accordion-icon" style="background: var(--accent-subtle); color: var(--accent);">&#128462;</div>
+                    <div>
+                        <h3>Extract from PDFs</h3>
+                        <p>Upload individual PDF forms and get structured data back instantly</p>
+                    </div>
+                </div>
+                <span class="accordion-arrow">&#9660;</span>
+            </button>
+            <div class="accordion-body">
+                <form action="/upload" method="post" enctype="multipart/form-data" id="uploadForm">
+                    <div class="upload-actions mb-12" id="uploadActions" style="display: none;">
+                        <button type="submit" class="btn btn-primary" id="extractBtn">Extract Documents</button>
+                        <span class="text-muted text-sm" id="fileCount"></span>
+                    </div>
+                    <div class="processing mb-12" id="processing">
+                        <div class="spinner"></div>
+                        <span>Extracting&hellip; this usually takes a few seconds per page.</span>
+                    </div>
+                    <div class="drop-zone" id="dropZone" onclick="document.getElementById('fileInput').click()">
+                        <div class="drop-zone-icon">&#128196;</div>
+                        <h3>Drop PDF files here</h3>
+                        <p>or click to browse &mdash; CMS-1500, EOB, PHQ-9, HIPAA, FROI, medical intake, insurance claims, and more</p>
+                        <input type="file" id="fileInput" name="files" accept=".pdf" multiple>
+                    </div>
+                    <div class="file-list" id="fileList"></div>
+                </form>
+            </div>
+        </div>
+
+        <!-- 2. Split & Extract -->
+        <div class="accordion-item" id="acc-split">
+            <button class="accordion-trigger" onclick="toggleAccordion('acc-split')">
+                <div class="accordion-trigger-left">
+                    <div class="accordion-icon" style="background: #ede9fe; color: #7c3aed;">&#9986;</div>
+                    <div>
+                        <h3>Split &amp; Extract Pipeline</h3>
+                        <p>Upload a single PDF with hundreds of mixed forms &mdash; auto-split, classify, and extract each one</p>
+                    </div>
+                </div>
+                <span class="accordion-arrow">&#9660;</span>
+            </button>
+            <div class="accordion-body">
+                <form action="/split-extract" method="post" enctype="multipart/form-data" id="splitForm">
+                    <div class="processing mb-12" id="splitProcessing">
+                        <div class="spinner"></div>
+                        <span>Splitting and extracting&hellip; this may take a minute for large bundles.</span>
+                    </div>
+                    <div class="drop-zone" id="splitDropZone" onclick="document.getElementById('splitFileInput').click()">
+                        <div class="drop-zone-icon">&#9986;</div>
+                        <h3>Drop a multi-form PDF here</h3>
+                        <p>or click to browse &mdash; one PDF containing hundreds of mixed forms</p>
+                        <input type="file" id="splitFileInput" name="file" accept=".pdf">
+                    </div>
+                    <div class="file-list" id="splitFileList"></div>
+                    <div class="upload-actions mt-12" id="splitActions" style="display: none;">
+                        <button type="submit" class="btn btn-primary">Split &amp; Extract</button>
+                        <span class="text-muted text-sm" id="splitFileName"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- 3. Index Records -->
+        <div class="accordion-item" id="acc-index">
+            <button class="accordion-trigger" onclick="toggleAccordion('acc-index')">
+                <div class="accordion-trigger-left">
+                    <div class="accordion-icon" style="background: #fef3c7; color: #b45309;">&#128203;</div>
+                    <div>
+                        <h3>Index Medical Records Bundle</h3>
+                        <p>Upload a multi-provider bundle &mdash; auto-index by provider, date of service, and extract each segment</p>
+                    </div>
+                </div>
+                <span class="accordion-arrow">&#9660;</span>
+            </button>
+            <div class="accordion-body">
+                <form action="/index-records" method="post" enctype="multipart/form-data" id="indexForm">
+                    <div class="processing mb-12" id="indexProcessing">
+                        <div class="spinner"></div>
+                        <span>Indexing and extracting&hellip; this may take a minute for large bundles.</span>
+                    </div>
+                    <div class="drop-zone" id="indexDropZone" onclick="document.getElementById('indexFileInput').click()">
+                        <div class="drop-zone-icon">&#128203;</div>
+                        <h3>Drop a records bundle here</h3>
+                        <p>or click to browse &mdash; multi-provider medical records PDF</p>
+                        <input type="file" id="indexFileInput" name="file" accept=".pdf">
+                    </div>
+                    <div class="file-list" id="indexFileList"></div>
+                    <div class="upload-actions mt-12" id="indexActions" style="display: none;">
+                        <button type="submit" class="btn btn-primary">Index &amp; Extract</button>
+                        <span class="text-muted text-sm" id="indexFileName"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    {% if stats.total_documents > 0 %}
+    <!-- Session stats -->
+    <div class="card mb-24">
+        <div class="session-header mb-16">
+            <h3>Session Database</h3>
+            <form action="/clear" method="post" style="margin: 0;">
+                <button type="submit" class="btn btn-danger" onclick="return confirm('Clear all uploaded documents and results?');">Clear Session</button>
+            </form>
+        </div>
+        <div class="demo-stats mb-24">
+            <div class="demo-stat">
+                <div class="num">{{ stats.total_documents }}</div>
+                <div class="label">Documents</div>
+            </div>
+            <div class="demo-stat">
+                <div class="num">{{ stats.unique_diagnoses }}</div>
+                <div class="label">Diagnoses</div>
+            </div>
+            <div class="demo-stat">
+                <div class="num">{{ stats.total_service_lines }}</div>
+                <div class="label">Service Lines</div>
+            </div>
+            <div class="demo-stat">
+                <div class="num">{{ stats.total_index_entries }}</div>
+                <div class="label">Index Entries</div>
+            </div>
+        </div>
+
+        {% if documents %}
+        <table>
+            <thead>
+                <tr><th>File</th><th>Type</th><th>Confidence</th><th>Time</th><th></th></tr>
+            </thead>
+            <tbody>
+            {% for doc in documents[:20] %}
+                {% set conf_pct = (doc.classification_confidence * 100)|round|int %}
+                <tr>
+                    <td style="font-weight: 500;">{{ doc.file_name }}</td>
+                    <td><span class="badge badge-{{ doc.form_type }}">{{ doc.form_type }}</span></td>
+                    <td>
+                        <span class="mono {% if conf_pct >= 85 %}conf-high{% elif conf_pct >= 70 %}conf-med{% else %}conf-low{% endif %}">
+                            {{ conf_pct }}%
+                        </span>
+                    </td>
+                    <td class="text-muted mono">{{ "%.0f"|format(doc.processing_time_ms) }}ms</td>
+                    <td class="doc-actions"><a href="/document/{{ doc.id }}">View details &rarr;</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    function toggleAccordion(id) {
+        const item = document.getElementById(id);
+        const wasOpen = item.classList.contains('open');
+        // Close all
+        document.querySelectorAll('.accordion-item').forEach(i => i.classList.remove('open'));
+        // Toggle clicked
+        if (!wasOpen) item.classList.add('open');
+    }
+
+    const dropZone = document.getElementById('dropZone');
+    const fileInput = document.getElementById('fileInput');
+    const fileList = document.getElementById('fileList');
+    const uploadActions = document.getElementById('uploadActions');
+    const fileCount = document.getElementById('fileCount');
+    const uploadForm = document.getElementById('uploadForm');
+    const processing = document.getElementById('processing');
+
+    ['dragenter', 'dragover'].forEach(e => {
+        dropZone.addEventListener(e, ev => { ev.preventDefault(); dropZone.classList.add('dragover'); });
+    });
+    ['dragleave', 'drop'].forEach(e => {
+        dropZone.addEventListener(e, ev => { ev.preventDefault(); dropZone.classList.remove('dragover'); });
+    });
+    dropZone.addEventListener('drop', ev => {
+        fileInput.files = ev.dataTransfer.files;
+        updateFileList();
+    });
+    fileInput.addEventListener('change', updateFileList);
+
+    function updateFileList() {
+        const files = fileInput.files;
+        fileList.innerHTML = '';
+        if (files.length > 0) {
+            Array.from(files).forEach(f => {
+                const chip = document.createElement('span');
+                chip.className = 'file-chip';
+                chip.textContent = f.name;
+                fileList.appendChild(chip);
+            });
+            uploadActions.style.display = 'flex';
+            fileCount.textContent = files.length + ' file' + (files.length === 1 ? '' : 's') + ' selected';
+        } else {
+            uploadActions.style.display = 'none';
+        }
+    }
+
+    uploadForm.addEventListener('submit', () => {
+        uploadActions.style.display = 'none';
+        processing.classList.add('active');
+    });
+
+    // Reusable: set up a single-file drop zone
+    function setupSingleDrop(zoneId, inputId, listId, actionsId, nameId, formId, processingId) {
+        const zone = document.getElementById(zoneId);
+        const input = document.getElementById(inputId);
+        const list = document.getElementById(listId);
+        const actions = document.getElementById(actionsId);
+        const nameEl = document.getElementById(nameId);
+        const form = document.getElementById(formId);
+        const proc = document.getElementById(processingId);
+
+        ['dragenter', 'dragover'].forEach(e => {
+            zone.addEventListener(e, ev => { ev.preventDefault(); zone.classList.add('dragover'); });
+        });
+        ['dragleave', 'drop'].forEach(e => {
+            zone.addEventListener(e, ev => { ev.preventDefault(); zone.classList.remove('dragover'); });
+        });
+        zone.addEventListener('drop', ev => {
+            input.files = ev.dataTransfer.files;
+            update();
+        });
+        input.addEventListener('change', update);
+
+        function update() {
+            list.innerHTML = '';
+            if (input.files.length > 0) {
+                const f = input.files[0];
+                const chip = document.createElement('span');
+                chip.className = 'file-chip';
+                chip.textContent = f.name;
+                list.appendChild(chip);
+                actions.style.display = 'flex';
+                nameEl.textContent = (f.size / 1024 / 1024).toFixed(1) + ' MB';
+            } else {
+                actions.style.display = 'none';
+            }
+        }
+
+        form.addEventListener('submit', function() {
+            actions.style.display = 'none';
+            proc.classList.add('active');
+        });
+    }
+
+    setupSingleDrop('splitDropZone', 'splitFileInput', 'splitFileList', 'splitActions', 'splitFileName', 'splitForm', 'splitProcessing');
+    setupSingleDrop('indexDropZone', 'indexFileInput', 'indexFileList', 'indexActions', 'indexFileName', 'indexForm', 'indexProcessing');
+</script>
+{% endblock %}

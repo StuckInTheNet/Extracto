@@ -1,0 +1,32 @@
+{
+  "person": {
+    "name": "Skyler Moore",
+    "dob": "03/24/1984",
+    "phone": "(594) 297-1711",
+    "address": [
+      "7022 Birch Blvd",
+      "Arlington, HI 10822"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "664371-76",
+    "physician": "Dr. Brown",
+    "emergency_contact": "Avery Garcia",
+    "emergency_phone": "(988) 276-3087",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Penicillin",
+      "Shellfish",
+      "Dust"
+    ],
+    "symptoms": [
+      4,
+      6,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

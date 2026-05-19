@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Jones",
+  "employer_name": "Pioneer Healthcare Corp",
+  "injury_date": "01/27/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Elbow-L"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Chemical Exposure"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "None"
+  ]
+}

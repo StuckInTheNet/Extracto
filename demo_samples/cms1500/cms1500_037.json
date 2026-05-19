@@ -1,0 +1,33 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicare",
+  "patient_name": "Johnson, Avery",
+  "patient_dob": "03/25/1960",
+  "patient_sex": "M",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "F43.10",
+    "F41.1",
+    "G44.311",
+    "S39.012A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "05/04/2024",
+      "cpt": "72148",
+      "pos": "21",
+      "charge": 2500.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 2500.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "SSN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

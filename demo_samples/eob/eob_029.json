@@ -1,0 +1,22 @@
+{
+  "form_type": "eob",
+  "payer_name": "United Healthcare",
+  "member_name": "Morgan Davis",
+  "claim_number": "CLM83882978",
+  "check_number": "168079",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "99203",
+    "97140",
+    "64483"
+  ],
+  "total_billed": 1301.0,
+  "total_allowed": 936.06,
+  "total_plan_paid": 714.55,
+  "total_patient_resp": 254.76,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2"
+  ]
+}

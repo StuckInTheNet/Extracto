@@ -1,0 +1,34 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicare",
+  "patient_name": "Jones, Morgan",
+  "patient_dob": "04/16/1954",
+  "patient_sex": "F",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "OH",
+  "diagnoses": [
+    "S06.0X0A",
+    "R52",
+    "M79.2",
+    "R51.9",
+    "M54.2"
+  ],
+  "service_lines": [
+    {
+      "date_from": "04/12/2024",
+      "cpt": "98941",
+      "pos": "11",
+      "charge": 130.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 130.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "SSN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

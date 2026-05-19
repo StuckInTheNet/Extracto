@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Cameron Davis",
+  "employer_name": "Acme Warehousing Corp",
+  "injury_date": "02/01/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Chest",
+    "Hand-R",
+    "Internal",
+    "Neck"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Struck By Object"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

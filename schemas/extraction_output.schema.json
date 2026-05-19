@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.org/schemas/poc_output.schema.json",
+  "title": "Form Extraction Output",
+  "type": "object",
+  "required": ["file", "pred", "conf", "flags"],
+  "properties": {
+    "file": { "type": "string", "description": "Absolute or relative path to the source PDF." },
+    "pred": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "sex": { "type": ["string", "null"], "enum": ["Male", "Female", "Other", null] },
+        "Smoker": { "type": ["boolean", "null"] },
+        "Diabetic": { "type": ["boolean", "null"] },
+        "allergies": { "type": "array", "items": { "type": "string" } },
+        "symptoms": { "type": "array", "items": { "type": "string" } },
+        "claim_type": { "type": ["string", "null"], "enum": ["Visit", "Procedure", "Medication", "Other", null] }
+      },
+      "additionalProperties": true
+    },
+    "conf": {
+      "type": "object",
+      "properties": {
+        "sex": { "type": "number", "minimum": 0, "maximum": 1 },
+        "Smoker": { "type": "number", "minimum": 0, "maximum": 1 },
+        "Diabetic": { "type": "number", "minimum": 0, "maximum": 1 },
+        "claim_type": { "type": "number", "minimum": 0, "maximum": 1 }
+      },
+      "additionalProperties": true
+    },
+    "flags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Warnings like ambiguous:FieldName or low_conf:comma,separated,fields"
+    }
+  }
+}
+

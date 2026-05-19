@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jordan Rodriguez",
+  "patient_dob": "11/02/1995",
+  "date_range_from": "07/06/2022",
+  "date_range_to": "07/13/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Legal Proceedings",
+    "Other",
+    "Personal Use"
+  ],
+  "expiration_type": "one_year"
+}

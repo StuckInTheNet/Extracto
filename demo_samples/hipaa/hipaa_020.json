@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Alex Johnson",
+  "patient_dob": "03/27/1963",
+  "date_range_from": "07/17/2022",
+  "date_range_to": "10/27/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results",
+    "Office Notes"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Insurance Claim",
+    "Personal Use"
+  ],
+  "expiration_type": "one_year"
+}

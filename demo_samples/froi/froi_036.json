@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Williams",
+  "employer_name": "Summit Manufacturing Corp",
+  "injury_date": "03/25/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Back-Upper"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Caught In/Between",
+    "Chemical Exposure"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "Emergency Room",
+    "Hospitalized"
+  ]
+}

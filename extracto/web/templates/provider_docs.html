@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% block title %}Provider Documents — Extracto{% endblock %}
+
+{% block head %}
+<style>
+    .provider-header-bar {
+        padding: 48px 0 24px;
+    }
+    .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 14px;
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .back-link:hover { text-decoration: underline; }
+    .doc-block {
+        margin-bottom: 32px;
+    }
+    .doc-block-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    .doc-block-header h3 { font-size: 16px; }
+    .doc-block-meta {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .doc-split {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+    .doc-split iframe {
+        width: 100%;
+        height: 500px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        background: white;
+    }
+    .doc-fields-card {
+        max-height: 500px;
+        overflow-y: auto;
+    }
+    @media (max-width: 900px) {
+        .doc-split { grid-template-columns: 1fr; }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="provider-header-bar">
+        <a href="javascript:history.back()" class="back-link">&larr; Back to index</a>
+        <h1 style="margin-top: 16px;">{{ docs|length }} Document{{ 's' if docs|length != 1 else '' }}</h1>
+    </div>
+
+    {% for doc in docs %}
+    <div class="doc-block">
+        <div class="doc-block-header">
+            <h3>{{ doc.file_name }}</h3>
+            <div class="doc-block-meta">
+                <span class="badge badge-{{ doc.form_type }}">{{ doc.form_type }}</span>
+                {% if doc.classification_confidence %}
+                {% set conf_pct = (doc.classification_confidence * 100)|round|int %}
+                <span class="mono {% if conf_pct >= 85 %}conf-high{% elif conf_pct >= 70 %}conf-med{% else %}conf-low{% endif %}" style="font-size: 13px;">{{ conf_pct }}%</span>
+                {% endif %}
+            </div>
+        </div>
+        <div class="doc-split">
+            {% if doc.has_pdf %}
+            <iframe src="/document/{{ doc.id }}/pdf" title="{{ doc.file_name }}"></iframe>
+            {% else %}
+            <div class="card" style="display:flex;align-items:center;justify-content:center;color:var(--ink-muted);">PDF not available</div>
+            {% endif %}
+
+            <div class="card doc-fields-card">
+                {% if doc.fields %}
+                <table>
+                    <thead><tr><th>Field</th><th>Value</th></tr></thead>
+                    <tbody>
+                    {% for f in doc.fields %}
+                    <tr>
+                        <td style="font-weight:500;font-size:13px;">{{ f.field_name }}</td>
+                        <td style="font-size:13px;word-break:break-word;">{{ f.field_value }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+                {% endif %}
+
+                {% if doc.diagnoses %}
+                <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border-light);">
+                    <div style="font-size:11px;font-weight:600;text-transform:uppercase;color:var(--ink-muted);margin-bottom:6px;">ICD-10 Codes</div>
+                    {% for d in doc.diagnoses %}
+                    <span class="badge" style="background:var(--accent-subtle);color:var(--accent);margin:2px;">{{ d.icd10_code }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                {% if doc.service_lines %}
+                <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border-light);">
+                    <div style="font-size:11px;font-weight:600;text-transform:uppercase;color:var(--ink-muted);margin-bottom:6px;">Service Lines</div>
+                    <table style="font-size:12px;">
+                        <thead><tr><th>CPT</th><th>Date</th><th>Charge</th></tr></thead>
+                        <tbody>
+                        {% for sl in doc.service_lines %}
+                        <tr>
+                            <td class="mono">{{ sl.cpt_code or '—' }}</td>
+                            <td>{{ sl.date_of_service or '—' }}</td>
+                            <td class="mono">{{ '$%.2f'|format(sl.charge) if sl.charge else '—' }}</td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+    <div style="padding: 24px 0;">
+        <a href="javascript:history.back()" class="btn btn-primary">&larr; Back to index</a>
+    </div>
+</div>
+{% endblock %}

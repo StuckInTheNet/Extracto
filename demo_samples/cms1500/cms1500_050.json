@@ -1,0 +1,34 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Other",
+  "patient_name": "Martinez, Riley",
+  "patient_dob": "09/07/1976",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M25.511",
+    "S13.4XXA",
+    "M79.2",
+    "F43.10",
+    "M62.830"
+  ],
+  "service_lines": [
+    {
+      "date_from": "01/24/2024",
+      "cpt": "72040",
+      "pos": "21",
+      "charge": 350.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 350.0,
+  "accept_assignment": true,
+  "tax_id": "45-6789012",
+  "tax_id_type": "SSN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

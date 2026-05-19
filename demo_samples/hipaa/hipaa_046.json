@@ -1,0 +1,23 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Casey Miller",
+  "patient_dob": "02/18/1995",
+  "date_range_from": "10/09/2022",
+  "date_range_to": "12/27/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Lab Results"
+  ],
+  "excluded_categories": [
+    "Genetic Information",
+    "HIV/AIDS",
+    "Mental Health",
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Quinn Smith",
+    "dob": "10/27/1991",
+    "phone": "(555) 367-9569",
+    "address": [
+      "6214 Spruce Ter",
+      "Franklin, NJ 92779"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "B8162529",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        173,
+        613.0,
+        16,
+        16
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        253,
+        616.0,
+        16,
+        16
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        175,
+        589.0,
+        16,
+        16
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        253,
+        586.0,
+        16,
+        16
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": true,
+      "bbox_pt": [
+        321.0,
+        545.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        525.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": false,
+      "bbox_pt": [
+        316.0,
+        509.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": false,
+      "bbox_pt": [
+        319.0,
+        490.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": false,
+      "bbox_pt": [
+        316.0,
+        471.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        456.0,
+        16,
+        16
+      ]
+    }
+  ]
+}

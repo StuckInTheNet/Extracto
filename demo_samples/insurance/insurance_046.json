@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Casey Williams",
+    "dob": "01/02/1981",
+    "phone": "(626) 299-5885",
+    "address": [
+      "2952 Maple Ave",
+      "Georgetown, IA 48734"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "B2890702",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        173,
+        616.0,
+        16,
+        16
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        255,
+        617.0,
+        16,
+        16
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        173,
+        589.0,
+        16,
+        16
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        252,
+        585.0,
+        16,
+        16
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        16,
+        16
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": false,
+      "bbox_pt": [
+        319.0,
+        547.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": false,
+      "bbox_pt": [
+        316.0,
+        523.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": false,
+      "bbox_pt": [
+        315.0,
+        507.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": true,
+      "bbox_pt": [
+        316.0,
+        490.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        473.0,
+        16,
+        16
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        452.0,
+        16,
+        16
+      ]
+    }
+  ]
+}

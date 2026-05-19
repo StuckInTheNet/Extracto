@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Taylor Jones",
+  "patient_dob": "03/30/2004",
+  "date_range_from": "05/29/2023",
+  "date_range_to": "07/18/2023",
+  "record_types": [
+    "Lab Results",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Mental Health"
+  ],
+  "purposes": [
+    "Continuity of Care"
+  ],
+  "expiration_type": "specific_date"
+}

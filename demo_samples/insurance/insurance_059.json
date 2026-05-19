@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Finley Taylor",
+    "dob": "11/02/1999",
+    "phone": "(586) 728-8104",
+    "address": [
+      "7140 Hickory Dr",
+      "Arlington, OH 90123"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "C8666938",
+    "ins_type": "HMO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

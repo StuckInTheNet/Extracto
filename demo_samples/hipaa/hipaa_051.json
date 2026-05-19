@@ -1,0 +1,22 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jamie Brown",
+  "patient_dob": "11/17/1979",
+  "date_range_from": "04/17/2023",
+  "date_range_to": "06/06/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results",
+    "Office Notes"
+  ],
+  "excluded_categories": [
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Insurance Claim",
+    "Legal Proceedings"
+  ],
+  "expiration_type": "one_year"
+}

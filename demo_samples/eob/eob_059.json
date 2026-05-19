@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Blue Cross Blue Shield",
+  "member_name": "Drew Smith",
+  "claim_number": "CLM90771151",
+  "check_number": "315378",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "98941",
+    "72100",
+    "64483",
+    "99214",
+    "98941",
+    "99213"
+  ],
+  "total_billed": 1689.5,
+  "total_allowed": 938.28,
+  "total_plan_paid": 730.04,
+  "total_patient_resp": 208.24,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

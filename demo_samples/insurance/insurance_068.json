@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Alex Thompson",
+    "dob": "01/22/1947",
+    "phone": "(271) 261-5022",
+    "address": [
+      "5140 Spruce Ter",
+      "Georgetown, NC 20196"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "E9419884",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": []
+}

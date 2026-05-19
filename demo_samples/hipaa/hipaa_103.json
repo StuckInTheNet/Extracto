@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Casey Jones",
+  "patient_dob": "04/19/1955",
+  "date_range_from": "05/27/2022",
+  "date_range_to": "06/08/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results",
+    "Office Notes"
+  ],
+  "excluded_categories": [
+    "Mental Health"
+  ],
+  "purposes": [
+    "Continuity of Care"
+  ],
+  "expiration_type": "one_year"
+}

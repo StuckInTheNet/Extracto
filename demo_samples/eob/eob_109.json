@@ -1,0 +1,24 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Jordan Garcia",
+  "claim_number": "CLM34915916",
+  "check_number": "310701",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "72141",
+    "95910",
+    "99213",
+    "98941",
+    "72100",
+    "97140"
+  ],
+  "total_billed": 2228.75,
+  "total_allowed": 1540.76,
+  "total_plan_paid": 1498.29,
+  "total_patient_resp": 42.47,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2"
+  ]
+}

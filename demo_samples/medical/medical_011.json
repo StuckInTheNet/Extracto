@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Quinn Moore",
+    "dob": "12/04/1991",
+    "phone": "(919) 336-8853",
+    "address": [
+      "1814 Elm St",
+      "Madison, UT 28026"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "495147-39",
+    "physician": "Dr. Johnson",
+    "emergency_contact": "Taylor White",
+    "emergency_phone": "(753) 965-7247",
+    "smoker": false,
+    "diabetic": true,
+    "allergies": [
+      "Peanuts",
+      "Dust"
+    ],
+    "symptoms": [
+      1,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

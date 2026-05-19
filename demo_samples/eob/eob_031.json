@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Morgan Rodriguez",
+  "claim_number": "CLM87496999",
+  "check_number": "818791",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "72141",
+    "97110",
+    "99213",
+    "99214",
+    "99203",
+    "72148"
+  ],
+  "total_billed": 3079.5,
+  "total_allowed": 1942.78,
+  "total_plan_paid": 1734.68,
+  "total_patient_resp": 272.83,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2"
+  ]
+}

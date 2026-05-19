@@ -1,0 +1,41 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Other",
+  "patient_name": "Wilson, Taylor",
+  "patient_dob": "09/07/1976",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "S06.0X0A",
+    "T14.90XA",
+    "M51.26",
+    "F32.9",
+    "M62.830"
+  ],
+  "service_lines": [
+    {
+      "date_from": "07/06/2024",
+      "cpt": "97112",
+      "pos": "22",
+      "charge": 180.0,
+      "units": 2
+    },
+    {
+      "date_from": "07/06/2024",
+      "cpt": "97140",
+      "pos": "12",
+      "charge": 240.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 420.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "EIN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

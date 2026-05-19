@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Cameron Rodriguez",
+  "employer_name": "Acme Healthcare Corp",
+  "injury_date": "03/25/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ankle-L"
+  ],
+  "nature_of_injury": "Concussion",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

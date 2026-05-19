@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Reese Smith",
+    "dob": "05/13/1985",
+    "phone": "(759) 645-5937",
+    "address": [
+      "145 Willow Way",
+      "Madison, MO 64104"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "277886-15",
+    "physician": "Dr. Jackson",
+    "emergency_contact": "Alex Brown",
+    "emergency_phone": "(778) 375-1761",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "None Known"
+    ],
+    "symptoms": [
+      1,
+      4,
+      6
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

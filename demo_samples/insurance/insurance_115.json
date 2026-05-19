@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Casey Martinez",
+    "dob": "04/21/1953",
+    "phone": "(677) 447-2781",
+    "address": [
+      "1962 Hickory Dr",
+      "Greenville, IA 61904"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "A5339001",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": []
+}

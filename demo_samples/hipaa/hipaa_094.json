@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Riley Davis",
+  "patient_dob": "08/28/1983",
+  "date_range_from": "02/06/2022",
+  "date_range_to": "03/04/2024",
+  "record_types": [
+    "Imaging Reports",
+    "Lab Results",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Legal Proceedings",
+    "Other",
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

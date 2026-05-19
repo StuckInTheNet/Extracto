@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Jamie Hernandez",
+    "dob": "02/25/1941",
+    "phone": "(957) 321-5844",
+    "address": [
+      "5879 Cedar Ln",
+      "Arlington, VA 23685"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "F8572560",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        176,
+        619.0,
+        10,
+        10
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        254,
+        613.0,
+        10,
+        10
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        169,
+        591.0,
+        11,
+        11
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        253,
+        586.0,
+        11,
+        11
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": true,
+      "bbox_pt": [
+        318.0,
+        546.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": false,
+      "bbox_pt": [
+        315.0,
+        529.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": true,
+      "bbox_pt": [
+        319.0,
+        505.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": true,
+      "bbox_pt": [
+        316.0,
+        488.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": false,
+      "bbox_pt": [
+        315.0,
+        474.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": false,
+      "bbox_pt": [
+        315.0,
+        454.0,
+        11,
+        11
+      ]
+    }
+  ]
+}

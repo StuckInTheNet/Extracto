@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Avery Jones",
+    "dob": "01/08/1942",
+    "phone": "(691) 631-8655",
+    "address": [
+      "5911 Maple Ave",
+      "Franklin, RI 68346"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "B6000408",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

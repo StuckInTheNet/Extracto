@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Alex Johnson",
+  "date": "07/09/2024",
+  "scores": [
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "total": 5,
+  "difficulty": 0,
+  "severity": "Mild depression"
+}

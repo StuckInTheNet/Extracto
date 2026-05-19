@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Drew Martin",
+    "dob": "08/03/1970",
+    "phone": "(409) 361-8569",
+    "address": [
+      "3028 Hickory Dr",
+      "Clinton, ND 87663"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "F4724182",
+    "ins_type": "EPO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Alex Williams",
+  "employer_name": "Acme Manufacturing Corp",
+  "injury_date": "10/12/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Lower Leg-R",
+    "Shoulder-L",
+    "Wrist-L"
+  ],
+  "nature_of_injury": "Strain/Sprain",
+  "causes": [
+    "Lifting",
+    "Repetitive Motion"
+  ],
+  "treatments": [
+    "First Aid Only"
+  ]
+}

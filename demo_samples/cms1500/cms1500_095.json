@@ -1,0 +1,34 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicaid",
+  "patient_name": "Rodriguez, Morgan",
+  "patient_dob": "10/12/1974",
+  "patient_sex": "F",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "MI",
+  "diagnoses": [
+    "R51.9",
+    "F41.1",
+    "M54.5",
+    "R52",
+    "S06.0X0A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "12/15/2024",
+      "cpt": "72148",
+      "pos": "22",
+      "charge": 3750.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 3750.0,
+  "accept_assignment": false,
+  "tax_id": "56-7890123",
+  "tax_id_type": "EIN",
+  "provider_name": "Priya Patel, MD",
+  "provider_npi": "5678901234"
+}

@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Casey Rodriguez",
+  "patient_dob": "11/03/1994",
+  "date_range_from": "05/16/2023",
+  "date_range_to": "12/11/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Lab Results",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Personal Use"
+  ],
+  "expiration_type": "one_year"
+}

@@ -1,0 +1,281 @@
+{
+  "person": {
+    "name": "Riley Brown",
+    "dob": "07/15/1987",
+    "phone": "(422) 631-2362",
+    "address": [
+      "1224 Cedar Ln",
+      "Fairview, TN 78310"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "291071-64",
+    "physician": "Dr. Johnson",
+    "emergency_contact": "Logan Moore",
+    "emergency_phone": "(718) 747-3868",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "Shellfish"
+    ],
+    "symptoms": [
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  "type": "medical",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Male",
+      "selected": false,
+      "bbox_pt": [
+        94,
+        598.0,
+        14,
+        14
+      ],
+      "parent": "Sex"
+    },
+    {
+      "kind": "radio",
+      "label": "Female",
+      "selected": false,
+      "bbox_pt": [
+        174,
+        598.0,
+        14,
+        14
+      ],
+      "parent": "Sex"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": true,
+      "bbox_pt": [
+        254,
+        598.0,
+        14,
+        14
+      ],
+      "parent": "Sex"
+    },
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        173,
+        566.0,
+        14,
+        14
+      ],
+      "parent": "Smoker"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        255,
+        568.0,
+        14,
+        14
+      ],
+      "parent": "Smoker"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        172,
+        539.0,
+        15,
+        15
+      ],
+      "parent": "Diabetic"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        252,
+        539.0,
+        15,
+        15
+      ],
+      "parent": "Diabetic"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Penicillin",
+      "selected": false,
+      "bbox_pt": [
+        56,
+        500.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Peanuts",
+      "selected": false,
+      "bbox_pt": [
+        52,
+        486.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Latex",
+      "selected": false,
+      "bbox_pt": [
+        56,
+        464.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Shellfish",
+      "selected": true,
+      "bbox_pt": [
+        55,
+        449.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Pollen",
+      "selected": false,
+      "bbox_pt": [
+        53,
+        430.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Dust",
+      "selected": false,
+      "bbox_pt": [
+        54,
+        413.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "None Known",
+      "selected": false,
+      "bbox_pt": [
+        195,
+        500.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Fever",
+      "selected": true,
+      "bbox_pt": [
+        319.0,
+        609.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Cough",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        592.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Headache",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        570.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Fatigue",
+      "selected": true,
+      "bbox_pt": [
+        317.0,
+        553.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Shortness of breath",
+      "selected": true,
+      "bbox_pt": [
+        317.0,
+        538.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Nausea",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        520.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Dizziness",
+      "selected": false,
+      "bbox_pt": [
+        458.0,
+        609.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Chest pain",
+      "selected": false,
+      "bbox_pt": [
+        459.0,
+        590.0,
+        15,
+        15
+      ]
+    }
+  ]
+}

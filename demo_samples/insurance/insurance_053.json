@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Hayden White",
+    "dob": "04/23/1994",
+    "phone": "(380) 919-2763",
+    "address": [
+      "7651 Hickory Dr",
+      "Fairview, MI 95308"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "D7718605",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

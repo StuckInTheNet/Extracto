@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Jamie Smith",
+  "date": "06/09/2023",
+  "scores": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    2
+  ],
+  "total": 6,
+  "difficulty": 1,
+  "severity": "Mild depression"
+}

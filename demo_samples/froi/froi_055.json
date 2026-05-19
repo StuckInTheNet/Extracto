@@ -1,0 +1,21 @@
+{
+  "form_type": "froi",
+  "employee_name": "Casey Smith",
+  "employer_name": "Pioneer Manufacturing Corp",
+  "injury_date": "10/03/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Head",
+    "Internal",
+    "Thigh-L"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Fall - Same Level",
+    "Other"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "None"
+  ]
+}

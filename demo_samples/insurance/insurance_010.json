@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Avery Jones",
+    "dob": "07/18/1946",
+    "phone": "(334) 789-2806",
+    "address": [
+      "5034 Willow Way",
+      "Georgetown, AL 34385"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "B5910815",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

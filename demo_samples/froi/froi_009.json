@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Smith",
+  "employer_name": "Apex Manufacturing Corp",
+  "injury_date": "08/18/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Hip-R",
+    "Knee-L"
+  ],
+  "nature_of_injury": "Fracture",
+  "causes": [
+    "Motor Vehicle"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

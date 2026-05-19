@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Taylor Johnson",
+  "employer_name": "Pioneer Construction Corp",
+  "injury_date": "12/06/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Knee-R"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Lifting"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

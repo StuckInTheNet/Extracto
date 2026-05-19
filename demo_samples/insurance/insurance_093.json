@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Taylor Rodriguez",
+    "dob": "01/02/1957",
+    "phone": "(248) 818-8669",
+    "address": [
+      "5177 Pine Rd",
+      "Madison, SD 50600"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "B8251335",
+    "ins_type": "POS",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

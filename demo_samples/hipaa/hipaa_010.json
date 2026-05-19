@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Casey Johnson",
+  "patient_dob": "10/14/1983",
+  "date_range_from": "09/28/2022",
+  "date_range_to": "09/26/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Lab Results",
+    "Office Notes"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Other",
+    "Personal Use"
+  ],
+  "expiration_type": "one_year"
+}

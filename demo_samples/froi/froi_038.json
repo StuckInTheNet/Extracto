@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jamie Wilson",
+  "employer_name": "Summit Retail Trade Corp",
+  "injury_date": "05/09/2022",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Hand-R"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Chemical Exposure"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "Hospitalized",
+    "None"
+  ]
+}

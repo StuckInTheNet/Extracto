@@ -1,0 +1,58 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "TRICARE",
+  "patient_name": "Rodriguez, Taylor",
+  "patient_dob": "12/24/1969",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "S42.201A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "01/31/2024",
+      "cpt": "98941",
+      "pos": "11",
+      "charge": 130.0,
+      "units": 2
+    },
+    {
+      "date_from": "01/31/2024",
+      "cpt": "97140",
+      "pos": "12",
+      "charge": 80.0,
+      "units": 1
+    },
+    {
+      "date_from": "01/31/2024",
+      "cpt": "64483",
+      "pos": "12",
+      "charge": 1700.0,
+      "units": 2
+    },
+    {
+      "date_from": "01/31/2024",
+      "cpt": "72141",
+      "pos": "12",
+      "charge": 2400.0,
+      "units": 2
+    },
+    {
+      "date_from": "01/31/2024",
+      "cpt": "72040",
+      "pos": "21",
+      "charge": 175.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 4485.0,
+  "accept_assignment": true,
+  "tax_id": "56-7890123",
+  "tax_id_type": "EIN",
+  "provider_name": "Priya Patel, MD",
+  "provider_npi": "5678901234"
+}

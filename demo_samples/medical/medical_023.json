@@ -1,0 +1,32 @@
+{
+  "person": {
+    "name": "Rowan Taylor",
+    "dob": "12/26/1989",
+    "phone": "(577) 627-7443",
+    "address": [
+      "7644 Oak St",
+      "Clinton, IN 61642"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "188198-83",
+    "physician": "Dr. Martin",
+    "emergency_contact": "Skyler Anderson",
+    "emergency_phone": "(570) 261-5967",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Dust",
+      "Penicillin"
+    ],
+    "symptoms": [
+      1,
+      2,
+      3,
+      6
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

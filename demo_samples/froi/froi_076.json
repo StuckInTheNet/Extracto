@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Taylor Garcia",
+  "employer_name": "Pioneer Construction Corp",
+  "injury_date": "03/03/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Forearm-R",
+    "Multiple",
+    "Thigh-L"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Caught In/Between"
+  ],
+  "treatments": [
+    "Emergency Room",
+    "First Aid Only"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jordan Williams",
+  "employer_name": "Summit Construction Corp",
+  "injury_date": "05/13/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Multiple"
+  ],
+  "nature_of_injury": "Other",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

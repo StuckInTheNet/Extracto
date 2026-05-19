@@ -1,0 +1,17 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jamie Johnson",
+  "patient_dob": "12/17/1958",
+  "date_range_from": "05/03/2023",
+  "date_range_to": "12/21/2023",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Office Notes"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Legal Proceedings"
+  ],
+  "expiration_type": "one_year"
+}

@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Casey Jones",
+  "employer_name": "Apex Construction Corp",
+  "injury_date": "03/07/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ear-R"
+  ],
+  "nature_of_injury": "Puncture",
+  "causes": [
+    "Other",
+    "Struck Against Object"
+  ],
+  "treatments": [
+    "Hospitalized"
+  ]
+}

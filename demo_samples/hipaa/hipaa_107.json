@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Drew Brown",
+  "patient_dob": "01/13/2000",
+  "date_range_from": "09/03/2022",
+  "date_range_to": "07/29/2023",
+  "record_types": [
+    "Billing Records",
+    "Imaging Reports",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Continuity of Care"
+  ],
+  "expiration_type": "one_year"
+}

@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Skyler Miller",
+    "dob": "08/13/2005",
+    "phone": "(240) 444-9417",
+    "address": [
+      "6190 Ash Ct",
+      "Salem, MT 99717"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "758864-98",
+    "physician": "Dr. Smith",
+    "emergency_contact": "Reese Jackson",
+    "emergency_phone": "(753) 212-3483",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Pollen"
+    ],
+    "symptoms": [
+      1,
+      2,
+      3
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

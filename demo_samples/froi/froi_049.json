@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Casey Garcia",
+  "employer_name": "Acme Healthcare Corp",
+  "injury_date": "05/03/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Chest",
+    "Foot-R",
+    "Hand-R"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Struck By Object"
+  ],
+  "treatments": [
+    "Emergency Room"
+  ]
+}

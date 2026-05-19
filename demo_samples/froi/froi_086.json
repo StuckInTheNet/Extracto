@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Alex Wilson",
+  "employer_name": "Acme Retail Trade Corp",
+  "injury_date": "12/25/2024",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Shoulder-L"
+  ],
+  "nature_of_injury": "Puncture",
+  "causes": [
+    "Lifting"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

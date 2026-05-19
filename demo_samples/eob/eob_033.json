@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "Aetna Health Insurance",
+  "member_name": "Drew Jones",
+  "claim_number": "CLM25790828",
+  "check_number": "385898",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "20610",
+    "97140",
+    "99213"
+  ],
+  "total_billed": 582.0,
+  "total_allowed": 307.6,
+  "total_plan_paid": 239.75,
+  "total_patient_resp": 67.85,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

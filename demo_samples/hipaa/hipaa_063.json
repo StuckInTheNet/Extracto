@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Cameron Davis",
+  "patient_dob": "05/22/1954",
+  "date_range_from": "07/27/2022",
+  "date_range_to": "03/13/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [
+    "HIV/AIDS"
+  ],
+  "purposes": [
+    "Legal Proceedings"
+  ],
+  "expiration_type": "one_year"
+}

@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Sawyer Johnson",
+    "dob": "05/26/1959",
+    "phone": "(596) 535-7798",
+    "address": [
+      "2503 Oak St",
+      "Fairview, WI 65372"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "C6101021",
+    "ins_type": "EPO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

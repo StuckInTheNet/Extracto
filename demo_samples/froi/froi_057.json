@@ -1,0 +1,21 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jamie Johnson",
+  "employer_name": "Acme Warehousing Corp",
+  "injury_date": "10/04/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Back-Upper",
+    "Forearm-L",
+    "Forearm-R",
+    "Shoulder-R"
+  ],
+  "nature_of_injury": "Laceration",
+  "causes": [
+    "Fall - Same Level",
+    "Struck Against Object"
+  ],
+  "treatments": [
+    "Hospitalized"
+  ]
+}

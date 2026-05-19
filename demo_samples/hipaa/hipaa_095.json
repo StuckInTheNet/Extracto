@@ -1,0 +1,23 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Taylor Wilson",
+  "patient_dob": "10/07/1956",
+  "date_range_from": "08/31/2022",
+  "date_range_to": "08/30/2023",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Mental Health",
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Legal Proceedings",
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

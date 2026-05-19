@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Johnson",
+  "employer_name": "Summit Retail Trade Corp",
+  "injury_date": "02/04/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Face"
+  ],
+  "nature_of_injury": "Other",
+  "causes": [
+    "Motor Vehicle"
+  ],
+  "treatments": [
+    "Emergency Room"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Hayden Hernandez",
+    "dob": "04/13/1955",
+    "phone": "(331) 725-3570",
+    "address": [
+      "4700 Hickory Dr",
+      "Riverton, NY 35241"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "A2916171",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        176,
+        617.0,
+        14,
+        14
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        254,
+        618.0,
+        14,
+        14
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        173,
+        590.0,
+        14,
+        14
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        254,
+        586.0,
+        14,
+        14
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": false,
+      "bbox_pt": [
+        319.0,
+        542.0,
+        14,
+        14
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": true,
+      "bbox_pt": [
+        318.0,
+        528.0,
+        14,
+        14
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": false,
+      "bbox_pt": [
+        319.0,
+        508.0,
+        14,
+        14
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": false,
+      "bbox_pt": [
+        319.0,
+        490.0,
+        14,
+        14
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        470.0,
+        14,
+        14
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        456.0,
+        14,
+        14
+      ]
+    }
+  ]
+}

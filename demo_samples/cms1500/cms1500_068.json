@@ -1,0 +1,69 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Johnson, Pat",
+  "patient_dob": "03/13/2000",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "M54.5",
+    "F41.1",
+    "S06.0X0A",
+    "S13.4XXA",
+    "F43.10"
+  ],
+  "service_lines": [
+    {
+      "date_from": "03/19/2024",
+      "cpt": "20610",
+      "pos": "12",
+      "charge": 640.0,
+      "units": 2
+    },
+    {
+      "date_from": "03/19/2024",
+      "cpt": "99213",
+      "pos": "11",
+      "charge": 125.0,
+      "units": 1
+    },
+    {
+      "date_from": "03/19/2024",
+      "cpt": "72141",
+      "pos": "23",
+      "charge": 2400.0,
+      "units": 2
+    },
+    {
+      "date_from": "03/19/2024",
+      "cpt": "99214",
+      "pos": "11",
+      "charge": 175.0,
+      "units": 1
+    },
+    {
+      "date_from": "03/19/2024",
+      "cpt": "72141",
+      "pos": "21",
+      "charge": 3600.0,
+      "units": 3
+    },
+    {
+      "date_from": "03/19/2024",
+      "cpt": "99213",
+      "pos": "11",
+      "charge": 125.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 7065.0,
+  "accept_assignment": true,
+  "tax_id": "45-6789012",
+  "tax_id_type": "EIN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

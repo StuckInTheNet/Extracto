@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Casey Jackson",
+    "dob": "03/02/1952",
+    "phone": "(387) 952-4004",
+    "address": [
+      "6991 Willow Way",
+      "Madison, OR 94197"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "913801-20",
+    "physician": "Dr. White",
+    "emergency_contact": "Alex Martin",
+    "emergency_phone": "(662) 720-9307",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Pollen"
+    ],
+    "symptoms": [
+      0,
+      3,
+      6
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

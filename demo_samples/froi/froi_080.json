@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jamie Johnson",
+  "employer_name": "Apex Retail Trade Corp",
+  "injury_date": "03/21/2024",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Abdomen"
+  ],
+  "nature_of_injury": "Puncture",
+  "causes": [
+    "Repetitive Motion"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

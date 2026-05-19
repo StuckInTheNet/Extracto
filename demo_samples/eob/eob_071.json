@@ -1,0 +1,22 @@
+{
+  "form_type": "eob",
+  "payer_name": "United Healthcare",
+  "member_name": "Cameron Jones",
+  "claim_number": "CLM32143753",
+  "check_number": "430870",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "99203",
+    "99214",
+    "99214"
+  ],
+  "total_billed": 588.75,
+  "total_allowed": 357.64,
+  "total_plan_paid": 330.0,
+  "total_patient_resp": 27.64,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

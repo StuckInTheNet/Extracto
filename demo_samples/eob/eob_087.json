@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "Cigna HealthCare",
+  "member_name": "Alex Smith",
+  "claim_number": "CLM84596958",
+  "check_number": "830322",
+  "service_line_count": 4,
+  "service_line_cpts": [
+    "99214",
+    "97140",
+    "72148",
+    "72148"
+  ],
+  "total_billed": 3126.0,
+  "total_allowed": 2166.31,
+  "total_plan_paid": 2066.88,
+  "total_patient_resp": 99.43,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

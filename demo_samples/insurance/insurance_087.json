@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Sawyer Anderson",
+    "dob": "03/22/1973",
+    "phone": "(270) 356-5543",
+    "address": [
+      "4997 Maple Ave",
+      "Franklin, RI 31654"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "B2682926",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

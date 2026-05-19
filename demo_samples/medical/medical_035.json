@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Morgan Rodriguez",
+    "dob": "07/29/1997",
+    "phone": "(579) 415-1918",
+    "address": [
+      "1381 Pine Rd",
+      "Fairview, WI 86247"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "906965-43",
+    "physician": "Dr. Moore",
+    "emergency_contact": "Morgan Garcia",
+    "emergency_phone": "(229) 421-5437",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "Pollen"
+    ],
+    "symptoms": [
+      0,
+      4,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

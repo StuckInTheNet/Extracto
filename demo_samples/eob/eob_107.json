@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Cigna HealthCare",
+  "member_name": "Jamie Jones",
+  "claim_number": "CLM64866540",
+  "check_number": "140712",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "99214",
+    "72100",
+    "64483",
+    "20610",
+    "99203"
+  ],
+  "total_billed": 1860.25,
+  "total_allowed": 1147.14,
+  "total_plan_paid": 886.74,
+  "total_patient_resp": 260.4,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "person": {
+    "name": "Finley Hernandez",
+    "dob": "01/10/1987",
+    "phone": "(446) 229-3091",
+    "address": [
+      "8954 Oak St",
+      "Riverton, AK 49334"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "752276-46",
+    "physician": "Dr. Martinez",
+    "emergency_contact": "Jamie Wilson",
+    "emergency_phone": "(279) 827-6454",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "Latex",
+      "Shellfish"
+    ],
+    "symptoms": [
+      1,
+      2,
+      5,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

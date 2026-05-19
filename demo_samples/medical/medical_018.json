@@ -1,0 +1,32 @@
+{
+  "person": {
+    "name": "Cameron Johnson",
+    "dob": "03/02/1984",
+    "phone": "(302) 983-8257",
+    "address": [
+      "3233 Pine Rd",
+      "Madison, RI 82187"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "471054-85",
+    "physician": "Dr. Anderson",
+    "emergency_contact": "Alex Garcia",
+    "emergency_phone": "(882) 969-2077",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "Latex",
+      "Pollen",
+      "Peanuts"
+    ],
+    "symptoms": [
+      0,
+      1,
+      5
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

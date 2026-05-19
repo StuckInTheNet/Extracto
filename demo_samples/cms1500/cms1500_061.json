@@ -1,0 +1,33 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Group Health Plan",
+  "patient_name": "Brown, Avery",
+  "patient_dob": "06/29/1969",
+  "patient_sex": "M",
+  "relationship_to_insured": "Other",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "T14.90XA",
+    "M54.2",
+    "G44.311",
+    "S39.012A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "05/03/2024",
+      "cpt": "97110",
+      "pos": "11",
+      "charge": 85.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 85.0,
+  "accept_assignment": true,
+  "tax_id": "45-6789012",
+  "tax_id_type": "EIN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

@@ -1,0 +1,28 @@
+{
+  "person": {
+    "name": "Emerson Wilson",
+    "dob": "03/03/1977",
+    "phone": "(837) 761-1383",
+    "address": [
+      "6987 Pine Rd",
+      "Fairview, FL 70315"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "251426-38",
+    "physician": "Dr. Moore",
+    "emergency_contact": "Casey Hernandez",
+    "emergency_phone": "(839) 714-1441",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "Shellfish"
+    ],
+    "symptoms": [
+      0
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

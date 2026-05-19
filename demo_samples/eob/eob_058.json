@@ -1,0 +1,20 @@
+{
+  "form_type": "eob",
+  "payer_name": "United Healthcare",
+  "member_name": "Morgan Garcia",
+  "claim_number": "CLM23746292",
+  "check_number": "328459",
+  "service_line_count": 2,
+  "service_line_cpts": [
+    "99214",
+    "95910"
+  ],
+  "total_billed": 780.0,
+  "total_allowed": 434.24,
+  "total_plan_paid": 347.4,
+  "total_patient_resp": 86.84,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2"
+  ]
+}

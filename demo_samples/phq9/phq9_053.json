@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Avery Rodriguez",
+  "date": "06/06/2023",
+  "scores": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "total": 3,
+  "difficulty": 0,
+  "severity": "Minimal depression"
+}

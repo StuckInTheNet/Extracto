@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Taylor Miller",
+  "employer_name": "Apex Manufacturing Corp",
+  "injury_date": "01/28/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Shoulder-R"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Repetitive Motion"
+  ],
+  "treatments": [
+    "Emergency Room"
+  ]
+}

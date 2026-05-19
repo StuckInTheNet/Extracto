@@ -1,0 +1,281 @@
+{
+  "person": {
+    "name": "Sawyer Davis",
+    "dob": "03/28/2001",
+    "phone": "(336) 415-7633",
+    "address": [
+      "4836 Elm St",
+      "Springfield, IA 83488"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "437809-40",
+    "physician": "Dr. Miller",
+    "emergency_contact": "Skyler Hernandez",
+    "emergency_phone": "(585) 832-4061",
+    "smoker": false,
+    "diabetic": true,
+    "allergies": [
+      "Shellfish",
+      "Peanuts",
+      "Pollen"
+    ],
+    "symptoms": [
+      5,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Male",
+      "selected": true,
+      "bbox_pt": [
+        94,
+        598.0,
+        10,
+        10
+      ],
+      "parent": "Sex"
+    },
+    {
+      "kind": "radio",
+      "label": "Female",
+      "selected": false,
+      "bbox_pt": [
+        174,
+        598.0,
+        10,
+        10
+      ],
+      "parent": "Sex"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": false,
+      "bbox_pt": [
+        254,
+        598.0,
+        10,
+        10
+      ],
+      "parent": "Sex"
+    },
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        173,
+        569.0,
+        10,
+        10
+      ],
+      "parent": "Smoker"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        253,
+        568.0,
+        10,
+        10
+      ],
+      "parent": "Smoker"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        171,
+        539.0,
+        11,
+        11
+      ],
+      "parent": "Diabetic"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        252,
+        541.0,
+        11,
+        11
+      ],
+      "parent": "Diabetic"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Penicillin",
+      "selected": false,
+      "bbox_pt": [
+        53,
+        501.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Peanuts",
+      "selected": true,
+      "bbox_pt": [
+        54,
+        484.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Latex",
+      "selected": false,
+      "bbox_pt": [
+        53,
+        465.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Shellfish",
+      "selected": true,
+      "bbox_pt": [
+        54,
+        449.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Pollen",
+      "selected": true,
+      "bbox_pt": [
+        55,
+        431.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Dust",
+      "selected": false,
+      "bbox_pt": [
+        55,
+        411.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "None Known",
+      "selected": false,
+      "bbox_pt": [
+        195,
+        501.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Fever",
+      "selected": false,
+      "bbox_pt": [
+        319.0,
+        608.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Cough",
+      "selected": false,
+      "bbox_pt": [
+        318.0,
+        590.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Headache",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        572.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Fatigue",
+      "selected": false,
+      "bbox_pt": [
+        318.0,
+        555.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Shortness of breath",
+      "selected": false,
+      "bbox_pt": [
+        318.0,
+        535.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Nausea",
+      "selected": true,
+      "bbox_pt": [
+        317.0,
+        518.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Dizziness",
+      "selected": false,
+      "bbox_pt": [
+        458.0,
+        608.0,
+        11,
+        11
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Chest pain",
+      "selected": true,
+      "bbox_pt": [
+        459.0,
+        591.0,
+        11,
+        11
+      ]
+    }
+  ]
+}

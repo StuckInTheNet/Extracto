@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Avery Johnson",
+  "claim_number": "CLM69590884",
+  "check_number": "154961",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "72141",
+    "72100",
+    "72100",
+    "98941",
+    "72148"
+  ],
+  "total_billed": 3034.5,
+  "total_allowed": 1547.53,
+  "total_plan_paid": 940.61,
+  "total_patient_resp": 615.49,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

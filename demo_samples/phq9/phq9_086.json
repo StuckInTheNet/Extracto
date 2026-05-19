@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Cameron Rodriguez",
+  "date": "07/24/2023",
+  "scores": [
+    1,
+    0,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0
+  ],
+  "total": 5,
+  "difficulty": 3,
+  "severity": "Mild depression"
+}

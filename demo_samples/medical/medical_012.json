@@ -1,0 +1,28 @@
+{
+  "person": {
+    "name": "Jordan Garcia",
+    "dob": "08/12/1989",
+    "phone": "(496) 526-4997",
+    "address": [
+      "1493 Spruce Ter",
+      "Salem, WV 16208"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "389788-63",
+    "physician": "Dr. Jackson",
+    "emergency_contact": "Drew Davis",
+    "emergency_phone": "(522) 516-7695",
+    "smoker": false,
+    "diabetic": true,
+    "allergies": [
+      "None Known"
+    ],
+    "symptoms": [
+      3
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

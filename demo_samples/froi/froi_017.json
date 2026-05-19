@@ -1,0 +1,21 @@
+{
+  "form_type": "froi",
+  "employee_name": "Casey Jones",
+  "employer_name": "Pioneer Transportation Corp",
+  "injury_date": "09/29/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Back-Lower",
+    "Forearm-L",
+    "Neck",
+    "Thigh-R"
+  ],
+  "nature_of_injury": "Fracture",
+  "causes": [
+    "Lifting"
+  ],
+  "treatments": [
+    "First Aid Only",
+    "Hospitalized"
+  ]
+}

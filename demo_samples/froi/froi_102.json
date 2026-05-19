@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Riley Johnson",
+  "employer_name": "Apex Manufacturing Corp",
+  "injury_date": "12/09/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ankle-R"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Fall - Same Level",
+    "Struck Against Object"
+  ],
+  "treatments": [
+    "Emergency Room"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Miller",
+  "employer_name": "Summit Manufacturing Corp",
+  "injury_date": "02/17/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Wrist-R"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Fall - Same Level"
+  ],
+  "treatments": [
+    "Emergency Room",
+    "Hospitalized"
+  ]
+}

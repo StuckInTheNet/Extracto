@@ -1,0 +1,70 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "FECA Blk Lung",
+  "patient_name": "Smith, Pat",
+  "patient_dob": "06/24/1976",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "NC",
+  "diagnoses": [
+    "M54.2",
+    "S83.511A",
+    "R51.9",
+    "S42.201A",
+    "F43.10",
+    "F41.1"
+  ],
+  "service_lines": [
+    {
+      "date_from": "03/08/2024",
+      "cpt": "20610",
+      "pos": "22",
+      "charge": 960.0,
+      "units": 3
+    },
+    {
+      "date_from": "03/08/2024",
+      "cpt": "20610",
+      "pos": "11",
+      "charge": 640.0,
+      "units": 2
+    },
+    {
+      "date_from": "03/08/2024",
+      "cpt": "72100",
+      "pos": "21",
+      "charge": 555.0,
+      "units": 3
+    },
+    {
+      "date_from": "03/08/2024",
+      "cpt": "72040",
+      "pos": "21",
+      "charge": 350.0,
+      "units": 2
+    },
+    {
+      "date_from": "03/08/2024",
+      "cpt": "64483",
+      "pos": "11",
+      "charge": 2550.0,
+      "units": 3
+    },
+    {
+      "date_from": "03/08/2024",
+      "cpt": "99203",
+      "pos": "12",
+      "charge": 225.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 5280.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "SSN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

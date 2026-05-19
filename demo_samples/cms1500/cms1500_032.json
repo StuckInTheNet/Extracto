@@ -1,0 +1,30 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicaid",
+  "patient_name": "Davis, Sam",
+  "patient_dob": "09/08/1959",
+  "patient_sex": "F",
+  "relationship_to_insured": "Child",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M79.2"
+  ],
+  "service_lines": [
+    {
+      "date_from": "12/03/2024",
+      "cpt": "73721",
+      "pos": "23",
+      "charge": 2200.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 2200.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "EIN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

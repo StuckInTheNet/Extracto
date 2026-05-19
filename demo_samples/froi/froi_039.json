@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Brown",
+  "employer_name": "Pioneer Construction Corp",
+  "injury_date": "05/03/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ankle-L",
+    "Elbow-R",
+    "Forearm-R"
+  ],
+  "nature_of_injury": "Strain/Sprain",
+  "causes": [
+    "Other"
+  ],
+  "treatments": [
+    "Emergency Room"
+  ]
+}

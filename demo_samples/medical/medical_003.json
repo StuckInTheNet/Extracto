@@ -1,0 +1,31 @@
+{
+  "person": {
+    "name": "Hayden Jones",
+    "dob": "06/02/1954",
+    "phone": "(976) 323-8393",
+    "address": [
+      "5933 Ash Ct",
+      "Salem, WI 40557"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "561744-74",
+    "physician": "Dr. Anderson",
+    "emergency_contact": "Reese Smith",
+    "emergency_phone": "(752) 376-2011",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "None Known"
+    ],
+    "symptoms": [
+      0,
+      2,
+      3,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Alex Wilson",
+  "patient_dob": "12/17/1978",
+  "date_range_from": "03/13/2023",
+  "date_range_to": "03/20/2024",
+  "record_types": [
+    "Imaging Reports",
+    "Lab Results",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

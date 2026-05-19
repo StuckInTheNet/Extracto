@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Wilson",
+  "employer_name": "Apex Warehousing Corp",
+  "injury_date": "06/16/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Chest",
+    "Elbow-L"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Lifting",
+    "Struck By Object"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

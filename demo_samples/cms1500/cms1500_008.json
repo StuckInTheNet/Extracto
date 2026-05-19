@@ -1,0 +1,49 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Group Health Plan",
+  "patient_name": "Jones, Drew",
+  "patient_dob": "04/06/2004",
+  "patient_sex": "M",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "TX",
+  "diagnoses": [
+    "M51.26",
+    "S22.5XXA",
+    "R51.9",
+    "T14.90XA",
+    "M62.830",
+    "F32.9"
+  ],
+  "service_lines": [
+    {
+      "date_from": "02/05/2024",
+      "cpt": "98941",
+      "pos": "22",
+      "charge": 130.0,
+      "units": 2
+    },
+    {
+      "date_from": "02/05/2024",
+      "cpt": "99214",
+      "pos": "12",
+      "charge": 525.0,
+      "units": 3
+    },
+    {
+      "date_from": "02/05/2024",
+      "cpt": "72100",
+      "pos": "21",
+      "charge": 185.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 840.0,
+  "accept_assignment": true,
+  "tax_id": "56-7890123",
+  "tax_id_type": "SSN",
+  "provider_name": "Priya Patel, MD",
+  "provider_npi": "5678901234"
+}

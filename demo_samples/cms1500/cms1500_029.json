@@ -1,0 +1,48 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Group Health Plan",
+  "patient_name": "Smith, Alex",
+  "patient_dob": "04/22/1977",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "IL",
+  "diagnoses": [
+    "G44.311",
+    "M54.5",
+    "M25.512",
+    "F43.10",
+    "M25.511"
+  ],
+  "service_lines": [
+    {
+      "date_from": "12/10/2024",
+      "cpt": "20610",
+      "pos": "23",
+      "charge": 960.0,
+      "units": 3
+    },
+    {
+      "date_from": "12/10/2024",
+      "cpt": "95910",
+      "pos": "23",
+      "charge": 475.0,
+      "units": 1
+    },
+    {
+      "date_from": "12/10/2024",
+      "cpt": "72141",
+      "pos": "11",
+      "charge": 3600.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 5035.0,
+  "accept_assignment": true,
+  "tax_id": "12-3456789",
+  "tax_id_type": "SSN",
+  "provider_name": "Sarah Mitchell, MD",
+  "provider_npi": "1234567890"
+}

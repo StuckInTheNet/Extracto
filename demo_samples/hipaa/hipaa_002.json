@@ -1,0 +1,16 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Drew Wilson",
+  "patient_dob": "12/31/1974",
+  "date_range_from": "04/19/2022",
+  "date_range_to": "01/25/2024",
+  "record_types": [
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Continuity of Care"
+  ],
+  "expiration_type": "specific_date"
+}

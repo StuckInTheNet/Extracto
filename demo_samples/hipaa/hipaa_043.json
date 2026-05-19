@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Drew Brown",
+  "patient_dob": "12/20/1974",
+  "date_range_from": "08/18/2022",
+  "date_range_to": "11/02/2023",
+  "record_types": [
+    "Office Notes"
+  ],
+  "excluded_categories": [
+    "Genetic Information",
+    "Mental Health"
+  ],
+  "purposes": [
+    "Continuity of Care"
+  ],
+  "expiration_type": "one_year"
+}

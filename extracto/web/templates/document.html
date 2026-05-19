@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+{% block title %}{{ doc.file_name }} — Extracto{% endblock %}
+
+{% block head %}
+<style>
+    .doc-header {
+        padding: 48px 0 32px;
+    }
+    .doc-header h1 { font-size: 28px; }
+    .doc-meta {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 12px;
+        flex-wrap: wrap;
+    }
+    .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 5px 12px;
+        border-radius: 6px;
+        font-size: 12px;
+        font-weight: 500;
+        background: var(--surface);
+        color: var(--ink-light);
+        border: 1px solid var(--border-light);
+    }
+    .meta-pill .val { color: var(--ink); font-weight: 600; }
+
+    .section-title {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--ink-muted);
+        margin-bottom: 16px;
+    }
+
+    .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 14px;
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .back-link:hover { text-decoration: underline; }
+
+    .doc-layout {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .doc-pdf iframe {
+        width: 100%;
+        height: 600px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        background: white;
+    }
+    .doc-extracted {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+    .doc-extracted .card-full { grid-column: 1 / -1; }
+    @media (max-width: 768px) {
+        .doc-extracted { grid-template-columns: 1fr; }
+    }
+
+    .raw-json {
+        background: var(--ink);
+        color: #a5b4fc;
+        border-radius: var(--radius);
+        padding: 20px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+        line-height: 1.6;
+        overflow-x: auto;
+        white-space: pre-wrap;
+        word-break: break-word;
+    }
+
+    .empty-state {
+        text-align: center;
+        padding: 32px;
+        color: var(--ink-muted);
+        font-size: 14px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="doc-header">
+        <div style="display: flex; gap: 16px;">
+            <a href="/demo" class="back-link">&larr; Back to demo</a>
+            <a href="javascript:history.back()" class="back-link">&larr; Back to results</a>
+        </div>
+        <h1 style="margin-top: 16px;">{{ doc.file_name }}</h1>
+        <div class="doc-meta">
+            <span class="badge badge-{{ doc.form_type }}">{{ doc.form_type }}</span>
+            <span class="meta-pill">Confidence <span class="val">{{ "%.0f"|format(doc.classification_confidence * 100) }}%</span></span>
+            <span class="meta-pill">Processing <span class="val">{{ "%.0f"|format(doc.processing_time_ms) }}ms</span></span>
+            <span class="meta-pill">Extracted <span class="val">{{ doc.extracted_at }}</span></span>
+        </div>
+    </div>
+
+    <div class="doc-layout">
+        <!-- Left: PDF viewer -->
+        {% if doc.has_pdf %}
+        <div class="doc-pdf">
+            <iframe src="/document/{{ doc.id }}/pdf" title="Original document"></iframe>
+        </div>
+        {% endif %}
+
+        <!-- Right: extracted data -->
+        <div class="doc-extracted">
+            {% if doc.fields %}
+            <div class="card">
+                <div class="section-title">Extracted Fields</div>
+                <table>
+                    <thead><tr><th>Field</th><th>Value</th><th>Type</th></tr></thead>
+                    <tbody>
+                    {% for f in doc.fields %}
+                    <tr>
+                        <td style="font-weight: 500;">{{ f.field_name }}</td>
+                        <td style="max-width: 300px; word-break: break-word;">{{ f.field_value }}</td>
+                        <td><span class="text-muted text-sm mono">{{ f.field_type }}</span></td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% endif %}
+
+            {% if doc.diagnoses %}
+            <div class="card">
+                <div class="section-title">Diagnosis Codes</div>
+                <table>
+                    <thead><tr><th>#</th><th>ICD-10 Code</th></tr></thead>
+                    <tbody>
+                    {% for d in doc.diagnoses %}
+                    <tr>
+                        <td class="mono text-muted">{{ d.position }}</td>
+                        <td class="mono" style="font-weight: 500;">{{ d.icd10_code }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% endif %}
+
+            {% if doc.service_lines %}
+            <div class="card">
+                <div class="section-title">Service Lines</div>
+                <table>
+                    <thead><tr><th>#</th><th>Date</th><th>CPT</th><th>POS</th><th>Charge</th><th>Units</th></tr></thead>
+                    <tbody>
+                    {% for sl in doc.service_lines %}
+                    <tr>
+                        <td class="text-muted mono">{{ sl.line_number }}</td>
+                        <td>{{ sl.date_of_service or '—' }}</td>
+                        <td class="mono" style="font-weight: 500;">{{ sl.cpt_code or '—' }}</td>
+                        <td class="mono">{{ sl.pos or '—' }}</td>
+                        <td class="mono">{{ '$%.2f'|format(sl.charge) if sl.charge else '—' }}</td>
+                        <td class="mono">{{ sl.units or '—' }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% endif %}
+
+            {% if doc.raw_json %}
+            <div class="card">
+                <div class="section-title">Raw Extraction Data</div>
+                <div class="raw-json">{{ doc.raw_json }}</div>
+            </div>
+            {% endif %}
+
+            {% if not doc.fields and not doc.diagnoses and not doc.service_lines and not doc.raw_json %}
+            <div class="card">
+                <div class="empty-state">No structured data was extracted from this document.</div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <div style="padding: 24px 0; display: flex; gap: 12px;">
+        <a href="javascript:history.back()" class="btn btn-primary">&larr; Back to results</a>
+        <a href="/demo" class="btn btn-secondary">Back to demo</a>
+    </div>
+</div>
+{% endblock %}

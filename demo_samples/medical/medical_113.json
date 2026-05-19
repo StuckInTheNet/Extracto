@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Alex Smith",
+    "dob": "04/02/1997",
+    "phone": "(621) 618-9871",
+    "address": [
+      "9922 Oak St",
+      "Franklin, WV 23145"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "242161-78",
+    "physician": "Dr. Jones",
+    "emergency_contact": "Alex Moore",
+    "emergency_phone": "(617) 372-4148",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "Dust",
+      "Peanuts"
+    ],
+    "symptoms": [
+      1,
+      3
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Logan Rodriguez",
+    "dob": "05/08/1951",
+    "phone": "(597) 459-9898",
+    "address": [
+      "3434 Cedar Ln",
+      "Fairview, ND 69160"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "E7392549",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

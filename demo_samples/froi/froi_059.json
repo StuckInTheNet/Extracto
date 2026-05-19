@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jordan Johnson",
+  "employer_name": "Acme Manufacturing Corp",
+  "injury_date": "10/03/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Multiple"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Fall - Same Level",
+    "Other"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

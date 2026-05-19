@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Blue Cross Blue Shield",
+  "member_name": "Casey Johnson",
+  "claim_number": "CLM21352822",
+  "check_number": "879521",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "99214",
+    "64483",
+    "97110",
+    "97140",
+    "95910"
+  ],
+  "total_billed": 1861.75,
+  "total_allowed": 1048.69,
+  "total_plan_paid": 857.48,
+  "total_patient_resp": 220.19,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

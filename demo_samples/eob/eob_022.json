@@ -1,0 +1,20 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Jordan Smith",
+  "claim_number": "CLM41026926",
+  "check_number": "499194",
+  "service_line_count": 2,
+  "service_line_cpts": [
+    "99214",
+    "95910"
+  ],
+  "total_billed": 650.0,
+  "total_allowed": 320.97,
+  "total_plan_paid": 301.74,
+  "total_patient_resp": 19.23,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Taylor Garcia",
+  "patient_dob": "07/21/1962",
+  "date_range_from": "03/07/2022",
+  "date_range_to": "08/10/2023",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Office Notes"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Legal Proceedings",
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

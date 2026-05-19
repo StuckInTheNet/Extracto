@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Jordan Smith",
+  "date": "10/04/2023",
+  "scores": [
+    3,
+    3,
+    0,
+    2,
+    0,
+    2,
+    1,
+    2,
+    1
+  ],
+  "total": 14,
+  "difficulty": 2,
+  "severity": "Moderate depression"
+}

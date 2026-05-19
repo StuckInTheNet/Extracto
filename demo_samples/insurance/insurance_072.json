@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Taylor Davis",
+    "dob": "11/16/1972",
+    "phone": "(278) 717-4078",
+    "address": [
+      "241 Pine Rd",
+      "Georgetown, NV 59006"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "C8019723",
+    "ins_type": "EPO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

@@ -1,0 +1,177 @@
+{% extends "base.html" %}
+{% block title %}Split &amp; Extract Results — Extracto{% endblock %}
+
+{% block head %}
+<style>
+    .split-header {
+        padding: 48px 0 32px;
+    }
+    .split-header p { color: var(--ink-light); font-size: 16px; margin-top: 8px; }
+
+    .pipeline-stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+    }
+    .pipeline-stat {
+        text-align: center;
+        padding: 20px;
+    }
+    .pipeline-stat .num {
+        font-size: 32px;
+        font-weight: 800;
+        color: var(--accent);
+        letter-spacing: -0.02em;
+    }
+    .pipeline-stat .label {
+        font-size: 12px;
+        color: var(--ink-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        margin-top: 4px;
+    }
+
+    .type-breakdown {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    .type-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 14px;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 600;
+        background: var(--surface);
+        border: 1px solid var(--border-light);
+    }
+    .type-chip .count {
+        background: var(--accent);
+        color: white;
+        border-radius: 12px;
+        padding: 1px 8px;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .conf-high { color: var(--success); }
+    .conf-med { color: var(--warning); }
+    .conf-low { color: var(--danger); font-weight: 700; }
+
+    .doc-actions a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    .doc-actions a:hover { text-decoration: underline; }
+
+    .section-title {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--ink-muted);
+        margin-bottom: 16px;
+    }
+
+    @media (max-width: 768px) {
+        .pipeline-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="split-header">
+        <h1>Split &amp; Extract Complete</h1>
+        <p><strong>{{ filename }}</strong> &mdash; {{ total_pages }} pages split into {{ total_segments }} individual documents, each classified and extracted.</p>
+        <div style="margin-top: 16px; display: flex; gap: 12px;">
+            <a href="/demo" class="btn btn-primary">Upload More</a>
+            <a href="/search" class="btn btn-secondary">Search All Extracted Data</a>
+            <a href="/explore" class="btn btn-secondary">Explore with SQL</a>
+        </div>
+    </div>
+
+    <!-- Pipeline stats -->
+    <div class="card mb-24">
+        <div class="pipeline-stats mb-24">
+            <div class="pipeline-stat">
+                <div class="num">{{ total_pages }}</div>
+                <div class="label">Input Pages</div>
+            </div>
+            <div class="pipeline-stat">
+                <div class="num">{{ total_segments }}</div>
+                <div class="label">Documents Found</div>
+            </div>
+            <div class="pipeline-stat">
+                <div class="num">{{ type_counts|length }}</div>
+                <div class="label">Form Types</div>
+            </div>
+            <div class="pipeline-stat">
+                <div class="num">{{ "%.1f"|format(pipeline_time_ms / 1000) }}s</div>
+                <div class="label">Total Time</div>
+            </div>
+        </div>
+
+        <div class="section-title">Form Type Breakdown</div>
+        <div class="type-breakdown">
+            {% for ftype, count in type_counts|dictsort %}
+            <div class="type-chip">
+                <span class="badge badge-{{ ftype }}">{{ ftype }}</span>
+                <span class="count">{{ count }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Actions -->
+    <div style="display: flex; gap: 12px; margin-bottom: 20px;">
+        <a href="/search" class="btn btn-secondary">Search All Extracted Data</a>
+        <a href="/explore" class="btn btn-secondary">Explore with SQL</a>
+    </div>
+
+    <!-- Results table -->
+    <div class="card mb-24">
+        <div class="section-title">All Extracted Documents ({{ results|length }})</div>
+        <div style="overflow-x: auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Source Pages</th>
+                        <th>Type</th>
+                        <th>Confidence</th>
+                        <th>Time</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for r in results %}
+                    {% set conf_pct = (r.confidence * 100)|round|int %}
+                    <tr>
+                        <td class="text-muted mono">{{ loop.index }}</td>
+                        <td class="mono">{{ r.pages }}</td>
+                        <td><span class="badge badge-{{ r.type }}">{{ r.type }}</span></td>
+                        <td>
+                            <span class="mono {% if conf_pct >= 85 %}conf-high{% elif conf_pct >= 70 %}conf-med{% else %}conf-low{% endif %}">
+                                {{ conf_pct }}%
+                            </span>
+                        </td>
+                        <td class="text-muted mono">{{ r.time_ms }}ms</td>
+                        <td class="doc-actions"><a href="/document/{{ r.doc_id }}">View &rarr;</a></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="bottom-actions" style="display: flex; gap: 12px; padding-bottom: 24px;">
+        <a href="/demo" class="btn btn-primary">Upload More</a>
+        <a href="/search" class="btn btn-secondary">Search All Extracted Data</a>
+    </div>
+</div>
+{% endblock %}

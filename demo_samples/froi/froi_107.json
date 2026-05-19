@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Cameron Smith",
+  "employer_name": "Acme Healthcare Corp",
+  "injury_date": "07/31/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Lower Leg-L"
+  ],
+  "nature_of_injury": "Laceration",
+  "causes": [
+    "Motor Vehicle"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

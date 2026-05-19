@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Emerson Johnson",
+    "dob": "06/16/1942",
+    "phone": "(344) 954-6828",
+    "address": [
+      "1847 Pine Rd",
+      "Riverton, IL 70485"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "512596-55",
+    "physician": "Dr. Martin",
+    "emergency_contact": "Finley Taylor",
+    "emergency_phone": "(394) 538-6527",
+    "smoker": false,
+    "diabetic": true,
+    "allergies": [
+      "Penicillin",
+      "Pollen",
+      "Peanuts"
+    ],
+    "symptoms": [
+      4
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

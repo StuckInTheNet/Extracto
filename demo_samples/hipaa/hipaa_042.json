@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Cameron Jones",
+  "patient_dob": "04/10/1973",
+  "date_range_from": "06/01/2022",
+  "date_range_to": "06/14/2023",
+  "record_types": [
+    "Imaging Reports",
+    "Lab Results",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Insurance Claim",
+    "Other"
+  ],
+  "expiration_type": "specific_date"
+}

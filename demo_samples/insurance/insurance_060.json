@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Alex Davis",
+    "dob": "12/22/1986",
+    "phone": "(466) 933-8340",
+    "address": [
+      "1781 Birch Blvd",
+      "Clinton, NJ 56988"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "D6465889",
+    "ins_type": "HMO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

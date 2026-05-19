@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Riley Garcia",
+  "employer_name": "Acme Manufacturing Corp",
+  "injury_date": "08/20/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Hand-R"
+  ],
+  "nature_of_injury": "Strain/Sprain",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "First Aid Only"
+  ]
+}

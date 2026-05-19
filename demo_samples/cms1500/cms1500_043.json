@@ -1,0 +1,35 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Other",
+  "patient_name": "Rodriguez, Pat",
+  "patient_dob": "08/16/2004",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "MI",
+  "diagnoses": [
+    "M79.2",
+    "M25.512",
+    "S13.4XXA",
+    "M54.5",
+    "R52",
+    "S22.5XXA"
+  ],
+  "service_lines": [
+    {
+      "date_from": "05/26/2024",
+      "cpt": "98941",
+      "pos": "12",
+      "charge": 195.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 195.0,
+  "accept_assignment": true,
+  "tax_id": "23-4567890",
+  "tax_id_type": "SSN",
+  "provider_name": "James Rodriguez, DO",
+  "provider_npi": "2345678901"
+}

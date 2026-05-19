@@ -1,0 +1,20 @@
+{
+  "form_type": "eob",
+  "payer_name": "United Healthcare",
+  "member_name": "Drew Davis",
+  "claim_number": "CLM71212377",
+  "check_number": "187298",
+  "service_line_count": 2,
+  "service_line_cpts": [
+    "97110",
+    "64483"
+  ],
+  "total_billed": 1020.0,
+  "total_allowed": 658.26,
+  "total_plan_paid": 535.38,
+  "total_patient_resp": 122.88,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Taylor Garcia",
+  "employer_name": "Apex Healthcare Corp",
+  "injury_date": "01/17/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ear-R"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Chemical Exposure",
+    "Struck Against Object"
+  ],
+  "treatments": [
+    "First Aid Only",
+    "Hospitalized"
+  ]
+}

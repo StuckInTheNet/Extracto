@@ -1,0 +1,22 @@
+{
+  "form_type": "eob",
+  "payer_name": "Aetna Health Insurance",
+  "member_name": "Taylor Davis",
+  "claim_number": "CLM15668405",
+  "check_number": "962767",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "98941",
+    "20610",
+    "72141"
+  ],
+  "total_billed": 1885.75,
+  "total_allowed": 1069.41,
+  "total_plan_paid": 1002.27,
+  "total_patient_resp": 76.34,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

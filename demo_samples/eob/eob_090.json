@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Casey Johnson",
+  "claim_number": "CLM22840710",
+  "check_number": "755725",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "99213",
+    "97140",
+    "64483",
+    "97110",
+    "99203"
+  ],
+  "total_billed": 1408.25,
+  "total_allowed": 1053.27,
+  "total_plan_paid": 713.31,
+  "total_patient_resp": 363.26,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

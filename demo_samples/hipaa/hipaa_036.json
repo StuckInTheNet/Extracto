@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jordan Wilson",
+  "patient_dob": "04/10/1964",
+  "date_range_from": "10/24/2022",
+  "date_range_to": "12/01/2023",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Continuity of Care"
+  ],
+  "expiration_type": "one_year"
+}

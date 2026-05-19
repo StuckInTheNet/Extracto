@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Cameron Smith",
+    "dob": "10/11/1967",
+    "phone": "(453) 514-9040",
+    "address": [
+      "4320 Maple Ave",
+      "Greenville, ME 39561"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "788545-34",
+    "physician": "Dr. Moore",
+    "emergency_contact": "Finley Martinez",
+    "emergency_phone": "(614) 299-1208",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "Shellfish",
+      "Peanuts",
+      "Pollen"
+    ],
+    "symptoms": [
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jamie Johnson",
+  "employer_name": "Summit Manufacturing Corp",
+  "injury_date": "11/09/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ear-L"
+  ],
+  "nature_of_injury": "Other",
+  "causes": [
+    "Motor Vehicle"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "Hospitalized"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Davis",
+  "employer_name": "Apex Transportation Corp",
+  "injury_date": "07/27/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Neck"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Lifting"
+  ],
+  "treatments": [
+    "Emergency Room"
+  ]
+}

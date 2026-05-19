@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Jones",
+  "employer_name": "Apex Transportation Corp",
+  "injury_date": "09/01/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Knee-L",
+    "Toes-R"
+  ],
+  "nature_of_injury": "Concussion",
+  "causes": [
+    "Fall - From Height",
+    "Repetitive Motion"
+  ],
+  "treatments": [
+    "Emergency Room"
+  ]
+}

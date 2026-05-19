@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+{% block title %}Extraction Results — Extracto{% endblock %}
+
+{% block head %}
+<style>
+    .results-header {
+        padding: 48px 0 32px;
+    }
+    .results-header p { color: var(--ink-light); font-size: 16px; margin-top: 8px; }
+    .results-meta {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        margin-top: 12px;
+    }
+    .results-meta .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        background: var(--success-bg);
+        color: var(--success);
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .result-card { margin-bottom: 20px; }
+    .result-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .result-card-header h3 { font-size: 18px; }
+    .result-meta-pills {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+    .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 5px 12px;
+        border-radius: 6px;
+        font-size: 12px;
+        font-weight: 500;
+        background: var(--surface);
+        color: var(--ink-light);
+        border: 1px solid var(--border-light);
+    }
+    .pill .val { color: var(--ink); font-weight: 600; }
+    .pill .conf-high { color: var(--success); }
+    .pill .conf-med { color: var(--warning); }
+    .pill .conf-low { color: var(--danger); font-weight: 700; }
+
+    .fields-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2px;
+    }
+    .field-row {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 14px;
+        border-radius: 6px;
+        background: var(--surface);
+    }
+    .field-row:hover { background: var(--accent-subtle); }
+    .field-name {
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--ink-muted);
+        margin-bottom: 2px;
+    }
+    .field-value {
+        font-size: 14px;
+        color: var(--ink);
+        word-break: break-word;
+    }
+    .field-value.list { font-size: 13px; }
+
+    /* ── JSON toggle ───────────────────────────────────── */
+    .json-toggle {
+        font-size: 13px;
+        color: var(--accent);
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-weight: 500;
+        padding: 0;
+        font-family: inherit;
+    }
+    .json-toggle:hover { text-decoration: underline; }
+    .json-block {
+        display: none;
+        margin-top: 16px;
+        background: var(--ink);
+        color: #a5b4fc;
+        border-radius: var(--radius);
+        padding: 20px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+        line-height: 1.6;
+        overflow-x: auto;
+        white-space: pre;
+    }
+    .json-block.open { display: block; }
+
+    .bottom-actions {
+        display: flex;
+        gap: 12px;
+        padding-top: 16px;
+    }
+
+    @media (max-width: 768px) {
+        .fields-grid { grid-template-columns: 1fr; }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="results-header">
+        <h1>Extraction Results</h1>
+        <p>{{ results|length }} document{{ 's' if results|length != 1 else '' }} processed successfully.</p>
+        <div style="margin-top: 16px; display: flex; gap: 12px;">
+            <a href="/search" class="btn btn-secondary">Search Extracted Data</a>
+            <a href="/explore" class="btn btn-secondary">Explore with SQL</a>
+        </div>
+    </div>
+
+    {% for r in results %}
+    <div class="card result-card">
+        <div class="result-card-header">
+            <div>
+                <h3>{{ r.filename }}</h3>
+            </div>
+            <div class="result-meta-pills">
+                <span class="badge badge-{{ r.type }}">{{ r.type }}</span>
+                {% set conf_pct = (r.confidence * 100)|round|int %}
+                <span class="pill">Confidence <span class="val {% if conf_pct >= 85 %}conf-high{% elif conf_pct >= 70 %}conf-med{% else %}conf-low{% endif %}">{{ conf_pct }}%</span></span>
+                <span class="pill">Time <span class="val">{{ r.time_ms }}ms</span></span>
+                <a href="/document/{{ r.doc_id }}" class="btn btn-secondary" style="padding: 6px 14px; font-size: 12px;">View with PDF</a>
+            </div>
+        </div>
+
+        <div class="fields-grid">
+            {% for key, value in r.fields.items() %}
+            <div class="field-row">
+                <div class="field-name">{{ key }}</div>
+                {% if value is iterable and value is not string %}
+                    {% if value is mapping %}
+                    <div class="field-value list">
+                        {% for k, v in value.items() %}
+                            <div><strong>{{ k }}:</strong> {{ v }}</div>
+                        {% endfor %}
+                    </div>
+                    {% elif value|length > 0 and value[0] is mapping %}
+                    <div class="field-value list">
+                        {% for item in value %}
+                        <div style="padding: 2px 0; border-bottom: 1px solid var(--border-light);">
+                            {% for k, v in item.items() %}
+                                <span style="margin-right: 12px;"><strong>{{ k }}:</strong> {{ v }}</span>
+                            {% endfor %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% else %}
+                    <div class="field-value list">{{ value | join(', ') }}</div>
+                    {% endif %}
+                {% elif value is sameas true %}
+                <div class="field-value" style="color: var(--success);">Yes</div>
+                {% elif value is sameas false %}
+                <div class="field-value" style="color: var(--ink-muted);">No</div>
+                {% else %}
+                <div class="field-value">{{ value }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+
+        <div style="margin-top: 16px;">
+            <button class="json-toggle" onclick="this.nextElementSibling.classList.toggle('open'); this.textContent = this.nextElementSibling.classList.contains('open') ? 'Hide JSON' : 'View raw JSON';">View raw JSON</button>
+            <div class="json-block">{{ r.fields | tojson(indent=2) }}</div>
+        </div>
+    </div>
+    {% endfor %}
+
+    <div class="bottom-actions">
+        <a href="/demo" class="btn btn-primary">Upload More</a>
+    </div>
+</div>
+{% endblock %}

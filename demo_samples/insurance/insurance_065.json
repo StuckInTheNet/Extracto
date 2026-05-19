@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Avery Moore",
+    "dob": "08/01/1973",
+    "phone": "(827) 479-5699",
+    "address": [
+      "4022 Elm St",
+      "Salem, VT 53815"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "E6941510",
+    "ins_type": "PPO",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

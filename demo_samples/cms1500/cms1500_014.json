@@ -1,0 +1,49 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Johnson, Sam",
+  "patient_dob": "06/14/1988",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "IL",
+  "diagnoses": [
+    "S06.0X0A",
+    "S42.201A",
+    "M25.512",
+    "S22.5XXA",
+    "S13.4XXA",
+    "R52"
+  ],
+  "service_lines": [
+    {
+      "date_from": "06/01/2024",
+      "cpt": "64483",
+      "pos": "12",
+      "charge": 1700.0,
+      "units": 2
+    },
+    {
+      "date_from": "06/01/2024",
+      "cpt": "72141",
+      "pos": "22",
+      "charge": 2400.0,
+      "units": 2
+    },
+    {
+      "date_from": "06/01/2024",
+      "cpt": "72141",
+      "pos": "11",
+      "charge": 2400.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 6500.0,
+  "accept_assignment": true,
+  "tax_id": "45-6789012",
+  "tax_id_type": "SSN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

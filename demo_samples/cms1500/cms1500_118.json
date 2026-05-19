@@ -1,0 +1,56 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Group Health Plan",
+  "patient_name": "Miller, Casey",
+  "patient_dob": "11/03/1953",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M79.2",
+    "F32.9",
+    "M54.2",
+    "G44.311",
+    "T14.90XA",
+    "M51.26"
+  ],
+  "service_lines": [
+    {
+      "date_from": "07/05/2024",
+      "cpt": "73721",
+      "pos": "11",
+      "charge": 3300.0,
+      "units": 3
+    },
+    {
+      "date_from": "07/05/2024",
+      "cpt": "95910",
+      "pos": "21",
+      "charge": 1425.0,
+      "units": 3
+    },
+    {
+      "date_from": "07/05/2024",
+      "cpt": "64483",
+      "pos": "21",
+      "charge": 850.0,
+      "units": 1
+    },
+    {
+      "date_from": "07/05/2024",
+      "cpt": "99214",
+      "pos": "22",
+      "charge": 525.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 6100.0,
+  "accept_assignment": true,
+  "tax_id": "12-3456789",
+  "tax_id_type": "EIN",
+  "provider_name": "Sarah Mitchell, MD",
+  "provider_npi": "1234567890"
+}

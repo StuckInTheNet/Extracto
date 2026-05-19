@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Riley Garcia",
+  "employer_name": "Apex Transportation Corp",
+  "injury_date": "06/14/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Elbow-L",
+    "Hand-L",
+    "Hip-L"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Chemical Exposure"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

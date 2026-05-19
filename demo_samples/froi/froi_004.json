@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jamie Miller",
+  "employer_name": "Pioneer Transportation Corp",
+  "injury_date": "06/03/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Fingers-L"
+  ],
+  "nature_of_injury": "Other",
+  "causes": [
+    "Lifting",
+    "Repetitive Motion"
+  ],
+  "treatments": [
+    "Hospitalized"
+  ]
+}

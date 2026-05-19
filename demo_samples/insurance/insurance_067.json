@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Rowan Taylor",
+    "dob": "01/13/1972",
+    "phone": "(943) 718-3457",
+    "address": [
+      "4067 Elm St",
+      "Franklin, MI 42003"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "C8091166",
+    "ins_type": "EPO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

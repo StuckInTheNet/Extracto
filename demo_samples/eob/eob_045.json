@@ -1,0 +1,20 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Alex Davis",
+  "claim_number": "CLM62358969",
+  "check_number": "211954",
+  "service_line_count": 2,
+  "service_line_cpts": [
+    "20610",
+    "72148"
+  ],
+  "total_billed": 1884.0,
+  "total_allowed": 934.85,
+  "total_plan_paid": 924.85,
+  "total_patient_resp": 10.0,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-3"
+  ]
+}

@@ -1,0 +1,216 @@
+{% extends "base.html" %}
+{% block title %}Data Explorer — Extracto{% endblock %}
+
+{% block head %}
+<style>
+    .explore-header {
+        padding: 48px 0 32px;
+    }
+    .explore-header p { color: var(--ink-light); font-size: 16px; margin-top: 8px; }
+
+    .sql-input {
+        width: 100%;
+        min-height: 80px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 13px;
+        line-height: 1.5;
+        padding: 14px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        background: var(--ink);
+        color: #a5b4fc;
+        resize: vertical;
+    }
+    .sql-input:focus {
+        outline: none;
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+    .sql-input::placeholder { color: #6b7280; }
+
+    .sql-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 12px;
+    }
+    .sql-hint {
+        font-size: 12px;
+        color: var(--ink-muted);
+    }
+
+    .examples-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+    .example-btn {
+        padding: 5px 12px;
+        border-radius: 6px;
+        font-size: 12px;
+        font-weight: 500;
+        background: var(--surface);
+        color: var(--ink-light);
+        border: 1px solid var(--border-light);
+        cursor: pointer;
+        transition: all 0.15s;
+        font-family: inherit;
+    }
+    .example-btn:hover {
+        background: var(--accent-subtle);
+        color: var(--accent);
+        border-color: var(--accent);
+    }
+
+    .error-box {
+        background: #fef2f2;
+        border: 1px solid #fecaca;
+        border-radius: var(--radius);
+        padding: 12px 16px;
+        color: var(--danger);
+        font-size: 13px;
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    .results-info {
+        font-size: 13px;
+        color: var(--ink-muted);
+        margin-bottom: 12px;
+    }
+
+    .results-table-wrap {
+        overflow-x: auto;
+        max-height: 600px;
+        overflow-y: auto;
+    }
+    .results-table-wrap table {
+        font-size: 13px;
+    }
+    .results-table-wrap th {
+        position: sticky;
+        top: 0;
+        background: var(--surface-raised);
+        z-index: 1;
+    }
+    .results-table-wrap td {
+        white-space: nowrap;
+        max-width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .empty-state {
+        text-align: center;
+        padding: 48px 24px;
+        color: var(--ink-muted);
+    }
+    .empty-state .icon { font-size: 40px; margin-bottom: 12px; opacity: 0.5; }
+
+    .schema-hint {
+        font-size: 12px;
+        color: var(--ink-muted);
+        font-family: 'JetBrains Mono', monospace;
+        background: var(--surface);
+        padding: 16px;
+        border-radius: var(--radius);
+        line-height: 1.8;
+    }
+    .schema-hint strong { color: var(--ink); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="explore-header">
+        <h1>Data Explorer</h1>
+        <p>Run SQL queries against all extracted document data. Every uploaded document feeds into a local SQLite database you can query directly.</p>
+    </div>
+
+    <!-- Schema reference -->
+    <div class="card mb-24">
+        <h3 class="mb-12" style="font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-muted);">Tables</h3>
+        <div class="schema-hint">
+            <strong>documents</strong> (id, file_name, form_type, classification_confidence, processing_time_ms, extracted_at)<br>
+            <strong>fields</strong> (id, document_id, field_name, field_value, field_type)<br>
+            <strong>service_lines</strong> (id, document_id, line_number, date_of_service, cpt_code, pos, charge, units)<br>
+            <strong>diagnoses</strong> (id, document_id, icd10_code, position)<br>
+            <strong>index_entries</strong> (id, document_id, provider, date_of_service, start_page, end_page, doc_type)
+        </div>
+    </div>
+
+    <!-- Query input -->
+    <div class="card mb-24">
+        <form action="/explore" method="get">
+            <textarea class="sql-input" name="q" placeholder="SELECT * FROM documents LIMIT 10;">{{ query }}</textarea>
+            <div class="sql-actions">
+                <div class="sql-hint">Read-only. SELECT queries only. Results capped at 500 rows.</div>
+                <button type="submit" class="btn btn-primary">Run Query</button>
+            </div>
+        </form>
+
+        <div style="margin-top: 16px;">
+            <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-muted); margin-bottom: 8px;">Example Queries</div>
+            <div class="examples-grid">
+                {% for label, sql in examples %}
+                <button class="example-btn" data-sql="{{ sql }}" onclick="runExample(this)">{{ label }}</button>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Results -->
+    {% if error %}
+    <div class="error-box mb-24">{{ error }}</div>
+    {% endif %}
+
+    {% if results is not none %}
+    <div class="card mb-24">
+        {% if results %}
+        <div class="results-info">{{ row_count }} row{{ 's' if row_count != 1 else '' }}{% if row_count >= 500 %} (capped at 500){% endif %}</div>
+        <div class="results-table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        {% for col in columns %}
+                        <th>{{ col }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in results %}
+                    <tr>
+                        {% for col in columns %}
+                        <td title="{{ row[col] }}">{{ row[col] }}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <div class="icon">&#128269;</div>
+            <p>Query returned no results.</p>
+        </div>
+        {% endif %}
+    </div>
+    {% elif not query %}
+    <div class="card">
+        <div class="empty-state">
+            <div class="icon">&#128450;</div>
+            <p>Upload documents via the <a href="/demo">demo page</a>, then explore the extracted data here with SQL.</p>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function runExample(btn) {
+    var sql = btn.getAttribute('data-sql');
+    document.querySelector('.sql-input').value = sql;
+    document.querySelector('.sql-input').form.submit();
+}
+</script>
+{% endblock %}

@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Jordan Brown",
+    "dob": "01/06/1970",
+    "phone": "(704) 855-2872",
+    "address": [
+      "1453 Birch Blvd",
+      "Springfield, WI 22606"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "A7659974",
+    "ins_type": "PPO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": []
+}

@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Reese Garcia",
+    "dob": "09/03/1972",
+    "phone": "(843) 647-6976",
+    "address": [
+      "9286 Pine Rd",
+      "Clinton, AK 77327"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "C4044640",
+    "ins_type": "POS",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

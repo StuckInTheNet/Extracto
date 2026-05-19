@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Jordan Jackson",
+    "dob": "09/02/1957",
+    "phone": "(901) 948-2258",
+    "address": [
+      "6436 Ash Ct",
+      "Riverton, WA 93515"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "B7968180",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

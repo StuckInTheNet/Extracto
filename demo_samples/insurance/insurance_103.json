@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Cameron Martin",
+    "dob": "04/23/1970",
+    "phone": "(474) 896-1405",
+    "address": [
+      "3429 Spruce Ter",
+      "Springfield, RI 76515"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "F7379126",
+    "ins_type": "EPO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        175,
+        617.0,
+        14,
+        14
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        254,
+        615.0,
+        14,
+        14
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        173,
+        587.0,
+        15,
+        15
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        252,
+        589.0,
+        15,
+        15
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": true,
+      "bbox_pt": [
+        318.0,
+        544.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": false,
+      "bbox_pt": [
+        318.0,
+        527.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": false,
+      "bbox_pt": [
+        318.0,
+        508.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        491.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": true,
+      "bbox_pt": [
+        319.0,
+        473.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": false,
+      "bbox_pt": [
+        318.0,
+        453.0,
+        15,
+        15
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Riley Davis",
+  "patient_dob": "08/14/1957",
+  "date_range_from": "05/15/2022",
+  "date_range_to": "03/04/2024",
+  "record_types": [
+    "Discharge Summaries"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Insurance Claim"
+  ],
+  "expiration_type": "one_year"
+}

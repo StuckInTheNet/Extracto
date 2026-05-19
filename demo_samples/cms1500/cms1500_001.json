@@ -1,0 +1,65 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "FECA Blk Lung",
+  "patient_name": "Miller, Drew",
+  "patient_dob": "12/13/1963",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "PA",
+  "diagnoses": [
+    "S42.201A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "05/20/2024",
+      "cpt": "97110",
+      "pos": "22",
+      "charge": 85.0,
+      "units": 1
+    },
+    {
+      "date_from": "05/20/2024",
+      "cpt": "72040",
+      "pos": "21",
+      "charge": 175.0,
+      "units": 1
+    },
+    {
+      "date_from": "05/20/2024",
+      "cpt": "99203",
+      "pos": "11",
+      "charge": 225.0,
+      "units": 1
+    },
+    {
+      "date_from": "05/20/2024",
+      "cpt": "97110",
+      "pos": "21",
+      "charge": 255.0,
+      "units": 3
+    },
+    {
+      "date_from": "05/20/2024",
+      "cpt": "73721",
+      "pos": "22",
+      "charge": 3300.0,
+      "units": 3
+    },
+    {
+      "date_from": "05/20/2024",
+      "cpt": "97110",
+      "pos": "12",
+      "charge": 255.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 4295.0,
+  "accept_assignment": true,
+  "tax_id": "67-8901234",
+  "tax_id_type": "EIN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

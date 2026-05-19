@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Alex Wilson",
+  "employer_name": "Apex Healthcare Corp",
+  "injury_date": "05/18/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Shoulder-L"
+  ],
+  "nature_of_injury": "Concussion",
+  "causes": [
+    "Chemical Exposure"
+  ],
+  "treatments": [
+    "First Aid Only"
+  ]
+}

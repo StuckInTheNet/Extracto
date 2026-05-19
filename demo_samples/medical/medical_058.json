@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Hayden Williams",
+    "dob": "10/14/2001",
+    "phone": "(719) 355-3257",
+    "address": [
+      "3745 Ash Ct",
+      "Madison, RI 47877"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "256543-60",
+    "physician": "Dr. Jones",
+    "emergency_contact": "Jordan Martin",
+    "emergency_phone": "(554) 712-2147",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Peanuts",
+      "Shellfish"
+    ],
+    "symptoms": [
+      5,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

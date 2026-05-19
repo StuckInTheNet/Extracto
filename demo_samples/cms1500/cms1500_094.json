@@ -1,0 +1,47 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Garcia, Drew",
+  "patient_dob": "01/31/1957",
+  "patient_sex": "F",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "FL",
+  "diagnoses": [
+    "M62.830",
+    "M25.511",
+    "R52",
+    "M79.2"
+  ],
+  "service_lines": [
+    {
+      "date_from": "10/15/2024",
+      "cpt": "99203",
+      "pos": "22",
+      "charge": 675.0,
+      "units": 3
+    },
+    {
+      "date_from": "10/15/2024",
+      "cpt": "99213",
+      "pos": "23",
+      "charge": 375.0,
+      "units": 3
+    },
+    {
+      "date_from": "10/15/2024",
+      "cpt": "64483",
+      "pos": "21",
+      "charge": 850.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 1900.0,
+  "accept_assignment": false,
+  "tax_id": "56-7890123",
+  "tax_id_type": "SSN",
+  "provider_name": "Priya Patel, MD",
+  "provider_npi": "5678901234"
+}

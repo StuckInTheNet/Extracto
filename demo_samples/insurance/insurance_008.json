@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Casey Rodriguez",
+    "dob": "11/13/1999",
+    "phone": "(231) 597-6785",
+    "address": [
+      "2781 Willow Way",
+      "Clinton, MA 34115"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "D4696506",
+    "ins_type": "EPO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        173,
+        616.0,
+        12,
+        12
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        254,
+        617.0,
+        12,
+        12
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        172,
+        588.0,
+        12,
+        12
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        253,
+        588.0,
+        12,
+        12
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": false,
+      "bbox_pt": [
+        319.0,
+        544.0,
+        12,
+        12
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": false,
+      "bbox_pt": [
+        319.0,
+        526.0,
+        12,
+        12
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": true,
+      "bbox_pt": [
+        317.0,
+        508.0,
+        12,
+        12
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": false,
+      "bbox_pt": [
+        319.0,
+        490.0,
+        12,
+        12
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": true,
+      "bbox_pt": [
+        318.0,
+        471.0,
+        12,
+        12
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        454.0,
+        12,
+        12
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Emerson Anderson",
+    "dob": "07/18/1985",
+    "phone": "(705) 345-4897",
+    "address": [
+      "9199 Cedar Ln",
+      "Clinton, OH 94444"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "D1821653",
+    "ins_type": "HMO",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

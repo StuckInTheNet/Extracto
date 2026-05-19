@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Avery Smith",
+  "patient_dob": "04/13/1962",
+  "date_range_from": "01/09/2022",
+  "date_range_to": "02/08/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Legal Proceedings",
+    "Personal Use"
+  ],
+  "expiration_type": "one_year"
+}

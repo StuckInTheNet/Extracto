@@ -1,0 +1,32 @@
+{
+  "person": {
+    "name": "Casey Davis",
+    "dob": "03/23/1942",
+    "phone": "(217) 778-8128",
+    "address": [
+      "3077 Birch Blvd",
+      "Salem, NY 98652"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "568524-64",
+    "physician": "Dr. Thomas",
+    "emergency_contact": "Finley Rodriguez",
+    "emergency_phone": "(708) 230-4351",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "Peanuts",
+      "Dust"
+    ],
+    "symptoms": [
+      2,
+      3,
+      6,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

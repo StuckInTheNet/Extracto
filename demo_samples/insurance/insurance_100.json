@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Casey Smith",
+    "dob": "08/13/1954",
+    "phone": "(952) 283-5984",
+    "address": [
+      "871 Maple Ave",
+      "Greenville, OH 42052"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "A6543511",
+    "ins_type": "EPO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        174,
+        613.0,
+        12,
+        12
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        257,
+        616.0,
+        12,
+        12
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        169,
+        586.0,
+        13,
+        13
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        249,
+        587.0,
+        13,
+        13
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": false,
+      "bbox_pt": [
+        315.0,
+        545.0,
+        13,
+        13
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        523.0,
+        13,
+        13
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": false,
+      "bbox_pt": [
+        316.0,
+        507.0,
+        13,
+        13
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": true,
+      "bbox_pt": [
+        318.0,
+        487.0,
+        13,
+        13
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": true,
+      "bbox_pt": [
+        315.0,
+        472.0,
+        13,
+        13
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        455.0,
+        13,
+        13
+      ]
+    }
+  ]
+}

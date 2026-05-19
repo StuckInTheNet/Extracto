@@ -1,0 +1,35 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicare",
+  "patient_name": "Johnson, Cameron",
+  "patient_dob": "06/14/1984",
+  "patient_sex": "F",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "S83.511A",
+    "S22.5XXA",
+    "M25.511",
+    "M25.512",
+    "T14.90XA",
+    "M54.2"
+  ],
+  "service_lines": [
+    {
+      "date_from": "11/08/2024",
+      "cpt": "72040",
+      "pos": "22",
+      "charge": 350.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 350.0,
+  "accept_assignment": true,
+  "tax_id": "12-3456789",
+  "tax_id_type": "SSN",
+  "provider_name": "Sarah Mitchell, MD",
+  "provider_npi": "1234567890"
+}

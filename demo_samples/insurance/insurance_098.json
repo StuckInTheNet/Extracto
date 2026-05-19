@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Emerson Johnson",
+    "dob": "08/25/1990",
+    "phone": "(936) 926-8971",
+    "address": [
+      "353 Cedar Ln",
+      "Franklin, FL 54078"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "A8560292",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

@@ -1,0 +1,22 @@
+{
+  "form_type": "eob",
+  "payer_name": "Aetna Health Insurance",
+  "member_name": "Morgan Miller",
+  "claim_number": "CLM93644995",
+  "check_number": "554786",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "99214",
+    "99214",
+    "95910"
+  ],
+  "total_billed": 907.5,
+  "total_allowed": 538.77,
+  "total_plan_paid": 491.16,
+  "total_patient_resp": 47.61,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

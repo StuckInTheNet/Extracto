@@ -1,0 +1,15 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Alex Wilson",
+  "patient_dob": "01/03/1990",
+  "date_range_from": "03/17/2023",
+  "date_range_to": "08/22/2023",
+  "record_types": [
+    "Lab Results"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Legal Proceedings"
+  ],
+  "expiration_type": "specific_date"
+}

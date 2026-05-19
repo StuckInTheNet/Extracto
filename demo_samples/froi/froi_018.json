@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jordan Davis",
+  "employer_name": "Acme Manufacturing Corp",
+  "injury_date": "05/08/2023",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Fingers-L"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Caught In/Between",
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "Emergency Room"
+  ]
+}

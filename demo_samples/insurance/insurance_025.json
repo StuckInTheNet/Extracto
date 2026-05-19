@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Peyton Martin",
+    "dob": "12/28/1945",
+    "phone": "(557) 979-5965",
+    "address": [
+      "7618 Elm St",
+      "Madison, AL 55545"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "B2235644",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

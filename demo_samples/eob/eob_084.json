@@ -1,0 +1,20 @@
+{
+  "form_type": "eob",
+  "payer_name": "Kaiser Permanente",
+  "member_name": "Drew Rodriguez",
+  "claim_number": "CLM85075065",
+  "check_number": "189288",
+  "service_line_count": 2,
+  "service_line_cpts": [
+    "95910",
+    "95910"
+  ],
+  "total_billed": 902.5,
+  "total_allowed": 583.51,
+  "total_plan_paid": 530.67,
+  "total_patient_resp": 52.84,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "United Healthcare",
+  "member_name": "Alex Brown",
+  "claim_number": "CLM68272190",
+  "check_number": "440277",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "72100",
+    "97110",
+    "98941"
+  ],
+  "total_billed": 349.25,
+  "total_allowed": 237.64,
+  "total_plan_paid": 107.18,
+  "total_patient_resp": 130.46,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

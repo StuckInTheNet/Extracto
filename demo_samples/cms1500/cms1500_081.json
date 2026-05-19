@@ -1,0 +1,33 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicaid",
+  "patient_name": "Jones, Jordan",
+  "patient_dob": "11/15/1995",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "OH",
+  "diagnoses": [
+    "S06.0X0A",
+    "M54.5",
+    "R52",
+    "S22.5XXA"
+  ],
+  "service_lines": [
+    {
+      "date_from": "07/22/2024",
+      "cpt": "73721",
+      "pos": "23",
+      "charge": 3300.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 3300.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "SSN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

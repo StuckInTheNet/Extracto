@@ -1,0 +1,65 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Williams, Taylor",
+  "patient_dob": "05/24/2002",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "CA",
+  "diagnoses": [
+    "M25.511"
+  ],
+  "service_lines": [
+    {
+      "date_from": "06/09/2024",
+      "cpt": "73721",
+      "pos": "11",
+      "charge": 1100.0,
+      "units": 1
+    },
+    {
+      "date_from": "06/09/2024",
+      "cpt": "97110",
+      "pos": "21",
+      "charge": 170.0,
+      "units": 2
+    },
+    {
+      "date_from": "06/09/2024",
+      "cpt": "98941",
+      "pos": "23",
+      "charge": 195.0,
+      "units": 3
+    },
+    {
+      "date_from": "06/09/2024",
+      "cpt": "64483",
+      "pos": "22",
+      "charge": 1700.0,
+      "units": 2
+    },
+    {
+      "date_from": "06/09/2024",
+      "cpt": "99214",
+      "pos": "11",
+      "charge": 175.0,
+      "units": 1
+    },
+    {
+      "date_from": "06/09/2024",
+      "cpt": "20610",
+      "pos": "21",
+      "charge": 320.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 3660.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "EIN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

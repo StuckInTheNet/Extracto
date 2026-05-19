@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Skyler Garcia",
+    "dob": "11/29/2001",
+    "phone": "(280) 983-6644",
+    "address": [
+      "9547 Pine Rd",
+      "Greenville, WY 87838"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "F3812988",
+    "ins_type": "POS",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

@@ -1,0 +1,24 @@
+{
+  "form_type": "eob",
+  "payer_name": "Kaiser Permanente",
+  "member_name": "Jamie Wilson",
+  "claim_number": "CLM71047698",
+  "check_number": "586288",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "99203",
+    "64483",
+    "72100",
+    "99213",
+    "97110"
+  ],
+  "total_billed": 1546.0,
+  "total_allowed": 1109.67,
+  "total_plan_paid": 703.11,
+  "total_patient_resp": 459.73,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2"
+  ]
+}

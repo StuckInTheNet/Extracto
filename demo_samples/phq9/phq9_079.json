@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Taylor Jones",
+  "date": "10/05/2024",
+  "scores": [
+    3,
+    0,
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    3
+  ],
+  "total": 16,
+  "difficulty": 1,
+  "severity": "Moderately severe depression"
+}

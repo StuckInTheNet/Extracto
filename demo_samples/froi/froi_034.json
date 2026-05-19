@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Cameron Rodriguez",
+  "employer_name": "Pioneer Construction Corp",
+  "injury_date": "07/16/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Eye-L",
+    "Hand-L"
+  ],
+  "nature_of_injury": "Puncture",
+  "causes": [
+    "Lifting",
+    "Motor Vehicle"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

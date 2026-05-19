@@ -1,0 +1,51 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicaid",
+  "patient_name": "Davis, Taylor",
+  "patient_dob": "09/23/1956",
+  "patient_sex": "M",
+  "relationship_to_insured": "Other",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M54.5"
+  ],
+  "service_lines": [
+    {
+      "date_from": "07/12/2024",
+      "cpt": "97112",
+      "pos": "21",
+      "charge": 180.0,
+      "units": 2
+    },
+    {
+      "date_from": "07/12/2024",
+      "cpt": "95910",
+      "pos": "12",
+      "charge": 1425.0,
+      "units": 3
+    },
+    {
+      "date_from": "07/12/2024",
+      "cpt": "99214",
+      "pos": "12",
+      "charge": 175.0,
+      "units": 1
+    },
+    {
+      "date_from": "07/12/2024",
+      "cpt": "97140",
+      "pos": "11",
+      "charge": 160.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 1940.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "SSN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

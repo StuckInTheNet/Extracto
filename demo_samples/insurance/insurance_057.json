@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Alex Taylor",
+    "dob": "02/04/1978",
+    "phone": "(889) 381-9394",
+    "address": [
+      "3177 Elm St",
+      "Clinton, ID 36420"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "F9680402",
+    "ins_type": "PPO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        174,
+        617.0,
+        14,
+        14
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        253,
+        618.0,
+        14,
+        14
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        173,
+        588.0,
+        15,
+        15
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        255,
+        591.0,
+        15,
+        15
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        14,
+        14
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": false,
+      "bbox_pt": [
+        316.0,
+        546.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": true,
+      "bbox_pt": [
+        316.0,
+        526.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": true,
+      "bbox_pt": [
+        316.0,
+        509.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        489.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": false,
+      "bbox_pt": [
+        315.0,
+        472.0,
+        15,
+        15
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        452.0,
+        15,
+        15
+      ]
+    }
+  ]
+}

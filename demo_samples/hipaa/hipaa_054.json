@@ -1,0 +1,16 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Alex Williams",
+  "patient_dob": "05/19/1979",
+  "date_range_from": "12/23/2022",
+  "date_range_to": "08/11/2023",
+  "record_types": [
+    "Billing Records",
+    "Office Notes"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Personal Use"
+  ],
+  "expiration_type": "one_year"
+}

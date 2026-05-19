@@ -1,0 +1,21 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Jones",
+  "employer_name": "Acme Construction Corp",
+  "injury_date": "12/16/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Chest",
+    "Fingers-R",
+    "Lower Leg-L"
+  ],
+  "nature_of_injury": "Laceration",
+  "causes": [
+    "Caught In/Between",
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "Emergency Room",
+    "First Aid Only"
+  ]
+}

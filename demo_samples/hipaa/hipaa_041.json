@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jamie Jones",
+  "patient_dob": "07/25/1962",
+  "date_range_from": "10/09/2022",
+  "date_range_to": "07/08/2023",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Lab Results",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Mental Health"
+  ],
+  "purposes": [
+    "Continuity of Care"
+  ],
+  "expiration_type": "one_year"
+}

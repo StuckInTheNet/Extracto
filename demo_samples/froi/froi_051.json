@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Riley Smith",
+  "employer_name": "Apex Transportation Corp",
+  "injury_date": "12/18/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Internal"
+  ],
+  "nature_of_injury": "Other",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

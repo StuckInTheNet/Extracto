@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Cameron Moore",
+    "dob": "04/02/1980",
+    "phone": "(635) 295-9367",
+    "address": [
+      "6790 Ash Ct",
+      "Madison, TX 10007"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "F8743662",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

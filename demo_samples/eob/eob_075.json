@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Kaiser Permanente",
+  "member_name": "Riley Wilson",
+  "claim_number": "CLM93013580",
+  "check_number": "952631",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "20610",
+    "72100",
+    "98941",
+    "97140",
+    "97140",
+    "97140"
+  ],
+  "total_billed": 875.75,
+  "total_allowed": 592.69,
+  "total_plan_paid": 382.88,
+  "total_patient_resp": 369.22,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

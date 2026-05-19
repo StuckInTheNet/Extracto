@@ -1,0 +1,24 @@
+{
+  "form_type": "eob",
+  "payer_name": "Blue Cross Blue Shield",
+  "member_name": "Taylor Garcia",
+  "claim_number": "CLM98165507",
+  "check_number": "942960",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "72100",
+    "99214",
+    "97110",
+    "99203",
+    "72100",
+    "98941"
+  ],
+  "total_billed": 962.75,
+  "total_allowed": 637.3,
+  "total_plan_paid": 567.47,
+  "total_patient_resp": 69.83,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2"
+  ]
+}

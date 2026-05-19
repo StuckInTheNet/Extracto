@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "United Healthcare",
+  "member_name": "Jordan Williams",
+  "claim_number": "CLM76565050",
+  "check_number": "889327",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "64483",
+    "99203",
+    "64483",
+    "72100",
+    "97140",
+    "72148"
+  ],
+  "total_billed": 3796.0,
+  "total_allowed": 2256.88,
+  "total_plan_paid": 1830.29,
+  "total_patient_resp": 471.15,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

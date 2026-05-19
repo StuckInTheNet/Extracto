@@ -1,0 +1,47 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "TRICARE",
+  "patient_name": "Miller, Avery",
+  "patient_dob": "11/22/1975",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "TX",
+  "diagnoses": [
+    "F32.9",
+    "M54.2",
+    "S06.0X0A",
+    "S39.012A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "09/10/2024",
+      "cpt": "72100",
+      "pos": "12",
+      "charge": 370.0,
+      "units": 2
+    },
+    {
+      "date_from": "09/10/2024",
+      "cpt": "95910",
+      "pos": "11",
+      "charge": 950.0,
+      "units": 2
+    },
+    {
+      "date_from": "09/10/2024",
+      "cpt": "98941",
+      "pos": "23",
+      "charge": 195.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 1515.0,
+  "accept_assignment": true,
+  "tax_id": "56-7890123",
+  "tax_id_type": "SSN",
+  "provider_name": "Priya Patel, MD",
+  "provider_npi": "5678901234"
+}

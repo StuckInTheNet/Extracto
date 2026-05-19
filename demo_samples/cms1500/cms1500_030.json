@@ -1,0 +1,51 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Other",
+  "patient_name": "Martinez, Sam",
+  "patient_dob": "07/29/2003",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M25.512"
+  ],
+  "service_lines": [
+    {
+      "date_from": "05/23/2024",
+      "cpt": "99203",
+      "pos": "23",
+      "charge": 225.0,
+      "units": 1
+    },
+    {
+      "date_from": "05/23/2024",
+      "cpt": "72141",
+      "pos": "22",
+      "charge": 2400.0,
+      "units": 2
+    },
+    {
+      "date_from": "05/23/2024",
+      "cpt": "72040",
+      "pos": "23",
+      "charge": 525.0,
+      "units": 3
+    },
+    {
+      "date_from": "05/23/2024",
+      "cpt": "99203",
+      "pos": "12",
+      "charge": 450.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 3600.0,
+  "accept_assignment": true,
+  "tax_id": "12-3456789",
+  "tax_id_type": "SSN",
+  "provider_name": "Sarah Mitchell, MD",
+  "provider_npi": "1234567890"
+}

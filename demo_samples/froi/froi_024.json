@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Smith",
+  "employer_name": "Apex Construction Corp",
+  "injury_date": "08/05/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Neck",
+    "Thigh-L"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Repetitive Motion",
+    "Struck By Object"
+  ],
+  "treatments": [
+    "First Aid Only",
+    "None"
+  ]
+}

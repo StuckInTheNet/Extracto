@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Morgan Garcia",
+  "patient_dob": "05/01/1992",
+  "date_range_from": "10/19/2022",
+  "date_range_to": "09/23/2023",
+  "record_types": [
+    "Discharge Summaries",
+    "Lab Results"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Continuity of Care",
+    "Legal Proceedings",
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Wilson",
+  "employer_name": "Acme Transportation Corp",
+  "injury_date": "04/13/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ear-R",
+    "Elbow-R",
+    "Forearm-R"
+  ],
+  "nature_of_injury": "Laceration",
+  "causes": [
+    "Caught In/Between",
+    "Motor Vehicle"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

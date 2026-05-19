@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "United Healthcare",
+  "member_name": "Jamie Davis",
+  "claim_number": "CLM55588495",
+  "check_number": "913274",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "20610",
+    "99214",
+    "64483",
+    "98941",
+    "72141",
+    "72148"
+  ],
+  "total_billed": 3990.0,
+  "total_allowed": 2572.23,
+  "total_plan_paid": 2208.3,
+  "total_patient_resp": 363.93,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

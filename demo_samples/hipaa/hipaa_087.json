@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Riley Jones",
+  "patient_dob": "11/18/1951",
+  "date_range_from": "06/14/2022",
+  "date_range_to": "06/12/2024",
+  "record_types": [
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [
+    "Genetic Information",
+    "HIV/AIDS"
+  ],
+  "purposes": [
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

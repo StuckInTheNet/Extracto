@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Alex Rodriguez",
+  "employer_name": "Acme Construction Corp",
+  "injury_date": "09/10/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Eye-L"
+  ],
+  "nature_of_injury": "Fracture",
+  "causes": [
+    "Struck By Object"
+  ],
+  "treatments": [
+    "First Aid Only",
+    "Hospitalized"
+  ]
+}

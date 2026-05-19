@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jamie Miller",
+  "patient_dob": "08/31/1991",
+  "date_range_from": "02/17/2023",
+  "date_range_to": "09/18/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

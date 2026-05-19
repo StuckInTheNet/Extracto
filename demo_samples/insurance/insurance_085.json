@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Drew Johnson",
+    "dob": "06/10/1996",
+    "phone": "(540) 967-4378",
+    "address": [
+      "6573 Elm St",
+      "Arlington, OR 18253"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "E3569548",
+    "ins_type": "EPO",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

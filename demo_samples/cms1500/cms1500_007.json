@@ -1,0 +1,55 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicare",
+  "patient_name": "Martinez, Pat",
+  "patient_dob": "03/10/1978",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "GA",
+  "diagnoses": [
+    "T14.90XA",
+    "M54.2",
+    "M54.5",
+    "M25.511",
+    "F41.1"
+  ],
+  "service_lines": [
+    {
+      "date_from": "09/14/2024",
+      "cpt": "98941",
+      "pos": "21",
+      "charge": 65.0,
+      "units": 1
+    },
+    {
+      "date_from": "09/14/2024",
+      "cpt": "73721",
+      "pos": "11",
+      "charge": 1100.0,
+      "units": 1
+    },
+    {
+      "date_from": "09/14/2024",
+      "cpt": "72100",
+      "pos": "11",
+      "charge": 555.0,
+      "units": 3
+    },
+    {
+      "date_from": "09/14/2024",
+      "cpt": "72148",
+      "pos": "11",
+      "charge": 3750.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 5470.0,
+  "accept_assignment": false,
+  "tax_id": "34-5678901",
+  "tax_id_type": "SSN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

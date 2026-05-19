@@ -1,0 +1,49 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "FECA Blk Lung",
+  "patient_name": "Martinez, Sam",
+  "patient_dob": "04/19/1965",
+  "patient_sex": "F",
+  "relationship_to_insured": "Other",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "F41.1",
+    "M25.511",
+    "M51.26",
+    "R52",
+    "M54.2",
+    "S13.4XXA"
+  ],
+  "service_lines": [
+    {
+      "date_from": "11/25/2024",
+      "cpt": "97110",
+      "pos": "12",
+      "charge": 170.0,
+      "units": 2
+    },
+    {
+      "date_from": "11/25/2024",
+      "cpt": "72141",
+      "pos": "11",
+      "charge": 1200.0,
+      "units": 1
+    },
+    {
+      "date_from": "11/25/2024",
+      "cpt": "95910",
+      "pos": "11",
+      "charge": 950.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 2320.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "SSN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

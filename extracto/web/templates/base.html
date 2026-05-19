@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Extracto{% endblock %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ink: #0a0d1a;
+            --ink-light: #3d4460;
+            --ink-muted: #7b829a;
+            --surface: #f6f7fb;
+            --surface-raised: #ffffff;
+            --border: #dfe2ec;
+            --border-light: #eceef5;
+            --accent: #4361ee;
+            --accent-hover: #3451d1;
+            --accent-subtle: #eef1ff;
+            --accent-glow: rgba(67, 97, 238, 0.15);
+            --accent-2: #7209b7;
+            --success: #0d9f4f;
+            --success-bg: #eafbf1;
+            --warning: #c05600;
+            --warning-bg: #fef7e0;
+            --danger: #dc2626;
+            --radius: 10px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+            --shadow-sm: 0 1px 2px rgba(10, 13, 26, 0.04);
+            --shadow: 0 1px 3px rgba(10, 13, 26, 0.05), 0 4px 12px rgba(10, 13, 26, 0.03);
+            --shadow-lg: 0 4px 20px rgba(10, 13, 26, 0.07);
+            --shadow-xl: 0 8px 40px rgba(10, 13, 26, 0.1);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html { height: 100%; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--surface);
+            color: var(--ink);
+            line-height: 1.55;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ── Navigation ────────────────────────────────────────── */
+        .site-nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            background: rgba(246, 247, 251, 0.82);
+            border-bottom: 1px solid rgba(223, 226, 236, 0.6);
+        }
+        .site-nav .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--ink);
+        }
+        .logo-mark {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-2));
+            border-radius: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 800;
+            font-size: 15px;
+            letter-spacing: -0.5px;
+            box-shadow: 0 2px 8px rgba(67, 97, 238, 0.3);
+        }
+        .logo-text {
+            font-weight: 800;
+            font-size: 19px;
+            letter-spacing: -0.4px;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .nav-links a {
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--ink-light);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .nav-links a:hover { color: var(--ink); background: rgba(0,0,0,0.03); }
+        .nav-links a.active { color: var(--accent); background: var(--accent-subtle); }
+        .nav-links .nav-cta {
+            background: var(--ink);
+            color: white;
+            font-weight: 600;
+            margin-left: 12px;
+            border-radius: 8px;
+        }
+        .nav-links .nav-cta:hover { background: #1a1f33; color: white; }
+
+        /* ── Layout ────────────────────────────────────────────── */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+        .section { padding: 96px 0; }
+        .section-sm { padding: 56px 0; }
+
+        /* ── Typography ────────────────────────────────────────── */
+        h1, h2, h3 { letter-spacing: -0.025em; line-height: 1.15; }
+        h1 { font-size: 52px; font-weight: 900; }
+        h2 { font-size: 36px; font-weight: 800; }
+        h3 { font-size: 20px; font-weight: 600; }
+        .text-muted { color: var(--ink-muted); }
+        .text-light { color: var(--ink-light); }
+        .text-sm { font-size: 14px; }
+        .text-xs { font-size: 12px; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+
+        /* ── Cards ─────────────────────────────────────────────── */
+        .card {
+            background: var(--surface-raised);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            box-shadow: var(--shadow-sm);
+            transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px);
+        }
+
+        /* ── Buttons ───────────────────────────────────────────── */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: var(--radius);
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+            box-shadow: 0 1px 3px rgba(67, 97, 238, 0.25);
+        }
+        .btn-primary:hover {
+            background: var(--accent-hover);
+            box-shadow: 0 4px 14px rgba(67, 97, 238, 0.35);
+            transform: translateY(-1px);
+        }
+        .btn-secondary {
+            background: var(--surface-raised);
+            color: var(--ink);
+            border: 1px solid var(--border);
+        }
+        .btn-secondary:hover { border-color: var(--ink-muted); background: var(--surface); }
+        .btn-lg { padding: 16px 36px; font-size: 16px; border-radius: 12px; }
+        .btn-dark {
+            background: var(--ink);
+            color: white;
+        }
+        .btn-dark:hover { background: #1a1f33; }
+
+        /* ── Badges ────────────────────────────────────────────── */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+        }
+        .badge-cms1500 { background: #e8f0fe; color: #1a56db; }
+        .badge-eob { background: #fef3c7; color: #92400e; }
+        .badge-phq9 { background: #d1fae5; color: #065f46; }
+        .badge-hipaa { background: #fce7f3; color: #9d174d; }
+        .badge-froi { background: #ede9fe; color: #6d28d9; }
+        .badge-medical_intake { background: #d1fae5; color: #065f46; }
+        .badge-medical { background: #d1fae5; color: #065f46; }
+        .badge-insurance_claim { background: #fef3c7; color: #92400e; }
+        .badge-insurance { background: #fef3c7; color: #92400e; }
+        .badge-unknown { background: var(--surface); color: var(--ink-muted); }
+
+        /* ── Tables ────────────────────────────────────────────── */
+        table { width: 100%; border-collapse: collapse; }
+        th {
+            padding: 10px 14px;
+            text-align: left;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--ink-muted);
+            border-bottom: 2px solid var(--border);
+        }
+        td {
+            padding: 12px 14px;
+            font-size: 14px;
+            border-bottom: 1px solid var(--border-light);
+        }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: var(--surface); }
+
+        /* ── Forms ─────────────────────────────────────────────── */
+        input[type="text"], input[type="email"], select, textarea {
+            padding: 11px 16px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            font-size: 14px;
+            font-family: inherit;
+            background: var(--surface-raised);
+            color: var(--ink);
+            transition: all 0.2s;
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        /* ── Footer ────────────────────────────────────────────── */
+        .site-footer {
+            background: var(--ink);
+            padding: 48px 0;
+            margin-top: auto;
+        }
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-inner p { font-size: 13px; color: rgba(255,255,255,0.4); }
+        .footer-links { display: flex; gap: 24px; }
+        .footer-links a { font-size: 13px; color: rgba(255,255,255,0.5); text-decoration: none; }
+        .footer-links a:hover { color: white; }
+
+        /* ── Utilities ─────────────────────────────────────────── */
+        .flex { display: flex; }
+        .items-center { align-items: center; }
+        .justify-between { justify-content: space-between; }
+        .gap-8 { gap: 8px; }
+        .gap-12 { gap: 12px; }
+        .gap-16 { gap: 16px; }
+        .gap-24 { gap: 24px; }
+        .mt-4 { margin-top: 4px; }
+        .mt-8 { margin-top: 8px; }
+        .mt-12 { margin-top: 12px; }
+        .mt-16 { margin-top: 16px; }
+        .mt-24 { margin-top: 24px; }
+        .mt-32 { margin-top: 32px; }
+        .mb-8 { margin-bottom: 8px; }
+        .mb-12 { margin-bottom: 12px; }
+        .mb-16 { margin-bottom: 16px; }
+        .mb-24 { margin-bottom: 24px; }
+        .mb-32 { margin-bottom: 32px; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+
+        /* ── Animations ────────────────────────────────────────── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-up { animation: fadeUp 0.6s ease-out both; }
+        .fade-up-d1 { animation-delay: 0.1s; }
+        .fade-up-d2 { animation-delay: 0.2s; }
+        .fade-up-d3 { animation-delay: 0.3s; }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 32px; }
+            h2 { font-size: 26px; }
+            .section { padding: 56px 0; }
+            .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+            .site-nav .nav-inner { padding: 0 20px; }
+            .container { padding: 0 20px; }
+            .hero-grid { grid-template-columns: 1fr !important; }
+            .footer-inner { flex-direction: column; gap: 16px; text-align: center; }
+        }
+    </style>
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="/" class="logo">
+                <div class="logo-mark">Ex</div>
+                <span class="logo-text">Extracto</span>
+            </a>
+            <div class="nav-links">
+                <a href="/" class="{% if request.path == '/' %}active{% endif %}">Home</a>
+                <a href="/demo" class="{% if request.path == '/demo' %}active{% endif %}">Try It</a>
+                <a href="/explore" class="{% if request.path == '/explore' %}active{% endif %}">Explore Data</a>
+                <a href="/#contact" class="nav-cta">Get in Touch</a>
+            </div>
+        </div>
+    </nav>
+
+    <main style="flex: 1;">
+    {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <a href="/" class="logo" style="margin-bottom: 8px;">
+                    <div class="logo-mark">Ex</div>
+                    <span class="logo-text" style="color: white;">Extracto</span>
+                </a>
+                <p style="margin-top: 8px;">Intelligent document extraction for legal and medical teams.</p>
+            </div>
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="/demo">Demo</a>
+                <a href="/explore">Data Explorer</a>
+                <a href="/#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    {% block scripts %}{% endblock %}
+</body>
+</html>

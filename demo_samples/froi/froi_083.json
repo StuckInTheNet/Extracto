@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Riley Rodriguez",
+  "employer_name": "Pioneer Healthcare Corp",
+  "injury_date": "01/05/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Face"
+  ],
+  "nature_of_injury": "Fracture",
+  "causes": [
+    "Fall - Same Level"
+  ],
+  "treatments": [
+    "Hospitalized"
+  ]
+}

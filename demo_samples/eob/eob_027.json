@@ -1,0 +1,21 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Taylor Williams",
+  "claim_number": "CLM51347409",
+  "check_number": "424553",
+  "service_line_count": 2,
+  "service_line_cpts": [
+    "98941",
+    "20610"
+  ],
+  "total_billed": 365.75,
+  "total_allowed": 184.97,
+  "total_plan_paid": 44.12,
+  "total_patient_resp": 140.85,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2"
+  ]
+}

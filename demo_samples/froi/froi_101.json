@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Alex Rodriguez",
+  "employer_name": "Pioneer Construction Corp",
+  "injury_date": "11/02/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Thigh-L"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "Emergency Room"
+  ]
+}

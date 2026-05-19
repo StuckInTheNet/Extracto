@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Williams",
+  "employer_name": "Pioneer Construction Corp",
+  "injury_date": "01/14/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Lower Leg-R"
+  ],
+  "nature_of_injury": "Other",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "First Aid Only"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Morgan Davis",
+  "patient_dob": "07/11/1963",
+  "date_range_from": "07/04/2022",
+  "date_range_to": "08/10/2024",
+  "record_types": [
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [
+    "Genetic Information"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Insurance Claim",
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

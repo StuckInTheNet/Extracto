@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Riley Rodriguez",
+  "date": "02/03/2024",
+  "scores": [
+    1,
+    1,
+    2,
+    3,
+    1,
+    2,
+    2,
+    3,
+    3
+  ],
+  "total": 18,
+  "difficulty": 2,
+  "severity": "Moderately severe depression"
+}

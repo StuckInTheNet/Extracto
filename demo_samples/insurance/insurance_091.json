@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Riley Moore",
+    "dob": "06/04/1965",
+    "phone": "(581) 931-7593",
+    "address": [
+      "707 Maple Ave",
+      "Madison, AK 35029"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "D2690689",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Alex Johnson",
+  "patient_dob": "06/28/1997",
+  "date_range_from": "02/01/2023",
+  "date_range_to": "04/25/2024",
+  "record_types": [
+    "Discharge Summaries"
+  ],
+  "excluded_categories": [
+    "Genetic Information",
+    "Mental Health"
+  ],
+  "purposes": [
+    "Legal Proceedings"
+  ],
+  "expiration_type": "one_year"
+}

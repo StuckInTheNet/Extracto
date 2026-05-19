@@ -1,0 +1,28 @@
+{
+  "person": {
+    "name": "Quinn Davis",
+    "dob": "03/10/2005",
+    "phone": "(761) 610-8796",
+    "address": [
+      "6941 Pine Rd",
+      "Georgetown, RI 26433"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "654711-65",
+    "physician": "Dr. Martin",
+    "emergency_contact": "Sawyer White",
+    "emergency_phone": "(253) 616-1494",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Peanuts"
+    ],
+    "symptoms": [
+      5
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

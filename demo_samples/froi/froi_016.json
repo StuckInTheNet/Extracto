@@ -1,0 +1,21 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Rodriguez",
+  "employer_name": "Apex Warehousing Corp",
+  "injury_date": "11/22/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Forearm-R",
+    "Hip-R",
+    "Lower Leg-R",
+    "Upper Arm-R"
+  ],
+  "nature_of_injury": "Concussion",
+  "causes": [
+    "Other"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "Emergency Room"
+  ]
+}

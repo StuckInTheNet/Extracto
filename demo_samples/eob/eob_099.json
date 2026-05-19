@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Cameron Jones",
+  "claim_number": "CLM71600090",
+  "check_number": "388820",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "72148",
+    "99203",
+    "97140",
+    "72141",
+    "97110"
+  ],
+  "total_billed": 2894.75,
+  "total_allowed": 2068.64,
+  "total_plan_paid": 1879.26,
+  "total_patient_resp": 189.38,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

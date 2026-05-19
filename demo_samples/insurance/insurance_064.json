@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Rowan Hernandez",
+    "dob": "12/21/2000",
+    "phone": "(631) 290-8811",
+    "address": [
+      "883 Hickory Dr",
+      "Fairview, DE 68523"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "C6994969",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

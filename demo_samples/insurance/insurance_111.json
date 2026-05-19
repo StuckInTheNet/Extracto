@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Finley Hernandez",
+    "dob": "08/16/1940",
+    "phone": "(297) 573-1725",
+    "address": [
+      "1850 Spruce Ter",
+      "Clinton, NM 89862"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "F3218526",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": []
+}

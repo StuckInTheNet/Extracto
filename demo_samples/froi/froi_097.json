@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Riley Rodriguez",
+  "employer_name": "Pioneer Warehousing Corp",
+  "injury_date": "06/29/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Shoulder-L"
+  ],
+  "nature_of_injury": "Strain/Sprain",
+  "causes": [
+    "Repetitive Motion"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jamie Wilson",
+  "employer_name": "Acme Manufacturing Corp",
+  "injury_date": "02/01/2024",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Toes-R"
+  ],
+  "nature_of_injury": "Concussion",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "Emergency Room"
+  ]
+}

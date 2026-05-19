@@ -1,0 +1,42 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Group Health Plan",
+  "patient_name": "Garcia, Sam",
+  "patient_dob": "11/23/1967",
+  "patient_sex": "F",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "M79.2",
+    "M51.26",
+    "S22.5XXA",
+    "S13.4XXA",
+    "S42.201A",
+    "S83.511A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "05/04/2024",
+      "cpt": "99203",
+      "pos": "21",
+      "charge": 225.0,
+      "units": 1
+    },
+    {
+      "date_from": "05/04/2024",
+      "cpt": "99203",
+      "pos": "11",
+      "charge": 450.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 675.0,
+  "accept_assignment": false,
+  "tax_id": "67-8901234",
+  "tax_id_type": "EIN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

@@ -1,0 +1,58 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Other",
+  "patient_name": "Garcia, Jamie",
+  "patient_dob": "01/23/1950",
+  "patient_sex": "F",
+  "relationship_to_insured": "Child",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "IL",
+  "diagnoses": [
+    "M51.26"
+  ],
+  "service_lines": [
+    {
+      "date_from": "07/22/2024",
+      "cpt": "97110",
+      "pos": "12",
+      "charge": 85.0,
+      "units": 1
+    },
+    {
+      "date_from": "07/22/2024",
+      "cpt": "97140",
+      "pos": "23",
+      "charge": 160.0,
+      "units": 2
+    },
+    {
+      "date_from": "07/22/2024",
+      "cpt": "73721",
+      "pos": "21",
+      "charge": 1100.0,
+      "units": 1
+    },
+    {
+      "date_from": "07/22/2024",
+      "cpt": "64483",
+      "pos": "23",
+      "charge": 2550.0,
+      "units": 3
+    },
+    {
+      "date_from": "07/22/2024",
+      "cpt": "99203",
+      "pos": "11",
+      "charge": 675.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 4570.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "SSN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

@@ -1,0 +1,31 @@
+{
+  "person": {
+    "name": "Reese Davis",
+    "dob": "01/03/1968",
+    "phone": "(357) 241-4725",
+    "address": [
+      "1678 Spruce Ter",
+      "Madison, TX 70271"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "399581-78",
+    "physician": "Dr. Thomas",
+    "emergency_contact": "Reese Anderson",
+    "emergency_phone": "(824) 574-2862",
+    "smoker": false,
+    "diabetic": true,
+    "allergies": [
+      "Dust",
+      "Latex",
+      "Peanuts"
+    ],
+    "symptoms": [
+      0,
+      4
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

@@ -1,0 +1,32 @@
+{
+  "person": {
+    "name": "Reese Williams",
+    "dob": "08/28/1942",
+    "phone": "(291) 940-3879",
+    "address": [
+      "3385 Pine Rd",
+      "Arlington, WI 92201"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "171978-54",
+    "physician": "Dr. Williams",
+    "emergency_contact": "Drew Smith",
+    "emergency_phone": "(870) 470-9722",
+    "smoker": false,
+    "diabetic": true,
+    "allergies": [
+      "Dust",
+      "Shellfish",
+      "Pollen"
+    ],
+    "symptoms": [
+      3,
+      5,
+      6
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

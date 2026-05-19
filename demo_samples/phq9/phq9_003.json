@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Jamie Wilson",
+  "date": "05/14/2024",
+  "scores": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    2,
+    2,
+    3,
+    1
+  ],
+  "total": 10,
+  "difficulty": 3,
+  "severity": "Moderate depression"
+}

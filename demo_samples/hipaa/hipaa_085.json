@@ -1,0 +1,16 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Drew Rodriguez",
+  "patient_dob": "02/01/1999",
+  "date_range_from": "06/14/2022",
+  "date_range_to": "10/26/2023",
+  "record_types": [
+    "Imaging Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Continuity of Care",
+    "Legal Proceedings"
+  ],
+  "expiration_type": "one_year"
+}

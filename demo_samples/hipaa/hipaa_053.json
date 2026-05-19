@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Drew Smith",
+  "patient_dob": "10/07/1950",
+  "date_range_from": "02/04/2023",
+  "date_range_to": "06/21/2023",
+  "record_types": [
+    "Billing Records",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Mental Health"
+  ],
+  "purposes": [
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

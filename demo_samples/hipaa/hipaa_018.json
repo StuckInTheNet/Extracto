@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Avery Brown",
+  "patient_dob": "06/20/1979",
+  "date_range_from": "01/06/2022",
+  "date_range_to": "04/14/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Office Notes"
+  ],
+  "excluded_categories": [
+    "HIV/AIDS"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Insurance Claim"
+  ],
+  "expiration_type": "one_year"
+}

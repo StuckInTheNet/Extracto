@@ -1,0 +1,37 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicare",
+  "patient_name": "Williams, Jordan",
+  "patient_dob": "09/30/1979",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "CA",
+  "diagnoses": [
+    "M54.5"
+  ],
+  "service_lines": [
+    {
+      "date_from": "03/07/2024",
+      "cpt": "97110",
+      "pos": "12",
+      "charge": 170.0,
+      "units": 2
+    },
+    {
+      "date_from": "03/07/2024",
+      "cpt": "72100",
+      "pos": "21",
+      "charge": 370.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 540.0,
+  "accept_assignment": true,
+  "tax_id": "23-4567890",
+  "tax_id_type": "EIN",
+  "provider_name": "James Rodriguez, DO",
+  "provider_npi": "2345678901"
+}

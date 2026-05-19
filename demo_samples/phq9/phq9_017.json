@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Cameron Johnson",
+  "date": "12/05/2024",
+  "scores": [
+    1,
+    0,
+    0,
+    2,
+    2,
+    0,
+    3,
+    0,
+    3
+  ],
+  "total": 11,
+  "difficulty": 2,
+  "severity": "Moderate depression"
+}

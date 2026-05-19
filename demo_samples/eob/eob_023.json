@@ -1,0 +1,24 @@
+{
+  "form_type": "eob",
+  "payer_name": "Aetna Health Insurance",
+  "member_name": "Cameron Williams",
+  "claim_number": "CLM54195849",
+  "check_number": "570988",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "99213",
+    "99203",
+    "99203",
+    "20610",
+    "99203",
+    "98941"
+  ],
+  "total_billed": 1370.75,
+  "total_allowed": 912.67,
+  "total_plan_paid": 884.11,
+  "total_patient_resp": 28.56,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2"
+  ]
+}

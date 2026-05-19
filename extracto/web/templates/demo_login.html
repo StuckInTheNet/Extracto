@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}Demo Access — Extracto{% endblock %}
+
+{% block head %}
+<style>
+    .login-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: calc(100vh - 180px);
+        padding: 40px 20px;
+    }
+    .login-card {
+        width: 100%;
+        max-width: 420px;
+        padding: 40px;
+        text-align: center;
+    }
+    .login-card .logo-mark {
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+        border-radius: 12px;
+        margin: 0 auto 20px;
+    }
+    .login-card h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    .login-card .subtitle {
+        color: var(--ink-muted);
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        text-align: left;
+    }
+    .login-form input[type="password"] {
+        width: 100%;
+        padding: 12px 16px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        font-size: 15px;
+        font-family: inherit;
+        text-align: center;
+        letter-spacing: 0.05em;
+    }
+    .login-form input:focus {
+        outline: none;
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+    .login-error {
+        background: #fef2f2;
+        border: 1px solid #fecaca;
+        color: var(--danger);
+        padding: 10px 16px;
+        border-radius: var(--radius);
+        font-size: 13px;
+        text-align: center;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="login-page">
+    <div class="card login-card">
+        <div class="logo-mark" style="display: flex;">Ex</div>
+        <h1>Demo Access</h1>
+        <p class="subtitle">Enter the password to try the live extraction demo.</p>
+
+        {% if error %}
+        <div class="login-error mb-16">{{ error }}</div>
+        {% endif %}
+
+        <form class="login-form" method="post">
+            <input type="password" name="password" placeholder="Password" autofocus required>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Enter Demo</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

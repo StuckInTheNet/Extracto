@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Cameron Miller",
+  "patient_dob": "03/12/1983",
+  "date_range_from": "12/14/2022",
+  "date_range_to": "08/28/2023",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

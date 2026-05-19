@@ -1,0 +1,444 @@
+{
+  "froi": [
+    {
+      "pdf": "demo_samples/froi/froi_001.pdf",
+      "json": "demo_samples/froi/froi_001.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_002.pdf",
+      "json": "demo_samples/froi/froi_002.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_003.pdf",
+      "json": "demo_samples/froi/froi_003.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_004.pdf",
+      "json": "demo_samples/froi/froi_004.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_005.pdf",
+      "json": "demo_samples/froi/froi_005.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_006.pdf",
+      "json": "demo_samples/froi/froi_006.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_007.pdf",
+      "json": "demo_samples/froi/froi_007.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_008.pdf",
+      "json": "demo_samples/froi/froi_008.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_009.pdf",
+      "json": "demo_samples/froi/froi_009.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_010.pdf",
+      "json": "demo_samples/froi/froi_010.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_011.pdf",
+      "json": "demo_samples/froi/froi_011.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_012.pdf",
+      "json": "demo_samples/froi/froi_012.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_013.pdf",
+      "json": "demo_samples/froi/froi_013.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_014.pdf",
+      "json": "demo_samples/froi/froi_014.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_015.pdf",
+      "json": "demo_samples/froi/froi_015.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_016.pdf",
+      "json": "demo_samples/froi/froi_016.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_017.pdf",
+      "json": "demo_samples/froi/froi_017.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_018.pdf",
+      "json": "demo_samples/froi/froi_018.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_019.pdf",
+      "json": "demo_samples/froi/froi_019.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_020.pdf",
+      "json": "demo_samples/froi/froi_020.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_021.pdf",
+      "json": "demo_samples/froi/froi_021.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_022.pdf",
+      "json": "demo_samples/froi/froi_022.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_023.pdf",
+      "json": "demo_samples/froi/froi_023.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_024.pdf",
+      "json": "demo_samples/froi/froi_024.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_025.pdf",
+      "json": "demo_samples/froi/froi_025.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_026.pdf",
+      "json": "demo_samples/froi/froi_026.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_027.pdf",
+      "json": "demo_samples/froi/froi_027.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_028.pdf",
+      "json": "demo_samples/froi/froi_028.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_029.pdf",
+      "json": "demo_samples/froi/froi_029.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_030.pdf",
+      "json": "demo_samples/froi/froi_030.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_031.pdf",
+      "json": "demo_samples/froi/froi_031.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_032.pdf",
+      "json": "demo_samples/froi/froi_032.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_033.pdf",
+      "json": "demo_samples/froi/froi_033.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_034.pdf",
+      "json": "demo_samples/froi/froi_034.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_035.pdf",
+      "json": "demo_samples/froi/froi_035.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_036.pdf",
+      "json": "demo_samples/froi/froi_036.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_037.pdf",
+      "json": "demo_samples/froi/froi_037.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_038.pdf",
+      "json": "demo_samples/froi/froi_038.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_039.pdf",
+      "json": "demo_samples/froi/froi_039.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_040.pdf",
+      "json": "demo_samples/froi/froi_040.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_041.pdf",
+      "json": "demo_samples/froi/froi_041.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_042.pdf",
+      "json": "demo_samples/froi/froi_042.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_043.pdf",
+      "json": "demo_samples/froi/froi_043.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_044.pdf",
+      "json": "demo_samples/froi/froi_044.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_045.pdf",
+      "json": "demo_samples/froi/froi_045.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_046.pdf",
+      "json": "demo_samples/froi/froi_046.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_047.pdf",
+      "json": "demo_samples/froi/froi_047.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_048.pdf",
+      "json": "demo_samples/froi/froi_048.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_049.pdf",
+      "json": "demo_samples/froi/froi_049.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_050.pdf",
+      "json": "demo_samples/froi/froi_050.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_051.pdf",
+      "json": "demo_samples/froi/froi_051.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_052.pdf",
+      "json": "demo_samples/froi/froi_052.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_053.pdf",
+      "json": "demo_samples/froi/froi_053.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_054.pdf",
+      "json": "demo_samples/froi/froi_054.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_055.pdf",
+      "json": "demo_samples/froi/froi_055.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_056.pdf",
+      "json": "demo_samples/froi/froi_056.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_057.pdf",
+      "json": "demo_samples/froi/froi_057.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_058.pdf",
+      "json": "demo_samples/froi/froi_058.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_059.pdf",
+      "json": "demo_samples/froi/froi_059.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_060.pdf",
+      "json": "demo_samples/froi/froi_060.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_061.pdf",
+      "json": "demo_samples/froi/froi_061.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_062.pdf",
+      "json": "demo_samples/froi/froi_062.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_063.pdf",
+      "json": "demo_samples/froi/froi_063.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_064.pdf",
+      "json": "demo_samples/froi/froi_064.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_065.pdf",
+      "json": "demo_samples/froi/froi_065.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_066.pdf",
+      "json": "demo_samples/froi/froi_066.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_067.pdf",
+      "json": "demo_samples/froi/froi_067.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_068.pdf",
+      "json": "demo_samples/froi/froi_068.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_069.pdf",
+      "json": "demo_samples/froi/froi_069.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_070.pdf",
+      "json": "demo_samples/froi/froi_070.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_071.pdf",
+      "json": "demo_samples/froi/froi_071.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_072.pdf",
+      "json": "demo_samples/froi/froi_072.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_073.pdf",
+      "json": "demo_samples/froi/froi_073.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_074.pdf",
+      "json": "demo_samples/froi/froi_074.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_075.pdf",
+      "json": "demo_samples/froi/froi_075.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_076.pdf",
+      "json": "demo_samples/froi/froi_076.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_077.pdf",
+      "json": "demo_samples/froi/froi_077.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_078.pdf",
+      "json": "demo_samples/froi/froi_078.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_079.pdf",
+      "json": "demo_samples/froi/froi_079.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_080.pdf",
+      "json": "demo_samples/froi/froi_080.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_081.pdf",
+      "json": "demo_samples/froi/froi_081.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_082.pdf",
+      "json": "demo_samples/froi/froi_082.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_083.pdf",
+      "json": "demo_samples/froi/froi_083.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_084.pdf",
+      "json": "demo_samples/froi/froi_084.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_085.pdf",
+      "json": "demo_samples/froi/froi_085.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_086.pdf",
+      "json": "demo_samples/froi/froi_086.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_087.pdf",
+      "json": "demo_samples/froi/froi_087.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_088.pdf",
+      "json": "demo_samples/froi/froi_088.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_089.pdf",
+      "json": "demo_samples/froi/froi_089.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_090.pdf",
+      "json": "demo_samples/froi/froi_090.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_091.pdf",
+      "json": "demo_samples/froi/froi_091.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_092.pdf",
+      "json": "demo_samples/froi/froi_092.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_093.pdf",
+      "json": "demo_samples/froi/froi_093.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_094.pdf",
+      "json": "demo_samples/froi/froi_094.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_095.pdf",
+      "json": "demo_samples/froi/froi_095.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_096.pdf",
+      "json": "demo_samples/froi/froi_096.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_097.pdf",
+      "json": "demo_samples/froi/froi_097.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_098.pdf",
+      "json": "demo_samples/froi/froi_098.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_099.pdf",
+      "json": "demo_samples/froi/froi_099.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_100.pdf",
+      "json": "demo_samples/froi/froi_100.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_101.pdf",
+      "json": "demo_samples/froi/froi_101.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_102.pdf",
+      "json": "demo_samples/froi/froi_102.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_103.pdf",
+      "json": "demo_samples/froi/froi_103.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_104.pdf",
+      "json": "demo_samples/froi/froi_104.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_105.pdf",
+      "json": "demo_samples/froi/froi_105.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_106.pdf",
+      "json": "demo_samples/froi/froi_106.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_107.pdf",
+      "json": "demo_samples/froi/froi_107.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_108.pdf",
+      "json": "demo_samples/froi/froi_108.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_109.pdf",
+      "json": "demo_samples/froi/froi_109.json"
+    },
+    {
+      "pdf": "demo_samples/froi/froi_110.pdf",
+      "json": "demo_samples/froi/froi_110.json"
+    }
+  ]
+}

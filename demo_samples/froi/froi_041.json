@@ -1,0 +1,22 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Rodriguez",
+  "employer_name": "Summit Construction Corp",
+  "injury_date": "01/23/2023",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Ear-L",
+    "Face",
+    "Head",
+    "Toes-L"
+  ],
+  "nature_of_injury": "Fracture",
+  "causes": [
+    "Caught In/Between"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "First Aid Only",
+    "Hospitalized"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "form_type": "eob",
+  "payer_name": "Kaiser Permanente",
+  "member_name": "Morgan Miller",
+  "claim_number": "CLM80839007",
+  "check_number": "740051",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "72141",
+    "72100",
+    "72148",
+    "99203",
+    "20610"
+  ],
+  "total_billed": 3475.0,
+  "total_allowed": 2343.79,
+  "total_plan_paid": 2031.48,
+  "total_patient_resp": 312.31,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2"
+  ]
+}

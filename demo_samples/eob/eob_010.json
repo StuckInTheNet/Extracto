@@ -1,0 +1,22 @@
+{
+  "form_type": "eob",
+  "payer_name": "United Healthcare",
+  "member_name": "Jamie Rodriguez",
+  "claim_number": "CLM74030858",
+  "check_number": "414164",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "64483",
+    "95910",
+    "72148"
+  ],
+  "total_billed": 2565.0,
+  "total_allowed": 1621.91,
+  "total_plan_paid": 1490.34,
+  "total_patient_resp": 131.57,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Emerson Jackson",
+    "dob": "01/09/2002",
+    "phone": "(471) 290-2017",
+    "address": [
+      "1265 Willow Way",
+      "Madison, RI 38378"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "177503-42",
+    "physician": "Dr. Jackson",
+    "emergency_contact": "Taylor Brown",
+    "emergency_phone": "(610) 210-5635",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "None Known"
+    ],
+    "symptoms": [
+      0,
+      1,
+      2
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

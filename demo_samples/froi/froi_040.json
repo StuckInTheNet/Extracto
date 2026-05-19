@@ -1,0 +1,22 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Brown",
+  "employer_name": "Summit Retail Trade Corp",
+  "injury_date": "05/23/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Elbow-R",
+    "Face",
+    "Multiple",
+    "Upper Arm-R"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Chemical Exposure",
+    "Struck By Object"
+  ],
+  "treatments": [
+    "First Aid Only",
+    "Hospitalized"
+  ]
+}

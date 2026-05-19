@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Finley Rodriguez",
+    "dob": "05/06/2001",
+    "phone": "(903) 888-4809",
+    "address": [
+      "3766 Hickory Dr",
+      "Arlington, WV 53333"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "A2687290",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

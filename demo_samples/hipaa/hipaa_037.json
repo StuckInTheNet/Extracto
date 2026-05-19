@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Taylor Davis",
+  "patient_dob": "10/15/1997",
+  "date_range_from": "10/23/2022",
+  "date_range_to": "06/05/2023",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Insurance Claim"
+  ],
+  "expiration_type": "specific_date"
+}

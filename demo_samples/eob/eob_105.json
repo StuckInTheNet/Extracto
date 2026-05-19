@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "Blue Cross Blue Shield",
+  "member_name": "Casey Wilson",
+  "claim_number": "CLM28021013",
+  "check_number": "391636",
+  "service_line_count": 4,
+  "service_line_cpts": [
+    "95910",
+    "72100",
+    "99203",
+    "97110"
+  ],
+  "total_billed": 1078.25,
+  "total_allowed": 715.38,
+  "total_plan_paid": 506.41,
+  "total_patient_resp": 208.97,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

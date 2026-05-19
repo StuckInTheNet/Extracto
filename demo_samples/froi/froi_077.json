@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Smith",
+  "employer_name": "Pioneer Retail Trade Corp",
+  "injury_date": "01/25/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ear-R"
+  ],
+  "nature_of_injury": "Concussion",
+  "causes": [
+    "Caught In/Between"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

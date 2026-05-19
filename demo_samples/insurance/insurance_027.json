@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Skyler Miller",
+    "dob": "02/13/1993",
+    "phone": "(362) 388-7965",
+    "address": [
+      "7182 Willow Way",
+      "Madison, NV 77486"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "E4266796",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

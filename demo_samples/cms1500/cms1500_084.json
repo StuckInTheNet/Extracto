@@ -1,0 +1,46 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Williams, Alex",
+  "patient_dob": "10/15/1986",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "S39.012A",
+    "M79.2",
+    "S83.511A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "06/16/2024",
+      "cpt": "99213",
+      "pos": "21",
+      "charge": 250.0,
+      "units": 2
+    },
+    {
+      "date_from": "06/16/2024",
+      "cpt": "97112",
+      "pos": "22",
+      "charge": 180.0,
+      "units": 2
+    },
+    {
+      "date_from": "06/16/2024",
+      "cpt": "20610",
+      "pos": "21",
+      "charge": 320.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 750.0,
+  "accept_assignment": true,
+  "tax_id": "67-8901234",
+  "tax_id_type": "SSN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

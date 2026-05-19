@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Cameron Brown",
+  "employer_name": "Acme Construction Corp",
+  "injury_date": "10/28/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Abdomen",
+    "Head"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Caught In/Between"
+  ],
+  "treatments": [
+    "Emergency Room",
+    "Hospitalized"
+  ]
+}

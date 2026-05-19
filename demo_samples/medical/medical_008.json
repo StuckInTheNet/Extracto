@@ -1,0 +1,31 @@
+{
+  "person": {
+    "name": "Quinn White",
+    "dob": "01/15/1946",
+    "phone": "(599) 228-2698",
+    "address": [
+      "1395 Pine Rd",
+      "Franklin, VT 23096"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "490604-74",
+    "physician": "Dr. Rodriguez",
+    "emergency_contact": "Hayden Martin",
+    "emergency_phone": "(854) 597-1982",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "None Known"
+    ],
+    "symptoms": [
+      3,
+      5,
+      6,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

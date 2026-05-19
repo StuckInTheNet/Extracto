@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Taylor Davis",
+  "employer_name": "Pioneer Healthcare Corp",
+  "injury_date": "02/12/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Lower Leg-R"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "Hospitalized",
+    "None"
+  ]
+}

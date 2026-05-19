@@ -1,0 +1,21 @@
+{
+  "form_type": "eob",
+  "payer_name": "Kaiser Permanente",
+  "member_name": "Taylor Wilson",
+  "claim_number": "CLM25074747",
+  "check_number": "867180",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "97140",
+    "72100",
+    "95910"
+  ],
+  "total_billed": 872.0,
+  "total_allowed": 524.85,
+  "total_plan_paid": 512.5,
+  "total_patient_resp": 12.35,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2"
+  ]
+}

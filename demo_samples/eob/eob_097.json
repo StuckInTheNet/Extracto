@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Jamie Garcia",
+  "claim_number": "CLM52020192",
+  "check_number": "986887",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "20610",
+    "20610",
+    "97110",
+    "99203",
+    "64483",
+    "72141"
+  ],
+  "total_billed": 3205.5,
+  "total_allowed": 1876.18,
+  "total_plan_paid": 1687.2,
+  "total_patient_resp": 188.98,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Miller, Chris",
+  "patient_dob": "10/29/2001",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "GA",
+  "diagnoses": [
+    "S06.0X0A",
+    "M25.511",
+    "G44.311"
+  ],
+  "service_lines": [
+    {
+      "date_from": "09/20/2024",
+      "cpt": "73721",
+      "pos": "11",
+      "charge": 2200.0,
+      "units": 2
+    },
+    {
+      "date_from": "09/20/2024",
+      "cpt": "72141",
+      "pos": "11",
+      "charge": 2400.0,
+      "units": 2
+    },
+    {
+      "date_from": "09/20/2024",
+      "cpt": "97110",
+      "pos": "22",
+      "charge": 85.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 4685.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "SSN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

@@ -1,0 +1,53 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "FECA Blk Lung",
+  "patient_name": "Davis, Kelly",
+  "patient_dob": "01/31/1971",
+  "patient_sex": "M",
+  "relationship_to_insured": "Child",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "R51.9",
+    "M54.2",
+    "M62.830"
+  ],
+  "service_lines": [
+    {
+      "date_from": "03/17/2024",
+      "cpt": "95910",
+      "pos": "21",
+      "charge": 1425.0,
+      "units": 3
+    },
+    {
+      "date_from": "03/17/2024",
+      "cpt": "99203",
+      "pos": "22",
+      "charge": 675.0,
+      "units": 3
+    },
+    {
+      "date_from": "03/17/2024",
+      "cpt": "95910",
+      "pos": "12",
+      "charge": 475.0,
+      "units": 1
+    },
+    {
+      "date_from": "03/17/2024",
+      "cpt": "64483",
+      "pos": "12",
+      "charge": 1700.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 4275.0,
+  "accept_assignment": true,
+  "tax_id": "23-4567890",
+  "tax_id_type": "EIN",
+  "provider_name": "James Rodriguez, DO",
+  "provider_npi": "2345678901"
+}

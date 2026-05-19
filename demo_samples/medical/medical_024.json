@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Reese Miller",
+    "dob": "10/20/1972",
+    "phone": "(882) 258-6974",
+    "address": [
+      "8810 Cedar Ln",
+      "Fairview, KS 44175"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "954837-14",
+    "physician": "Dr. Garcia",
+    "emergency_contact": "Taylor Williams",
+    "emergency_phone": "(923) 574-9667",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "None Known"
+    ],
+    "symptoms": [
+      2,
+      3,
+      4
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

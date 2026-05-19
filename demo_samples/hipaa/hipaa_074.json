@@ -1,0 +1,21 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Taylor Davis",
+  "patient_dob": "10/18/1977",
+  "date_range_from": "08/09/2022",
+  "date_range_to": "09/06/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "HIV/AIDS",
+    "Mental Health"
+  ],
+  "purposes": [
+    "Legal Proceedings",
+    "Personal Use"
+  ],
+  "expiration_type": "one_year"
+}

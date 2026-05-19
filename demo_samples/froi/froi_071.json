@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Garcia",
+  "employer_name": "Apex Transportation Corp",
+  "injury_date": "02/06/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ankle-L",
+    "Hip-R",
+    "Lower Leg-L"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Fall - From Height",
+    "Fall - Same Level"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

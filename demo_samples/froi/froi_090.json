@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Garcia",
+  "employer_name": "Summit Retail Trade Corp",
+  "injury_date": "06/02/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ankle-R"
+  ],
+  "nature_of_injury": "Strain/Sprain",
+  "causes": [
+    "Lifting"
+  ],
+  "treatments": [
+    "Emergency Room",
+    "First Aid Only",
+    "None"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Drew Brown",
+  "patient_dob": "02/10/1951",
+  "date_range_from": "01/25/2022",
+  "date_range_to": "04/14/2024",
+  "record_types": [
+    "Discharge Summaries"
+  ],
+  "excluded_categories": [
+    "HIV/AIDS",
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Personal Use"
+  ],
+  "expiration_type": "one_year"
+}

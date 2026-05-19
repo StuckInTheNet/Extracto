@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Alex Jones",
+  "employer_name": "Pioneer Retail Trade Corp",
+  "injury_date": "08/10/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Head"
+  ],
+  "nature_of_injury": "Other",
+  "causes": [
+    "Caught In/Between",
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "Hospitalized"
+  ]
+}

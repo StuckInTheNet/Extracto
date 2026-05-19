@@ -1,0 +1,31 @@
+{
+  "person": {
+    "name": "Skyler Johnson",
+    "dob": "06/03/1962",
+    "phone": "(824) 585-8354",
+    "address": [
+      "112 Pine Rd",
+      "Franklin, KS 59208"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "239416-98",
+    "physician": "Dr. Wilson",
+    "emergency_contact": "Jordan Anderson",
+    "emergency_phone": "(563) 427-7961",
+    "smoker": false,
+    "diabetic": true,
+    "allergies": [
+      "Latex",
+      "Dust",
+      "Penicillin"
+    ],
+    "symptoms": [
+      6,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

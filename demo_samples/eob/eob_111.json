@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Jordan Davis",
+  "claim_number": "CLM29214803",
+  "check_number": "645316",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "98941",
+    "97110",
+    "95910",
+    "95910",
+    "97110"
+  ],
+  "total_billed": 1346.75,
+  "total_allowed": 808.95,
+  "total_plan_paid": 687.46,
+  "total_patient_resp": 206.36,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

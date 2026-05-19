@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Drew Johnson",
+  "employer_name": "Apex Healthcare Corp",
+  "injury_date": "10/26/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Hand-L",
+    "Knee-R",
+    "Thigh-L"
+  ],
+  "nature_of_injury": "Fracture",
+  "causes": [
+    "Repetitive Motion"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

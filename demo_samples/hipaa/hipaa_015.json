@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Drew Miller",
+  "patient_dob": "05/04/2000",
+  "date_range_from": "02/17/2023",
+  "date_range_to": "02/17/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Insurance Claim",
+    "Personal Use"
+  ],
+  "expiration_type": "one_year"
+}

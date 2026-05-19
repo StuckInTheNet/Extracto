@@ -1,0 +1,32 @@
+{
+  "person": {
+    "name": "Peyton Davis",
+    "dob": "10/09/1943",
+    "phone": "(355) 805-6205",
+    "address": [
+      "5274 Spruce Ter",
+      "Clinton, IN 67133"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "585776-95",
+    "physician": "Dr. Jones",
+    "emergency_contact": "Peyton Miller",
+    "emergency_phone": "(837) 940-5860",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "Shellfish",
+      "Penicillin",
+      "Latex"
+    ],
+    "symptoms": [
+      0,
+      5,
+      6
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

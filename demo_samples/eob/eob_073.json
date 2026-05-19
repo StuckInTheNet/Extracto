@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Blue Cross Blue Shield",
+  "member_name": "Casey Williams",
+  "claim_number": "CLM48243447",
+  "check_number": "778604",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "20610",
+    "99203",
+    "99213",
+    "97140",
+    "98941",
+    "99213"
+  ],
+  "total_billed": 1042.25,
+  "total_allowed": 611.11,
+  "total_plan_paid": 285.69,
+  "total_patient_resp": 426.82,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

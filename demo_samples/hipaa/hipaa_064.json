@@ -1,0 +1,16 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jamie Williams",
+  "patient_dob": "04/21/1964",
+  "date_range_from": "09/06/2022",
+  "date_range_to": "07/06/2024",
+  "record_types": [
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Legal Proceedings",
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

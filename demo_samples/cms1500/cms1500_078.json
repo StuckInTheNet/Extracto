@@ -1,0 +1,38 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "FECA Blk Lung",
+  "patient_name": "Smith, Alex",
+  "patient_dob": "10/28/1980",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "S39.012A",
+    "G44.311"
+  ],
+  "service_lines": [
+    {
+      "date_from": "08/07/2024",
+      "cpt": "72040",
+      "pos": "11",
+      "charge": 525.0,
+      "units": 3
+    },
+    {
+      "date_from": "08/07/2024",
+      "cpt": "99203",
+      "pos": "22",
+      "charge": 450.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 975.0,
+  "accept_assignment": true,
+  "tax_id": "56-7890123",
+  "tax_id_type": "EIN",
+  "provider_name": "Priya Patel, MD",
+  "provider_npi": "5678901234"
+}

@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "Aetna Health Insurance",
+  "member_name": "Casey Rodriguez",
+  "claim_number": "CLM52539471",
+  "check_number": "460549",
+  "service_line_count": 4,
+  "service_line_cpts": [
+    "64483",
+    "97140",
+    "72148",
+    "99214"
+  ],
+  "total_billed": 2588.0,
+  "total_allowed": 1559.18,
+  "total_plan_paid": 1315.32,
+  "total_patient_resp": 243.86,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2"
+  ]
+}

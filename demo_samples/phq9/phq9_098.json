@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Alex Miller",
+  "date": "09/28/2024",
+  "scores": [
+    0,
+    2,
+    3,
+    3,
+    2,
+    1,
+    2,
+    1,
+    2
+  ],
+  "total": 16,
+  "difficulty": 2,
+  "severity": "Moderately severe depression"
+}

@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Garcia",
+  "employer_name": "Acme Construction Corp",
+  "injury_date": "10/03/2022",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Chest",
+    "Face",
+    "Internal"
+  ],
+  "nature_of_injury": "Puncture",
+  "causes": [
+    "Fall - From Height",
+    "Other"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

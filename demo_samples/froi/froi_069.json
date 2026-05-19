@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Taylor Rodriguez",
+  "employer_name": "Summit Transportation Corp",
+  "injury_date": "06/10/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Forearm-R"
+  ],
+  "nature_of_injury": "Puncture",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "First Aid Only"
+  ]
+}

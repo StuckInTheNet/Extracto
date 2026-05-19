@@ -1,0 +1,33 @@
+{
+  "person": {
+    "name": "Hayden Smith",
+    "dob": "09/30/2000",
+    "phone": "(337) 476-6651",
+    "address": [
+      "5983 Spruce Ter",
+      "Salem, MN 24673"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "138855-26",
+    "physician": "Dr. Brown",
+    "emergency_contact": "Casey Thompson",
+    "emergency_phone": "(883) 313-6237",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "Pollen",
+      "Shellfish",
+      "Latex"
+    ],
+    "symptoms": [
+      3,
+      4,
+      6,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

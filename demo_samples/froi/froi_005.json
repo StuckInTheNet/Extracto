@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jordan Rodriguez",
+  "employer_name": "Summit Retail Trade Corp",
+  "injury_date": "09/28/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Hand-L",
+    "Lower Leg-R",
+    "Thigh-L"
+  ],
+  "nature_of_injury": "Other",
+  "causes": [
+    "Struck Against Object"
+  ],
+  "treatments": [
+    "First Aid Only",
+    "Hospitalized"
+  ]
+}

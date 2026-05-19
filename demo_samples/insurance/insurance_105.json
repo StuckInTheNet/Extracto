@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Jordan Jones",
+    "dob": "05/08/1959",
+    "phone": "(831) 803-4764",
+    "address": [
+      "4232 Elm St",
+      "Clinton, AK 62577"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "A7339201",
+    "ins_type": "EPO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

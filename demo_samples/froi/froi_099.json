@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Rodriguez",
+  "employer_name": "Apex Transportation Corp",
+  "injury_date": "09/08/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Back-Upper",
+    "Face",
+    "Internal"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Other"
+  ],
+  "treatments": [
+    "Emergency Room"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Cameron Smith",
+  "patient_dob": "07/02/1972",
+  "date_range_from": "06/06/2022",
+  "date_range_to": "05/16/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [
+    "Genetic Information"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Legal Proceedings"
+  ],
+  "expiration_type": "one_year"
+}

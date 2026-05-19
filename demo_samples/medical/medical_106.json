@@ -1,0 +1,28 @@
+{
+  "person": {
+    "name": "Jamie Davis",
+    "dob": "08/03/1986",
+    "phone": "(344) 331-3223",
+    "address": [
+      "2338 Elm St",
+      "Springfield, AZ 51879"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "715625-26",
+    "physician": "Dr. Miller",
+    "emergency_contact": "Morgan Johnson",
+    "emergency_phone": "(581) 586-3291",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "None Known"
+    ],
+    "symptoms": [
+      1
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

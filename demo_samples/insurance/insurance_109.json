@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Taylor Johnson",
+    "dob": "02/20/1964",
+    "phone": "(615) 625-3156",
+    "address": [
+      "7742 Birch Blvd",
+      "Springfield, WY 22802"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "B7807418",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

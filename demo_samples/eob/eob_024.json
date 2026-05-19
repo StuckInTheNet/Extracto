@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Cameron Garcia",
+  "claim_number": "CLM34692904",
+  "check_number": "993522",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "95910",
+    "99214",
+    "72148",
+    "98941",
+    "72100",
+    "97140"
+  ],
+  "total_billed": 2313.75,
+  "total_allowed": 1548.3,
+  "total_plan_paid": 1172.02,
+  "total_patient_resp": 546.15,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

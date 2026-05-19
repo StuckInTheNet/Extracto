@@ -1,0 +1,21 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Jamie Wilson",
+  "claim_number": "CLM41338443",
+  "check_number": "309385",
+  "service_line_count": 2,
+  "service_line_cpts": [
+    "72141",
+    "72148"
+  ],
+  "total_billed": 2815.0,
+  "total_allowed": 1766.22,
+  "total_plan_paid": 1364.98,
+  "total_patient_resp": 401.24,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

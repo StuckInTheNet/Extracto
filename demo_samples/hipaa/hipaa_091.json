@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Avery Wilson",
+  "patient_dob": "05/22/2000",
+  "date_range_from": "02/24/2023",
+  "date_range_to": "11/11/2023",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports"
+  ],
+  "excluded_categories": [
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

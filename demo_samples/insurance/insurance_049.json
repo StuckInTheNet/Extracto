@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Casey Smith",
+    "dob": "10/25/1978",
+    "phone": "(278) 704-4461",
+    "address": [
+      "5234 Willow Way",
+      "Fairview, CT 63468"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "A3821306",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

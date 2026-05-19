@@ -1,0 +1,28 @@
+{
+  "person": {
+    "name": "Riley Moore",
+    "dob": "05/25/1985",
+    "phone": "(877) 413-2950",
+    "address": [
+      "5917 Spruce Ter",
+      "Madison, MO 69376"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "267947-86",
+    "physician": "Dr. Jones",
+    "emergency_contact": "Reese Garcia",
+    "emergency_phone": "(306) 721-7447",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "Pollen"
+    ],
+    "symptoms": [
+      5
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

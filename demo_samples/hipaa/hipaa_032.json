@@ -1,0 +1,16 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jordan Miller",
+  "patient_dob": "12/14/1985",
+  "date_range_from": "11/06/2022",
+  "date_range_to": "08/07/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Office Notes"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Legal Proceedings"
+  ],
+  "expiration_type": "one_year"
+}

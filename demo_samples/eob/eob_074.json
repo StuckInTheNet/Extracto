@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "Cigna HealthCare",
+  "member_name": "Jordan Garcia",
+  "claim_number": "CLM50320166",
+  "check_number": "982416",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "98941",
+    "72148",
+    "72141",
+    "72141",
+    "95910"
+  ],
+  "total_billed": 4375.5,
+  "total_allowed": 2734.18,
+  "total_plan_paid": 2358.22,
+  "total_patient_resp": 375.96,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2"
+  ]
+}

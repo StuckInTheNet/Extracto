@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Peyton Hernandez",
+    "dob": "05/31/1960",
+    "phone": "(892) 302-3838",
+    "address": [
+      "3627 Elm St",
+      "Fairview, WY 79601"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "E1645558",
+    "ins_type": "EPO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

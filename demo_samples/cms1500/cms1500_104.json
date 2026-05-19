@@ -1,0 +1,34 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Group Health Plan",
+  "patient_name": "Jones, Taylor",
+  "patient_dob": "07/15/1953",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "S83.511A",
+    "R51.9",
+    "M62.830",
+    "T14.90XA",
+    "F32.9"
+  ],
+  "service_lines": [
+    {
+      "date_from": "05/24/2024",
+      "cpt": "99213",
+      "pos": "11",
+      "charge": 250.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 250.0,
+  "accept_assignment": true,
+  "tax_id": "67-8901234",
+  "tax_id_type": "EIN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

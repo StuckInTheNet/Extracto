@@ -1,0 +1,22 @@
+{
+  "form_type": "eob",
+  "payer_name": "Aetna Health Insurance",
+  "member_name": "Cameron Wilson",
+  "claim_number": "CLM11655896",
+  "check_number": "222400",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "97140",
+    "95910",
+    "95910"
+  ],
+  "total_billed": 1022.25,
+  "total_allowed": 739.41,
+  "total_plan_paid": 563.59,
+  "total_patient_resp": 175.82,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

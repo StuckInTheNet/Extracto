@@ -1,0 +1,63 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "TRICARE",
+  "patient_name": "Martinez, Pat",
+  "patient_dob": "12/20/1999",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "R51.9",
+    "M54.5",
+    "S42.201A",
+    "G44.311",
+    "R52",
+    "M62.830"
+  ],
+  "service_lines": [
+    {
+      "date_from": "07/04/2024",
+      "cpt": "72100",
+      "pos": "22",
+      "charge": 555.0,
+      "units": 3
+    },
+    {
+      "date_from": "07/04/2024",
+      "cpt": "99203",
+      "pos": "22",
+      "charge": 450.0,
+      "units": 2
+    },
+    {
+      "date_from": "07/04/2024",
+      "cpt": "95910",
+      "pos": "22",
+      "charge": 475.0,
+      "units": 1
+    },
+    {
+      "date_from": "07/04/2024",
+      "cpt": "97140",
+      "pos": "12",
+      "charge": 240.0,
+      "units": 3
+    },
+    {
+      "date_from": "07/04/2024",
+      "cpt": "99214",
+      "pos": "23",
+      "charge": 350.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 2070.0,
+  "accept_assignment": false,
+  "tax_id": "45-6789012",
+  "tax_id_type": "EIN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

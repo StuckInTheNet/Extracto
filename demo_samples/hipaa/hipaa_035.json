@@ -1,0 +1,21 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Avery Miller",
+  "patient_dob": "04/16/1978",
+  "date_range_from": "11/08/2022",
+  "date_range_to": "03/26/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Lab Results",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Other"
+  ],
+  "expiration_type": "specific_date"
+}

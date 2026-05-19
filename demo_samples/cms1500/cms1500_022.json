@@ -1,0 +1,32 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "TRICARE",
+  "patient_name": "Miller, Drew",
+  "patient_dob": "01/02/1979",
+  "patient_sex": "M",
+  "relationship_to_insured": "Child",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "OH",
+  "diagnoses": [
+    "S06.0X0A",
+    "R52",
+    "M54.2"
+  ],
+  "service_lines": [
+    {
+      "date_from": "03/23/2024",
+      "cpt": "97112",
+      "pos": "12",
+      "charge": 270.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 270.0,
+  "accept_assignment": true,
+  "tax_id": "45-6789012",
+  "tax_id_type": "SSN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

@@ -1,0 +1,21 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Taylor Williams",
+  "patient_dob": "09/20/1960",
+  "date_range_from": "01/31/2022",
+  "date_range_to": "10/20/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [
+    "Mental Health"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Other"
+  ],
+  "expiration_type": "specific_date"
+}

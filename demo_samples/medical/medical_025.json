@@ -1,0 +1,28 @@
+{
+  "person": {
+    "name": "Reese Miller",
+    "dob": "02/14/1950",
+    "phone": "(445) 213-8425",
+    "address": [
+      "4624 Pine Rd",
+      "Fairview, MO 87136"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "378601-33",
+    "physician": "Dr. Taylor",
+    "emergency_contact": "Casey Wilson",
+    "emergency_phone": "(253) 883-5338",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "Shellfish"
+    ],
+    "symptoms": [
+      4
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

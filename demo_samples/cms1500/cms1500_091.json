@@ -1,0 +1,70 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "FECA Blk Lung",
+  "patient_name": "Miller, Morgan",
+  "patient_dob": "01/23/1965",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "PA",
+  "diagnoses": [
+    "S39.012A",
+    "M51.26",
+    "M79.2",
+    "S22.5XXA",
+    "F41.1",
+    "F32.9"
+  ],
+  "service_lines": [
+    {
+      "date_from": "10/14/2024",
+      "cpt": "20610",
+      "pos": "21",
+      "charge": 640.0,
+      "units": 2
+    },
+    {
+      "date_from": "10/14/2024",
+      "cpt": "72040",
+      "pos": "21",
+      "charge": 175.0,
+      "units": 1
+    },
+    {
+      "date_from": "10/14/2024",
+      "cpt": "97140",
+      "pos": "23",
+      "charge": 80.0,
+      "units": 1
+    },
+    {
+      "date_from": "10/14/2024",
+      "cpt": "20610",
+      "pos": "11",
+      "charge": 960.0,
+      "units": 3
+    },
+    {
+      "date_from": "10/14/2024",
+      "cpt": "95910",
+      "pos": "21",
+      "charge": 475.0,
+      "units": 1
+    },
+    {
+      "date_from": "10/14/2024",
+      "cpt": "72100",
+      "pos": "23",
+      "charge": 555.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 2885.0,
+  "accept_assignment": true,
+  "tax_id": "12-3456789",
+  "tax_id_type": "SSN",
+  "provider_name": "Sarah Mitchell, MD",
+  "provider_npi": "1234567890"
+}

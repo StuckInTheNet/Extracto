@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Rodriguez",
+  "employer_name": "Acme Transportation Corp",
+  "injury_date": "03/10/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Neck"
+  ],
+  "nature_of_injury": "Strain/Sprain",
+  "causes": [
+    "Struck Against Object"
+  ],
+  "treatments": [
+    "First Aid Only"
+  ]
+}

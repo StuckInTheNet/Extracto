@@ -1,0 +1,32 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicaid",
+  "patient_name": "Wilson, Cameron",
+  "patient_dob": "05/07/1986",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M54.5",
+    "T14.90XA",
+    "S13.4XXA"
+  ],
+  "service_lines": [
+    {
+      "date_from": "05/23/2024",
+      "cpt": "95910",
+      "pos": "22",
+      "charge": 1425.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 1425.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "SSN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

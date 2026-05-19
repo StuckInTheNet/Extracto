@@ -1,0 +1,33 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Garcia, Casey",
+  "patient_dob": "11/15/1979",
+  "patient_sex": "F",
+  "relationship_to_insured": "Child",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "T14.90XA",
+    "M54.2",
+    "M54.5",
+    "S83.511A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "10/01/2024",
+      "cpt": "20610",
+      "pos": "22",
+      "charge": 320.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 320.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "SSN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

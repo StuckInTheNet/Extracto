@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Finley Brown",
+    "dob": "01/20/1942",
+    "phone": "(629) 307-7265",
+    "address": [
+      "6334 Spruce Ter",
+      "Riverton, AK 17716"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "F9832135",
+    "ins_type": "PPO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

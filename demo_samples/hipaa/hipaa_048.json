@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Drew Miller",
+  "patient_dob": "12/10/1979",
+  "date_range_from": "05/29/2022",
+  "date_range_to": "04/10/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Continuity of Care"
+  ],
+  "expiration_type": "one_year"
+}

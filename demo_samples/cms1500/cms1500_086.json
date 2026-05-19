@@ -1,0 +1,63 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicaid",
+  "patient_name": "Miller, Riley",
+  "patient_dob": "01/25/1996",
+  "patient_sex": "M",
+  "relationship_to_insured": "Child",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "NC",
+  "diagnoses": [
+    "T14.90XA",
+    "M54.2",
+    "S83.511A",
+    "F41.1",
+    "S22.5XXA",
+    "S39.012A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "02/25/2024",
+      "cpt": "99214",
+      "pos": "11",
+      "charge": 175.0,
+      "units": 1
+    },
+    {
+      "date_from": "02/25/2024",
+      "cpt": "72141",
+      "pos": "23",
+      "charge": 2400.0,
+      "units": 2
+    },
+    {
+      "date_from": "02/25/2024",
+      "cpt": "73721",
+      "pos": "23",
+      "charge": 1100.0,
+      "units": 1
+    },
+    {
+      "date_from": "02/25/2024",
+      "cpt": "97140",
+      "pos": "12",
+      "charge": 160.0,
+      "units": 2
+    },
+    {
+      "date_from": "02/25/2024",
+      "cpt": "99213",
+      "pos": "22",
+      "charge": 375.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 4210.0,
+  "accept_assignment": true,
+  "tax_id": "67-8901234",
+  "tax_id_type": "SSN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

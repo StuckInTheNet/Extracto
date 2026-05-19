@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Riley Davis",
+  "patient_dob": "05/02/1982",
+  "date_range_from": "04/13/2022",
+  "date_range_to": "05/30/2024",
+  "record_types": [
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

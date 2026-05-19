@@ -1,0 +1,63 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Group Health Plan",
+  "patient_name": "Miller, Taylor",
+  "patient_dob": "03/29/1991",
+  "patient_sex": "F",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M54.2",
+    "S22.5XXA",
+    "M62.830",
+    "S83.511A",
+    "F41.1",
+    "M79.2"
+  ],
+  "service_lines": [
+    {
+      "date_from": "11/18/2024",
+      "cpt": "20610",
+      "pos": "21",
+      "charge": 640.0,
+      "units": 2
+    },
+    {
+      "date_from": "11/18/2024",
+      "cpt": "95910",
+      "pos": "22",
+      "charge": 475.0,
+      "units": 1
+    },
+    {
+      "date_from": "11/18/2024",
+      "cpt": "97110",
+      "pos": "11",
+      "charge": 170.0,
+      "units": 2
+    },
+    {
+      "date_from": "11/18/2024",
+      "cpt": "72148",
+      "pos": "22",
+      "charge": 2500.0,
+      "units": 2
+    },
+    {
+      "date_from": "11/18/2024",
+      "cpt": "72148",
+      "pos": "21",
+      "charge": 3750.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 7535.0,
+  "accept_assignment": true,
+  "tax_id": "45-6789012",
+  "tax_id_type": "EIN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

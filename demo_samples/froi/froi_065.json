@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Morgan Williams",
+  "employer_name": "Summit Construction Corp",
+  "injury_date": "02/24/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Hip-L",
+    "Multiple"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Repetitive Motion",
+    "Struck Against Object"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "None"
+  ]
+}

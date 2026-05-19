@@ -1,0 +1,31 @@
+{
+  "person": {
+    "name": "Cameron Jackson",
+    "dob": "05/04/1941",
+    "phone": "(889) 940-9995",
+    "address": [
+      "6102 Birch Blvd",
+      "Madison, NV 14125"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "277960-93",
+    "physician": "Dr. Rodriguez",
+    "emergency_contact": "Cameron Davis",
+    "emergency_phone": "(986) 338-4494",
+    "smoker": false,
+    "diabetic": true,
+    "allergies": [
+      "Penicillin"
+    ],
+    "symptoms": [
+      0,
+      3,
+      4,
+      6
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

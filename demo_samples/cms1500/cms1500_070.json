@@ -1,0 +1,66 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "TRICARE",
+  "patient_name": "Anderson, Riley",
+  "patient_dob": "10/28/1983",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "F43.10",
+    "G44.311"
+  ],
+  "service_lines": [
+    {
+      "date_from": "09/08/2024",
+      "cpt": "72100",
+      "pos": "22",
+      "charge": 370.0,
+      "units": 2
+    },
+    {
+      "date_from": "09/08/2024",
+      "cpt": "97140",
+      "pos": "12",
+      "charge": 160.0,
+      "units": 2
+    },
+    {
+      "date_from": "09/08/2024",
+      "cpt": "98941",
+      "pos": "21",
+      "charge": 65.0,
+      "units": 1
+    },
+    {
+      "date_from": "09/08/2024",
+      "cpt": "72040",
+      "pos": "21",
+      "charge": 175.0,
+      "units": 1
+    },
+    {
+      "date_from": "09/08/2024",
+      "cpt": "20610",
+      "pos": "22",
+      "charge": 640.0,
+      "units": 2
+    },
+    {
+      "date_from": "09/08/2024",
+      "cpt": "95910",
+      "pos": "11",
+      "charge": 950.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 2360.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "SSN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

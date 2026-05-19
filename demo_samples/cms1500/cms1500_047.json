@@ -1,0 +1,46 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Group Health Plan",
+  "patient_name": "Brown, Jordan",
+  "patient_dob": "03/06/1962",
+  "patient_sex": "M",
+  "relationship_to_insured": "Child",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "IL",
+  "diagnoses": [
+    "M25.512",
+    "S83.511A",
+    "F43.10"
+  ],
+  "service_lines": [
+    {
+      "date_from": "07/22/2024",
+      "cpt": "97112",
+      "pos": "23",
+      "charge": 90.0,
+      "units": 1
+    },
+    {
+      "date_from": "07/22/2024",
+      "cpt": "99203",
+      "pos": "22",
+      "charge": 450.0,
+      "units": 2
+    },
+    {
+      "date_from": "07/22/2024",
+      "cpt": "98941",
+      "pos": "21",
+      "charge": 65.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 605.0,
+  "accept_assignment": true,
+  "tax_id": "67-8901234",
+  "tax_id_type": "EIN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

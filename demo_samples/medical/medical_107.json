@@ -1,0 +1,31 @@
+{
+  "person": {
+    "name": "Reese Moore",
+    "dob": "01/30/1996",
+    "phone": "(448) 483-6906",
+    "address": [
+      "3005 Spruce Ter",
+      "Madison, IN 56689"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "975392-21",
+    "physician": "Dr. Martinez",
+    "emergency_contact": "Morgan Taylor",
+    "emergency_phone": "(613) 579-6447",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "Shellfish",
+      "Peanuts",
+      "Latex"
+    ],
+    "symptoms": [
+      0,
+      4
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

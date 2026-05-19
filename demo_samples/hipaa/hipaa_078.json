@@ -1,0 +1,23 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jordan Miller",
+  "patient_dob": "09/07/1962",
+  "date_range_from": "09/10/2022",
+  "date_range_to": "06/10/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Genetic Information",
+    "Mental Health"
+  ],
+  "purposes": [
+    "Other",
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

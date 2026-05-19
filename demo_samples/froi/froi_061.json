@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jordan Brown",
+  "employer_name": "Summit Warehousing Corp",
+  "injury_date": "12/15/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Chest",
+    "Ear-R",
+    "Fingers-R"
+  ],
+  "nature_of_injury": "Concussion",
+  "causes": [
+    "Chemical Exposure"
+  ],
+  "treatments": [
+    "Hospitalized"
+  ]
+}

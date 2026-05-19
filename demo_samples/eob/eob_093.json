@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Jordan Williams",
+  "claim_number": "CLM94736292",
+  "check_number": "714136",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "99203",
+    "99213",
+    "98941",
+    "72148",
+    "99203",
+    "98941"
+  ],
+  "total_billed": 2126.0,
+  "total_allowed": 1130.57,
+  "total_plan_paid": 856.78,
+  "total_patient_resp": 273.79,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

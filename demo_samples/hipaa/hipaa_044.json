@@ -1,0 +1,23 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Casey Brown",
+  "patient_dob": "08/11/1953",
+  "date_range_from": "04/13/2023",
+  "date_range_to": "11/30/2023",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results"
+  ],
+  "excluded_categories": [
+    "Genetic Information",
+    "HIV/AIDS",
+    "Mental Health"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Legal Proceedings",
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

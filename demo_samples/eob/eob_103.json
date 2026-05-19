@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "Cigna HealthCare",
+  "member_name": "Riley Johnson",
+  "claim_number": "CLM57858864",
+  "check_number": "439075",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "72148",
+    "97110",
+    "20610"
+  ],
+  "total_billed": 1780.0,
+  "total_allowed": 1012.3,
+  "total_plan_paid": 715.58,
+  "total_patient_resp": 296.72,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

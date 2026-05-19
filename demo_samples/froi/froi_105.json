@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Alex Rodriguez",
+  "employer_name": "Summit Retail Trade Corp",
+  "injury_date": "02/09/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Foot-R",
+    "Multiple"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Caught In/Between"
+  ],
+  "treatments": [
+    "First Aid Only"
+  ]
+}

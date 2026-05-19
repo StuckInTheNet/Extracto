@@ -1,0 +1,22 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Riley Smith",
+  "patient_dob": "04/28/1968",
+  "date_range_from": "11/02/2022",
+  "date_range_to": "02/24/2024",
+  "record_types": [
+    "Billing Records",
+    "Imaging Reports",
+    "Lab Results",
+    "Office Notes"
+  ],
+  "excluded_categories": [
+    "HIV/AIDS",
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Legal Proceedings",
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

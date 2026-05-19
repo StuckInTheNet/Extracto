@@ -1,0 +1,24 @@
+{
+  "form_type": "eob",
+  "payer_name": "Aetna Health Insurance",
+  "member_name": "Taylor Smith",
+  "claim_number": "CLM51250118",
+  "check_number": "960607",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "99214",
+    "99213",
+    "99203",
+    "97110",
+    "97110"
+  ],
+  "total_billed": 715.75,
+  "total_allowed": 414.54,
+  "total_plan_paid": 331.48,
+  "total_patient_resp": 183.05,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2"
+  ]
+}

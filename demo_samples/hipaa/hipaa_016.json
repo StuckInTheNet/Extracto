@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Casey Brown",
+  "patient_dob": "11/10/1962",
+  "date_range_from": "04/04/2022",
+  "date_range_to": "10/30/2023",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Lab Results",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Other",
+    "Personal Use"
+  ],
+  "expiration_type": "one_year"
+}

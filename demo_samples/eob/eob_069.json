@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Kaiser Permanente",
+  "member_name": "Casey Brown",
+  "claim_number": "CLM61281039",
+  "check_number": "236523",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "72148",
+    "97140",
+    "64483",
+    "99213",
+    "64483",
+    "98941"
+  ],
+  "total_billed": 3411.0,
+  "total_allowed": 1821.4,
+  "total_plan_paid": 1669.99,
+  "total_patient_resp": 151.41,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

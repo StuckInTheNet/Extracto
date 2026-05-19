@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Riley Rodriguez",
+  "claim_number": "CLM81110769",
+  "check_number": "549793",
+  "service_line_count": 4,
+  "service_line_cpts": [
+    "98941",
+    "99213",
+    "99214",
+    "20610"
+  ],
+  "total_billed": 698.0,
+  "total_allowed": 369.44,
+  "total_plan_paid": 328.36,
+  "total_patient_resp": 41.08,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

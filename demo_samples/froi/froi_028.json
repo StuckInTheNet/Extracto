@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Miller",
+  "employer_name": "Summit Construction Corp",
+  "injury_date": "09/10/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Face"
+  ],
+  "nature_of_injury": "Strain/Sprain",
+  "causes": [
+    "Caught In/Between",
+    "Chemical Exposure"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

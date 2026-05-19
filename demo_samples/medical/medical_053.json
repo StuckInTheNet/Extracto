@@ -1,0 +1,29 @@
+{
+  "person": {
+    "name": "Casey Brown",
+    "dob": "11/14/1987",
+    "phone": "(836) 252-1580",
+    "address": [
+      "3252 Elm St",
+      "Clinton, NY 66573"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "820940-58",
+    "physician": "Dr. Davis",
+    "emergency_contact": "Jordan Moore",
+    "emergency_phone": "(212) 352-9948",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Penicillin"
+    ],
+    "symptoms": [
+      0,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

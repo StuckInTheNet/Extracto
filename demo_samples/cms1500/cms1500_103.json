@@ -1,0 +1,30 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Other",
+  "patient_name": "Davis, Jordan",
+  "patient_dob": "02/06/1999",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M51.26"
+  ],
+  "service_lines": [
+    {
+      "date_from": "10/31/2024",
+      "cpt": "99203",
+      "pos": "11",
+      "charge": 675.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 675.0,
+  "accept_assignment": true,
+  "tax_id": "45-6789012",
+  "tax_id_type": "EIN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

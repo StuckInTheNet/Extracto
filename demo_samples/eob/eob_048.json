@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Kaiser Permanente",
+  "member_name": "Alex Rodriguez",
+  "claim_number": "CLM75103838",
+  "check_number": "639915",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "99213",
+    "64483",
+    "95910",
+    "72100",
+    "97110"
+  ],
+  "total_billed": 1949.0,
+  "total_allowed": 1271.8,
+  "total_plan_paid": 848.04,
+  "total_patient_resp": 436.93,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

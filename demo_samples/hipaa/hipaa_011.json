@@ -1,0 +1,23 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Drew Miller",
+  "patient_dob": "07/23/1958",
+  "date_range_from": "05/28/2022",
+  "date_range_to": "08/26/2023",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Lab Results",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Genetic Information",
+    "HIV/AIDS",
+    "Mental Health"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Legal Proceedings"
+  ],
+  "expiration_type": "one_year"
+}

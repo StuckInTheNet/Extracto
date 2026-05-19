@@ -1,0 +1,61 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Johnson, Sam",
+  "patient_dob": "02/06/1958",
+  "patient_sex": "F",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "M25.512",
+    "M54.2",
+    "S39.012A",
+    "F32.9"
+  ],
+  "service_lines": [
+    {
+      "date_from": "08/17/2024",
+      "cpt": "72040",
+      "pos": "21",
+      "charge": 525.0,
+      "units": 3
+    },
+    {
+      "date_from": "08/17/2024",
+      "cpt": "95910",
+      "pos": "23",
+      "charge": 475.0,
+      "units": 1
+    },
+    {
+      "date_from": "08/17/2024",
+      "cpt": "99213",
+      "pos": "12",
+      "charge": 250.0,
+      "units": 2
+    },
+    {
+      "date_from": "08/17/2024",
+      "cpt": "64483",
+      "pos": "23",
+      "charge": 2550.0,
+      "units": 3
+    },
+    {
+      "date_from": "08/17/2024",
+      "cpt": "97112",
+      "pos": "21",
+      "charge": 90.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 3890.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "EIN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

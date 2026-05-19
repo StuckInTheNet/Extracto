@@ -1,0 +1,22 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Jamie Brown",
+  "patient_dob": "03/01/1951",
+  "date_range_from": "03/03/2023",
+  "date_range_to": "10/16/2024",
+  "record_types": [
+    "Billing Records",
+    "Imaging Reports",
+    "Lab Results",
+    "Office Notes"
+  ],
+  "excluded_categories": [
+    "Genetic Information",
+    "HIV/AIDS",
+    "Mental Health"
+  ],
+  "purposes": [
+    "Personal Use"
+  ],
+  "expiration_type": "one_year"
+}

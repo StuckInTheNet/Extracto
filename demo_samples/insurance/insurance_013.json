@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Finley Jones",
+    "dob": "02/26/1942",
+    "phone": "(775) 579-7869",
+    "address": [
+      "4686 Spruce Ter",
+      "Springfield, DE 34614"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "C7200711",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": []
+}

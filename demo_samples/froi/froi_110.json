@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Smith",
+  "employer_name": "Apex Warehousing Corp",
+  "injury_date": "01/10/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Knee-L"
+  ],
+  "nature_of_injury": "Puncture",
+  "causes": [
+    "Repetitive Motion"
+  ],
+  "treatments": [
+    "First Aid Only",
+    "Hospitalized"
+  ]
+}

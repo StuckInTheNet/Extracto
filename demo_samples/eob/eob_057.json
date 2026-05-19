@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Cigna HealthCare",
+  "member_name": "Morgan Smith",
+  "claim_number": "CLM95757950",
+  "check_number": "180558",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "97110",
+    "99213",
+    "99213",
+    "72100",
+    "99213",
+    "99203"
+  ],
+  "total_billed": 958.25,
+  "total_allowed": 610.56,
+  "total_plan_paid": 441.52,
+  "total_patient_resp": 210.0,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "form_type": "eob",
+  "payer_name": "Kaiser Permanente",
+  "member_name": "Riley Miller",
+  "claim_number": "CLM89699265",
+  "check_number": "662203",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "97110",
+    "97110",
+    "72100"
+  ],
+  "total_billed": 400.5,
+  "total_allowed": 284.53,
+  "total_plan_paid": 217.66,
+  "total_patient_resp": 132.73,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1"
+  ]
+}

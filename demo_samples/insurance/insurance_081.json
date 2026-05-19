@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Quinn Taylor",
+    "dob": "10/16/2001",
+    "phone": "(876) 352-3732",
+    "address": [
+      "6122 Ash Ct",
+      "Greenville, HI 78883"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "F1027018",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        175,
+        618.0,
+        12,
+        12
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        254,
+        617.0,
+        12,
+        12
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        173,
+        589.0,
+        13,
+        13
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        254,
+        586.0,
+        13,
+        13
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        12,
+        12
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        543.0,
+        13,
+        13
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": false,
+      "bbox_pt": [
+        319.0,
+        526.0,
+        13,
+        13
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": true,
+      "bbox_pt": [
+        318.0,
+        510.0,
+        13,
+        13
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        491.0,
+        13,
+        13
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": true,
+      "bbox_pt": [
+        317.0,
+        470.0,
+        13,
+        13
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        454.0,
+        13,
+        13
+      ]
+    }
+  ]
+}

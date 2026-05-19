@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Alex Davis",
+  "date": "01/16/2024",
+  "scores": [
+    2,
+    1,
+    2,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "total": 8,
+  "difficulty": 0,
+  "severity": "Mild depression"
+}

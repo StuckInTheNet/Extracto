@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Peyton Jones",
+    "dob": "04/01/1968",
+    "phone": "(205) 623-3123",
+    "address": [
+      "9397 Willow Way",
+      "Georgetown, MS 79970"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "A3399050",
+    "ins_type": "HMO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

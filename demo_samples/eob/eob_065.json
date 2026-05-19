@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Taylor Wilson",
+  "claim_number": "CLM72719315",
+  "check_number": "380951",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "99214",
+    "99213",
+    "98941",
+    "64483",
+    "97140",
+    "20610"
+  ],
+  "total_billed": 1600.0,
+  "total_allowed": 986.68,
+  "total_plan_paid": 862.55,
+  "total_patient_resp": 124.13,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

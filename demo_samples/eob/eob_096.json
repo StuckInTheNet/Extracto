@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "United Healthcare",
+  "member_name": "Riley Smith",
+  "claim_number": "CLM45651567",
+  "check_number": "776703",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "97140",
+    "97110",
+    "64483",
+    "99213",
+    "64483"
+  ],
+  "total_billed": 2261.75,
+  "total_allowed": 1540.75,
+  "total_plan_paid": 1366.97,
+  "total_patient_resp": 173.78,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2"
+  ]
+}

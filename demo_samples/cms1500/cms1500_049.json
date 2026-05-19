@@ -1,0 +1,31 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Group Health Plan",
+  "patient_name": "Johnson, Drew",
+  "patient_dob": "08/12/1967",
+  "patient_sex": "F",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "F41.1",
+    "G44.311"
+  ],
+  "service_lines": [
+    {
+      "date_from": "03/04/2024",
+      "cpt": "73721",
+      "pos": "22",
+      "charge": 2200.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 2200.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "EIN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

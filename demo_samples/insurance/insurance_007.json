@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Taylor Davis",
+    "dob": "11/05/1952",
+    "phone": "(465) 647-6645",
+    "address": [
+      "9921 Ash Ct",
+      "Clinton, MS 90295"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "B9032054",
+    "ins_type": "EPO",
+    "work_related": true,
+    "auto_accident": false,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

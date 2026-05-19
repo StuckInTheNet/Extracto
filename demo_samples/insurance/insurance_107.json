@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Jamie Thompson",
+    "dob": "09/01/1951",
+    "phone": "(372) 325-5081",
+    "address": [
+      "1331 Hickory Dr",
+      "Springfield, CO 91452"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "policy_id": "C7732424",
+    "ins_type": "POS",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

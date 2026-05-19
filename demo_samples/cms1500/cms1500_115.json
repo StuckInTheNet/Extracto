@@ -1,0 +1,32 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicaid",
+  "patient_name": "Williams, Taylor",
+  "patient_dob": "10/22/1969",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "NC",
+  "diagnoses": [
+    "S83.511A",
+    "F32.9",
+    "T14.90XA"
+  ],
+  "service_lines": [
+    {
+      "date_from": "10/20/2024",
+      "cpt": "72100",
+      "pos": "12",
+      "charge": 555.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 555.0,
+  "accept_assignment": true,
+  "tax_id": "45-6789012",
+  "tax_id_type": "SSN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

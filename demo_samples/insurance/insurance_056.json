@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Sawyer Taylor",
+    "dob": "10/19/2003",
+    "phone": "(590) 643-7937",
+    "address": [
+      "9929 Pine Rd",
+      "Greenville, OR 55478"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "B7437809",
+    "ins_type": "HMO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": []
+}

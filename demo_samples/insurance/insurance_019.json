@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Sawyer Hernandez",
+    "dob": "02/18/1982",
+    "phone": "(296) 975-7999",
+    "address": [
+      "2071 Spruce Ter",
+      "Arlington, SD 72224"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "D7119734",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

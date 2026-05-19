@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Casey Miller",
+  "employer_name": "Acme Construction Corp",
+  "injury_date": "12/01/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Upper Arm-L"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "Emergency Room",
+    "Hospitalized",
+    "None"
+  ]
+}

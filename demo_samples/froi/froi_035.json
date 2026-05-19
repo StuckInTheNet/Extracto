@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Drew Miller",
+  "employer_name": "Acme Transportation Corp",
+  "injury_date": "07/08/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Back-Lower",
+    "Toes-R"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Caught In/Between",
+    "Other"
+  ],
+  "treatments": [
+    "Hospitalized",
+    "None"
+  ]
+}

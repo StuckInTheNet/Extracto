@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Alex Rodriguez",
+  "patient_dob": "03/25/1965",
+  "date_range_from": "01/22/2023",
+  "date_range_to": "11/20/2024",
+  "record_types": [
+    "Imaging Reports",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Substance Abuse"
+  ],
+  "purposes": [
+    "Legal Proceedings",
+    "Other"
+  ],
+  "expiration_type": "specific_date"
+}

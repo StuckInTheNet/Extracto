@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Cameron Wilson",
+  "employer_name": "Apex Construction Corp",
+  "injury_date": "04/23/2022",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Ankle-L",
+    "Fingers-R"
+  ],
+  "nature_of_injury": "Laceration",
+  "causes": [
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "None"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Casey Williams",
+  "patient_dob": "03/18/1957",
+  "date_range_from": "11/05/2022",
+  "date_range_to": "04/11/2024",
+  "record_types": [
+    "Imaging Reports",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Mental Health"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Insurance Claim",
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

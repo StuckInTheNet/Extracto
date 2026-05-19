@@ -1,0 +1,35 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "TRICARE",
+  "patient_name": "Martinez, Kelly",
+  "patient_dob": "06/21/1956",
+  "patient_sex": "M",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M54.5",
+    "S83.511A",
+    "S39.012A",
+    "M25.511",
+    "M51.26",
+    "M79.2"
+  ],
+  "service_lines": [
+    {
+      "date_from": "03/26/2024",
+      "cpt": "64483",
+      "pos": "21",
+      "charge": 2550.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 2550.0,
+  "accept_assignment": true,
+  "tax_id": "56-7890123",
+  "tax_id_type": "EIN",
+  "provider_name": "Priya Patel, MD",
+  "provider_npi": "5678901234"
+}

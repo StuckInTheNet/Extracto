@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jordan Williams",
+  "employer_name": "Apex Healthcare Corp",
+  "injury_date": "10/03/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Eye-L"
+  ],
+  "nature_of_injury": "Burn",
+  "causes": [
+    "Caught In/Between"
+  ],
+  "treatments": [
+    "Hospitalized",
+    "None"
+  ]
+}

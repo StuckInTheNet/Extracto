@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Morgan Rodriguez",
+  "date": "06/04/2024",
+  "scores": [
+    2,
+    3,
+    1,
+    0,
+    2,
+    1,
+    1,
+    2,
+    1
+  ],
+  "total": 13,
+  "difficulty": 1,
+  "severity": "Moderate depression"
+}

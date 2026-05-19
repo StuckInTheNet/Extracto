@@ -1,0 +1,37 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Miller, Sam",
+  "patient_dob": "03/16/1955",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "TX",
+  "diagnoses": [
+    "M79.2"
+  ],
+  "service_lines": [
+    {
+      "date_from": "03/11/2024",
+      "cpt": "97110",
+      "pos": "23",
+      "charge": 170.0,
+      "units": 2
+    },
+    {
+      "date_from": "03/11/2024",
+      "cpt": "99214",
+      "pos": "23",
+      "charge": 525.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 695.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "SSN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

@@ -1,0 +1,30 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Other",
+  "patient_name": "Rodriguez, Taylor",
+  "patient_dob": "04/01/1989",
+  "patient_sex": "M",
+  "relationship_to_insured": "Child",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "IL",
+  "diagnoses": [
+    "S42.201A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "12/30/2024",
+      "cpt": "95910",
+      "pos": "21",
+      "charge": 475.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 475.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "EIN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

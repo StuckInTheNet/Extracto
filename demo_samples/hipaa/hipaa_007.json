@@ -1,0 +1,16 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Alex Jones",
+  "patient_dob": "11/08/1969",
+  "date_range_from": "04/04/2023",
+  "date_range_to": "07/25/2024",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Legal Proceedings"
+  ],
+  "expiration_type": "one_year"
+}

@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Alex Rodriguez",
+  "employer_name": "Pioneer Warehousing Corp",
+  "injury_date": "01/27/2023",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Fingers-R"
+  ],
+  "nature_of_injury": "Laceration",
+  "causes": [
+    "Fall - From Height",
+    "Struck Against Object"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "Hospitalized"
+  ]
+}

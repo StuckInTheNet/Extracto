@@ -1,0 +1,19 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Drew Rodriguez",
+  "claim_number": "CLM96029038",
+  "check_number": "805796",
+  "service_line_count": 2,
+  "service_line_cpts": [
+    "99214",
+    "98941"
+  ],
+  "total_billed": 253.0,
+  "total_allowed": 126.9,
+  "total_plan_paid": 126.9,
+  "total_patient_resp": 0.0,
+  "reason_codes_used": [
+    "CO-45"
+  ]
+}

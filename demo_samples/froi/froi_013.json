@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Avery Johnson",
+  "employer_name": "Apex Construction Corp",
+  "injury_date": "03/29/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ankle-L"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Chemical Exposure"
+  ],
+  "treatments": [
+    "First Aid Only"
+  ]
+}

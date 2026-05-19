@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Taylor Jones",
+  "employer_name": "Summit Warehousing Corp",
+  "injury_date": "02/25/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ear-L",
+    "Neck",
+    "Upper Arm-R"
+  ],
+  "nature_of_injury": "Strain/Sprain",
+  "causes": [
+    "Fall - Same Level"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "Hospitalized"
+  ]
+}

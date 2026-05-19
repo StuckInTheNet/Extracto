@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Taylor Miller",
+  "claim_number": "CLM30561818",
+  "check_number": "152973",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "64483",
+    "97110",
+    "97110",
+    "99213",
+    "72148",
+    "97110"
+  ],
+  "total_billed": 2848.5,
+  "total_allowed": 1825.31,
+  "total_plan_paid": 1387.61,
+  "total_patient_resp": 437.7,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

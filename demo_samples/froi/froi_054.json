@@ -1,0 +1,22 @@
+{
+  "form_type": "froi",
+  "employee_name": "Drew Rodriguez",
+  "employer_name": "Apex Manufacturing Corp",
+  "injury_date": "10/28/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ankle-R",
+    "Hand-L",
+    "Lower Leg-L",
+    "Upper Arm-L"
+  ],
+  "nature_of_injury": "Dislocation",
+  "causes": [
+    "Chemical Exposure",
+    "Other"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "First Aid Only"
+  ]
+}

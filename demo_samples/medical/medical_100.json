@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Reese Johnson",
+    "dob": "01/26/1972",
+    "phone": "(330) 859-2533",
+    "address": [
+      "8698 Hickory Dr",
+      "Arlington, RI 98539"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "333458-76",
+    "physician": "Dr. Rodriguez",
+    "emergency_contact": "Avery Rodriguez",
+    "emergency_phone": "(245) 518-7023",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "None Known"
+    ],
+    "symptoms": [
+      1,
+      2,
+      3
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

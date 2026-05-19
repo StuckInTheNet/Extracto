@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Alex Brown",
+  "patient_dob": "08/23/1950",
+  "date_range_from": "08/24/2022",
+  "date_range_to": "10/17/2024",
+  "record_types": [
+    "Billing Records",
+    "Discharge Summaries",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Continuity of Care",
+    "Legal Proceedings"
+  ],
+  "expiration_type": "one_year"
+}

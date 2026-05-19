@@ -1,0 +1,24 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Drew Williams",
+  "claim_number": "CLM46159360",
+  "check_number": "594241",
+  "service_line_count": 4,
+  "service_line_cpts": [
+    "72148",
+    "99214",
+    "72100",
+    "99213"
+  ],
+  "total_billed": 1701.25,
+  "total_allowed": 1213.75,
+  "total_plan_paid": 929.27,
+  "total_patient_resp": 284.48,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

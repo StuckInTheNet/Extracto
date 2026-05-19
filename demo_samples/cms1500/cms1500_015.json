@@ -1,0 +1,60 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Wilson, Alex",
+  "patient_dob": "12/27/1977",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "MI",
+  "diagnoses": [
+    "S42.201A",
+    "M51.26",
+    "T14.90XA"
+  ],
+  "service_lines": [
+    {
+      "date_from": "01/27/2024",
+      "cpt": "97112",
+      "pos": "22",
+      "charge": 270.0,
+      "units": 3
+    },
+    {
+      "date_from": "01/27/2024",
+      "cpt": "64483",
+      "pos": "11",
+      "charge": 850.0,
+      "units": 1
+    },
+    {
+      "date_from": "01/27/2024",
+      "cpt": "97110",
+      "pos": "11",
+      "charge": 255.0,
+      "units": 3
+    },
+    {
+      "date_from": "01/27/2024",
+      "cpt": "97110",
+      "pos": "22",
+      "charge": 170.0,
+      "units": 2
+    },
+    {
+      "date_from": "01/27/2024",
+      "cpt": "72100",
+      "pos": "22",
+      "charge": 370.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 1915.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "SSN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

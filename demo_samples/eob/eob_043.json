@@ -1,0 +1,23 @@
+{
+  "form_type": "eob",
+  "payer_name": "Cigna HealthCare",
+  "member_name": "Taylor Garcia",
+  "claim_number": "CLM67881875",
+  "check_number": "328994",
+  "service_line_count": 3,
+  "service_line_cpts": [
+    "97140",
+    "98941",
+    "72148"
+  ],
+  "total_billed": 1404.0,
+  "total_allowed": 769.38,
+  "total_plan_paid": 526.08,
+  "total_patient_resp": 311.55,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

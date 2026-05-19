@@ -1,0 +1,19 @@
+{
+  "form_type": "froi",
+  "employee_name": "Taylor Smith",
+  "employer_name": "Apex Manufacturing Corp",
+  "injury_date": "01/09/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Knee-L",
+    "Multiple"
+  ],
+  "nature_of_injury": "Concussion",
+  "causes": [
+    "Caught In/Between",
+    "Struck By Object"
+  ],
+  "treatments": [
+    "Hospitalized"
+  ]
+}

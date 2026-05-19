@@ -1,0 +1,34 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Davis, Morgan",
+  "patient_dob": "08/22/2005",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "IL",
+  "diagnoses": [
+    "T14.90XA",
+    "S83.511A",
+    "M25.512",
+    "M51.26",
+    "S22.5XXA"
+  ],
+  "service_lines": [
+    {
+      "date_from": "07/03/2024",
+      "cpt": "97140",
+      "pos": "22",
+      "charge": 240.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 240.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "SSN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

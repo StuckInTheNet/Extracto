@@ -1,0 +1,21 @@
+{
+  "form_type": "froi",
+  "employee_name": "Cameron Wilson",
+  "employer_name": "Acme Transportation Corp",
+  "injury_date": "08/17/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Head",
+    "Knee-R",
+    "Wrist-L"
+  ],
+  "nature_of_injury": "Concussion",
+  "causes": [
+    "Motor Vehicle",
+    "Other"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "First Aid Only"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Cameron Williams",
+  "claim_number": "CLM53534095",
+  "check_number": "761519",
+  "service_line_count": 2,
+  "service_line_cpts": [
+    "97110",
+    "99213"
+  ],
+  "total_billed": 218.25,
+  "total_allowed": 124.22,
+  "total_plan_paid": 114.22,
+  "total_patient_resp": 10.0,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-3"
+  ]
+}

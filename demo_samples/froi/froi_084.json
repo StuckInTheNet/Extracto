@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jordan Rodriguez",
+  "employer_name": "Pioneer Transportation Corp",
+  "injury_date": "12/30/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Foot-R",
+    "Head"
+  ],
+  "nature_of_injury": "Other",
+  "causes": [
+    "Motor Vehicle"
+  ],
+  "treatments": [
+    "Emergency Room",
+    "Hospitalized",
+    "None"
+  ]
+}

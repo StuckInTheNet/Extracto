@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Cameron Thompson",
+    "dob": "08/01/1942",
+    "phone": "(593) 378-9175",
+    "address": [
+      "9325 Willow Way",
+      "Springfield, HI 46379"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "C8586294",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

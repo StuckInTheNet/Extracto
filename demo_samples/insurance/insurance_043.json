@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Jordan Johnson",
+    "dob": "01/28/1942",
+    "phone": "(562) 332-2323",
+    "address": [
+      "4310 Maple Ave",
+      "Springfield, NJ 11158"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "A8276305",
+    "ins_type": "PPO",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": []
+}

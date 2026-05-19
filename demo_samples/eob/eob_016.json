@@ -1,0 +1,24 @@
+{
+  "form_type": "eob",
+  "payer_name": "Kaiser Permanente",
+  "member_name": "Casey Wilson",
+  "claim_number": "CLM84912498",
+  "check_number": "535352",
+  "service_line_count": 4,
+  "service_line_cpts": [
+    "64483",
+    "99213",
+    "72148",
+    "99213"
+  ],
+  "total_billed": 2356.25,
+  "total_allowed": 1504.06,
+  "total_plan_paid": 1176.79,
+  "total_patient_resp": 327.27,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

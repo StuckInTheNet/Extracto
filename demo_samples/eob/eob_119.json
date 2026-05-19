@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Jordan Smith",
+  "claim_number": "CLM34249450",
+  "check_number": "461940",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "99213",
+    "64483",
+    "64483",
+    "72148",
+    "97110",
+    "64483"
+  ],
+  "total_billed": 4408.25,
+  "total_allowed": 2661.08,
+  "total_plan_paid": 2077.29,
+  "total_patient_resp": 583.79,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

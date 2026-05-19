@@ -1,0 +1,184 @@
+{
+  "person": {
+    "name": "Peyton Miller",
+    "dob": "09/13/1991",
+    "phone": "(315) 685-7427",
+    "address": [
+      "5174 Elm St",
+      "Riverton, ND 11093"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "B4066057",
+    "ins_type": "HMO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": [
+    {
+      "kind": "radio",
+      "label": "Yes",
+      "selected": false,
+      "bbox_pt": [
+        173,
+        615.0,
+        10,
+        10
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "radio",
+      "label": "No",
+      "selected": true,
+      "bbox_pt": [
+        256,
+        613.0,
+        10,
+        10
+      ],
+      "parent": "Is this work-related?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "Yes",
+      "selected": true,
+      "bbox_pt": [
+        169,
+        586.0,
+        10,
+        10
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "checkbox",
+      "label": "No",
+      "selected": false,
+      "bbox_pt": [
+        254,
+        586.0,
+        10,
+        10
+      ],
+      "parent": "Auto accident?"
+    },
+    {
+      "kind": "radio",
+      "label": "Visit",
+      "selected": true,
+      "bbox_pt": [
+        320.0,
+        628.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Procedure",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        610.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Medication",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        592.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "radio",
+      "label": "Other",
+      "selected": false,
+      "bbox_pt": [
+        320.0,
+        574.0,
+        10,
+        10
+      ],
+      "parent": "Claim Type"
+    },
+    {
+      "kind": "checkbox",
+      "label": "X-Ray",
+      "selected": true,
+      "bbox_pt": [
+        317.0,
+        543.0,
+        10,
+        10
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "MRI",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        525.0,
+        10,
+        10
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Lab Work",
+      "selected": false,
+      "bbox_pt": [
+        315.0,
+        508.0,
+        10,
+        10
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Physical Therapy",
+      "selected": false,
+      "bbox_pt": [
+        317.0,
+        491.0,
+        10,
+        10
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Consultation",
+      "selected": true,
+      "bbox_pt": [
+        319.0,
+        470.0,
+        10,
+        10
+      ]
+    },
+    {
+      "kind": "checkbox",
+      "label": "Surgery",
+      "selected": true,
+      "bbox_pt": [
+        321.0,
+        456.0,
+        10,
+        10
+      ]
+    }
+  ]
+}

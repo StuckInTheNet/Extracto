@@ -1,0 +1,29 @@
+{
+  "person": {
+    "name": "Taylor Martin",
+    "dob": "12/17/1984",
+    "phone": "(738) 344-3109",
+    "address": [
+      "3459 Hickory Dr",
+      "Salem, TN 81570"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "606544-17",
+    "physician": "Dr. Martinez",
+    "emergency_contact": "Hayden Wilson",
+    "emergency_phone": "(269) 597-9555",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "None Known"
+    ],
+    "symptoms": [
+      4,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

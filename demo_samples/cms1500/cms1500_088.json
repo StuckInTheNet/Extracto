@@ -1,0 +1,41 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "TRICARE",
+  "patient_name": "Brown, Sam",
+  "patient_dob": "03/04/1997",
+  "patient_sex": "M",
+  "relationship_to_insured": "Other",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M79.2",
+    "M54.2",
+    "M54.5",
+    "R51.9",
+    "S06.0X0A"
+  ],
+  "service_lines": [
+    {
+      "date_from": "01/18/2024",
+      "cpt": "72100",
+      "pos": "21",
+      "charge": 555.0,
+      "units": 3
+    },
+    {
+      "date_from": "01/18/2024",
+      "cpt": "72040",
+      "pos": "23",
+      "charge": 350.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 905.0,
+  "accept_assignment": true,
+  "tax_id": "23-4567890",
+  "tax_id_type": "EIN",
+  "provider_name": "James Rodriguez, DO",
+  "provider_npi": "2345678901"
+}

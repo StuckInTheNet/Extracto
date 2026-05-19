@@ -1,0 +1,20 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Alex Wilson",
+  "patient_dob": "10/23/1961",
+  "date_range_from": "06/06/2022",
+  "date_range_to": "11/30/2023",
+  "record_types": [
+    "Billing Records",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [
+    "Mental Health"
+  ],
+  "purposes": [
+    "Continuity of Care",
+    "Other"
+  ],
+  "expiration_type": "one_year"
+}

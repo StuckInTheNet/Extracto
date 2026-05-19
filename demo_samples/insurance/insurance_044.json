@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Casey Thompson",
+    "dob": "03/22/1947",
+    "phone": "(837) 471-5979",
+    "address": [
+      "6027 Elm St",
+      "Georgetown, NC 89365"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "B7634179",
+    "ins_type": "EPO",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": []
+}

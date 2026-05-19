@@ -1,0 +1,30 @@
+{
+  "person": {
+    "name": "Logan Jones",
+    "dob": "03/12/1962",
+    "phone": "(697) 455-4074",
+    "address": [
+      "7495 Spruce Ter",
+      "Riverton, IA 23071"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "188642-21",
+    "physician": "Dr. Johnson",
+    "emergency_contact": "Casey Martin",
+    "emergency_phone": "(668) 725-1687",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "Dust",
+      "Pollen",
+      "Penicillin"
+    ],
+    "symptoms": [
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

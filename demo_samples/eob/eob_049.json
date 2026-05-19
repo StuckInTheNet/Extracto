@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Taylor Wilson",
+  "claim_number": "CLM21606388",
+  "check_number": "531694",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "72148",
+    "72148",
+    "97110",
+    "64483",
+    "72148",
+    "72100"
+  ],
+  "total_billed": 5130.75,
+  "total_allowed": 2634.85,
+  "total_plan_paid": 2185.08,
+  "total_patient_resp": 449.77,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

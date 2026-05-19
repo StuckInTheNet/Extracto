@@ -1,0 +1,61 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "FECA Blk Lung",
+  "patient_name": "Jones, Chris",
+  "patient_dob": "06/11/1990",
+  "patient_sex": "M",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "IL",
+  "diagnoses": [
+    "S39.012A",
+    "R51.9",
+    "F41.1",
+    "G44.311"
+  ],
+  "service_lines": [
+    {
+      "date_from": "11/27/2024",
+      "cpt": "97112",
+      "pos": "11",
+      "charge": 180.0,
+      "units": 2
+    },
+    {
+      "date_from": "11/27/2024",
+      "cpt": "99213",
+      "pos": "12",
+      "charge": 250.0,
+      "units": 2
+    },
+    {
+      "date_from": "11/27/2024",
+      "cpt": "20610",
+      "pos": "22",
+      "charge": 640.0,
+      "units": 2
+    },
+    {
+      "date_from": "11/27/2024",
+      "cpt": "20610",
+      "pos": "21",
+      "charge": 960.0,
+      "units": 3
+    },
+    {
+      "date_from": "11/27/2024",
+      "cpt": "72100",
+      "pos": "21",
+      "charge": 370.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 2400.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "SSN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

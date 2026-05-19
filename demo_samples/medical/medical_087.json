@@ -1,0 +1,31 @@
+{
+  "person": {
+    "name": "Morgan Brown",
+    "dob": "12/30/1949",
+    "phone": "(808) 871-7607",
+    "address": [
+      "629 Elm St",
+      "Madison, UT 98111"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "253868-12",
+    "physician": "Dr. Martinez",
+    "emergency_contact": "Jamie White",
+    "emergency_phone": "(681) 894-1114",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Latex",
+      "Dust"
+    ],
+    "symptoms": [
+      5,
+      6,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

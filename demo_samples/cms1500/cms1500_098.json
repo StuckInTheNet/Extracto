@@ -1,0 +1,49 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "TRICARE",
+  "patient_name": "Garcia, Chris",
+  "patient_dob": "11/14/1961",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "OH",
+  "diagnoses": [
+    "S83.511A",
+    "R51.9",
+    "M25.511",
+    "M62.830",
+    "S13.4XXA",
+    "R52"
+  ],
+  "service_lines": [
+    {
+      "date_from": "12/18/2024",
+      "cpt": "99213",
+      "pos": "23",
+      "charge": 125.0,
+      "units": 1
+    },
+    {
+      "date_from": "12/18/2024",
+      "cpt": "99203",
+      "pos": "22",
+      "charge": 675.0,
+      "units": 3
+    },
+    {
+      "date_from": "12/18/2024",
+      "cpt": "95910",
+      "pos": "22",
+      "charge": 1425.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 2225.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "SSN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Avery Jones",
+    "dob": "02/13/2003",
+    "phone": "(821) 377-6107",
+    "address": [
+      "2672 Maple Ave",
+      "Arlington, MO 85265"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "F5062815",
+    "ins_type": "HMO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": []
+}

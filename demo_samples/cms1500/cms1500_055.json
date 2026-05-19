@@ -1,0 +1,39 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Other",
+  "patient_name": "Miller, Robin",
+  "patient_dob": "02/21/1963",
+  "patient_sex": "F",
+  "relationship_to_insured": "Other",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "GA",
+  "diagnoses": [
+    "M51.26",
+    "S39.012A",
+    "R52"
+  ],
+  "service_lines": [
+    {
+      "date_from": "12/19/2024",
+      "cpt": "20610",
+      "pos": "12",
+      "charge": 640.0,
+      "units": 2
+    },
+    {
+      "date_from": "12/19/2024",
+      "cpt": "97112",
+      "pos": "21",
+      "charge": 270.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 910.0,
+  "accept_assignment": false,
+  "tax_id": "45-6789012",
+  "tax_id_type": "EIN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

@@ -1,0 +1,15 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Avery Garcia",
+  "patient_dob": "07/07/1987",
+  "date_range_from": "05/24/2022",
+  "date_range_to": "12/13/2024",
+  "record_types": [
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Legal Proceedings"
+  ],
+  "expiration_type": "one_year"
+}

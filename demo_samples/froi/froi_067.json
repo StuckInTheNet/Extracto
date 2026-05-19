@@ -1,0 +1,21 @@
+{
+  "form_type": "froi",
+  "employee_name": "Casey Smith",
+  "employer_name": "Apex Transportation Corp",
+  "injury_date": "02/12/2024",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Ear-R",
+    "Multiple"
+  ],
+  "nature_of_injury": "Fracture",
+  "causes": [
+    "Fall - From Height",
+    "Motor Vehicle"
+  ],
+  "treatments": [
+    "First Aid Only",
+    "Hospitalized",
+    "None"
+  ]
+}

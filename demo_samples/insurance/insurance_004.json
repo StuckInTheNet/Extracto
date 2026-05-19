@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Rowan Anderson",
+    "dob": "10/20/1993",
+    "phone": "(516) 202-8364",
+    "address": [
+      "9592 Spruce Ter",
+      "Greenville, IN 10061"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "C4643930",
+    "ins_type": "PPO",
+    "work_related": true,
+    "auto_accident": true,
+    "claim_type": "Other"
+  },
+  "type": "insurance",
+  "controls": []
+}

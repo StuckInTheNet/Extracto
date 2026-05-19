@@ -1,0 +1,31 @@
+{
+  "person": {
+    "name": "Riley Taylor",
+    "dob": "03/07/1971",
+    "phone": "(636) 907-1553",
+    "address": [
+      "4309 Birch Blvd",
+      "Springfield, AK 63307"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "470150-50",
+    "physician": "Dr. Garcia",
+    "emergency_contact": "Sawyer Davis",
+    "emergency_phone": "(238) 802-7326",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Shellfish"
+    ],
+    "symptoms": [
+      0,
+      1,
+      4,
+      5
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

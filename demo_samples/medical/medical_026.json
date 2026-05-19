@@ -1,0 +1,28 @@
+{
+  "person": {
+    "name": "Quinn Jones",
+    "dob": "12/19/1959",
+    "phone": "(655) 673-8421",
+    "address": [
+      "2263 Spruce Ter",
+      "Clinton, MT 99386"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "mrn": "526495-34",
+    "physician": "Dr. Davis",
+    "emergency_contact": "Reese Smith",
+    "emergency_phone": "(314) 485-2014",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "Shellfish"
+    ],
+    "symptoms": [
+      0
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

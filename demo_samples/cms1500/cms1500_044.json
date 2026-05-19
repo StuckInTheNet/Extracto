@@ -1,0 +1,60 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicare",
+  "patient_name": "Miller, Casey",
+  "patient_dob": "04/20/1959",
+  "patient_sex": "F",
+  "relationship_to_insured": "Self",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "R51.9",
+    "S13.4XXA",
+    "F32.9"
+  ],
+  "service_lines": [
+    {
+      "date_from": "05/03/2024",
+      "cpt": "20610",
+      "pos": "22",
+      "charge": 640.0,
+      "units": 2
+    },
+    {
+      "date_from": "05/03/2024",
+      "cpt": "99203",
+      "pos": "21",
+      "charge": 450.0,
+      "units": 2
+    },
+    {
+      "date_from": "05/03/2024",
+      "cpt": "72100",
+      "pos": "12",
+      "charge": 185.0,
+      "units": 1
+    },
+    {
+      "date_from": "05/03/2024",
+      "cpt": "73721",
+      "pos": "23",
+      "charge": 1100.0,
+      "units": 1
+    },
+    {
+      "date_from": "05/03/2024",
+      "cpt": "72148",
+      "pos": "12",
+      "charge": 1250.0,
+      "units": 1
+    }
+  ],
+  "total_charge": 3625.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "SSN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

@@ -1,0 +1,24 @@
+{
+  "form_type": "eob",
+  "payer_name": "Blue Cross Blue Shield",
+  "member_name": "Drew Miller",
+  "claim_number": "CLM26581824",
+  "check_number": "195620",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "99203",
+    "20610",
+    "97140",
+    "99214",
+    "64483"
+  ],
+  "total_billed": 1744.75,
+  "total_allowed": 1032.68,
+  "total_plan_paid": 882.18,
+  "total_patient_resp": 150.5,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-2",
+    "PR-3"
+  ]
+}

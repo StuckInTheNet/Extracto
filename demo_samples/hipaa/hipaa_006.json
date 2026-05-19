@@ -1,0 +1,18 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Morgan Davis",
+  "patient_dob": "11/20/1993",
+  "date_range_from": "05/12/2022",
+  "date_range_to": "10/09/2024",
+  "record_types": [
+    "Billing Records",
+    "Imaging Reports",
+    "Office Notes",
+    "Operative Reports"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Insurance Claim"
+  ],
+  "expiration_type": "specific_date"
+}

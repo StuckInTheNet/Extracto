@@ -1,0 +1,26 @@
+{
+  "form_type": "eob",
+  "payer_name": "Humana Insurance",
+  "member_name": "Jamie Davis",
+  "claim_number": "CLM26782572",
+  "check_number": "863124",
+  "service_line_count": 6,
+  "service_line_cpts": [
+    "97140",
+    "64483",
+    "98941",
+    "99214",
+    "99213",
+    "64483"
+  ],
+  "total_billed": 2247.75,
+  "total_allowed": 1476.08,
+  "total_plan_paid": 1324.2,
+  "total_patient_resp": 153.87,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

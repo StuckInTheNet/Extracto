@@ -1,0 +1,17 @@
+{
+  "form_type": "froi",
+  "employee_name": "Drew Brown",
+  "employer_name": "Summit Manufacturing Corp",
+  "injury_date": "10/01/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Shoulder-R"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Chemical Exposure"
+  ],
+  "treatments": [
+    "Hospitalized"
+  ]
+}

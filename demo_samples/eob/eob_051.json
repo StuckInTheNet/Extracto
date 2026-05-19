@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Anthem Health",
+  "member_name": "Casey Miller",
+  "claim_number": "CLM66764586",
+  "check_number": "390607",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "99203",
+    "97140",
+    "95910",
+    "99214",
+    "99213"
+  ],
+  "total_billed": 1176.75,
+  "total_allowed": 826.25,
+  "total_plan_paid": 642.67,
+  "total_patient_resp": 183.58,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

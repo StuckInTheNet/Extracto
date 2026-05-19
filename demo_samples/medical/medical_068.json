@@ -1,0 +1,33 @@
+{
+  "person": {
+    "name": "Riley Williams",
+    "dob": "11/22/1975",
+    "phone": "(398) 656-1644",
+    "address": [
+      "5710 Oak St",
+      "Springfield, MA 86454"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "318815-33",
+    "physician": "Dr. Thomas",
+    "emergency_contact": "Reese Miller",
+    "emergency_phone": "(459) 486-7172",
+    "smoker": true,
+    "diabetic": true,
+    "allergies": [
+      "Peanuts",
+      "Pollen",
+      "Latex"
+    ],
+    "symptoms": [
+      0,
+      1,
+      4,
+      6
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

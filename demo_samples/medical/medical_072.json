@@ -1,0 +1,31 @@
+{
+  "person": {
+    "name": "Emerson Davis",
+    "dob": "09/30/1958",
+    "phone": "(440) 975-3787",
+    "address": [
+      "9748 Spruce Ter",
+      "Salem, ND 56437"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "475357-89",
+    "physician": "Dr. Johnson",
+    "emergency_contact": "Morgan Martinez",
+    "emergency_phone": "(678) 933-9894",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Penicillin",
+      "Pollen"
+    ],
+    "symptoms": [
+      4,
+      5,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

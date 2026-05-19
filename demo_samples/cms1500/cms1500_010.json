@@ -1,0 +1,49 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Other",
+  "patient_name": "Wilson, Drew",
+  "patient_dob": "06/07/1953",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M62.830",
+    "S06.0X0A",
+    "R52",
+    "F41.1",
+    "S13.4XXA",
+    "M54.2"
+  ],
+  "service_lines": [
+    {
+      "date_from": "06/05/2024",
+      "cpt": "95910",
+      "pos": "22",
+      "charge": 475.0,
+      "units": 1
+    },
+    {
+      "date_from": "06/05/2024",
+      "cpt": "72040",
+      "pos": "22",
+      "charge": 350.0,
+      "units": 2
+    },
+    {
+      "date_from": "06/05/2024",
+      "cpt": "97140",
+      "pos": "11",
+      "charge": 160.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 985.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "SSN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

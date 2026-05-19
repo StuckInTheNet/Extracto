@@ -1,0 +1,51 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Group Health Plan",
+  "patient_name": "Wilson, Cameron",
+  "patient_dob": "06/25/2005",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "PA",
+  "diagnoses": [
+    "G44.311"
+  ],
+  "service_lines": [
+    {
+      "date_from": "08/13/2024",
+      "cpt": "97112",
+      "pos": "22",
+      "charge": 90.0,
+      "units": 1
+    },
+    {
+      "date_from": "08/13/2024",
+      "cpt": "95910",
+      "pos": "12",
+      "charge": 475.0,
+      "units": 1
+    },
+    {
+      "date_from": "08/13/2024",
+      "cpt": "72148",
+      "pos": "12",
+      "charge": 1250.0,
+      "units": 1
+    },
+    {
+      "date_from": "08/13/2024",
+      "cpt": "99214",
+      "pos": "22",
+      "charge": 525.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 2340.0,
+  "accept_assignment": true,
+  "tax_id": "12-3456789",
+  "tax_id_type": "EIN",
+  "provider_name": "Sarah Mitchell, MD",
+  "provider_npi": "1234567890"
+}

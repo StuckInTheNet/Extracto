@@ -1,0 +1,22 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jordan Garcia",
+  "employer_name": "Summit Healthcare Corp",
+  "injury_date": "04/12/2023",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Hip-R",
+    "Lower Leg-R",
+    "Wrist-R"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Chemical Exposure",
+    "Other"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit",
+    "Hospitalized",
+    "None"
+  ]
+}

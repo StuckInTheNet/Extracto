@@ -1,0 +1,59 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicare",
+  "patient_name": "Brown, Morgan",
+  "patient_dob": "04/10/1972",
+  "patient_sex": "F",
+  "relationship_to_insured": "Child",
+  "condition_employment": true,
+  "condition_auto": false,
+  "condition_other": false,
+  "auto_state": "",
+  "diagnoses": [
+    "M54.2",
+    "R52"
+  ],
+  "service_lines": [
+    {
+      "date_from": "03/26/2024",
+      "cpt": "97112",
+      "pos": "22",
+      "charge": 180.0,
+      "units": 2
+    },
+    {
+      "date_from": "03/26/2024",
+      "cpt": "98941",
+      "pos": "21",
+      "charge": 195.0,
+      "units": 3
+    },
+    {
+      "date_from": "03/26/2024",
+      "cpt": "97110",
+      "pos": "21",
+      "charge": 85.0,
+      "units": 1
+    },
+    {
+      "date_from": "03/26/2024",
+      "cpt": "95910",
+      "pos": "11",
+      "charge": 475.0,
+      "units": 1
+    },
+    {
+      "date_from": "03/26/2024",
+      "cpt": "72141",
+      "pos": "23",
+      "charge": 2400.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 3335.0,
+  "accept_assignment": true,
+  "tax_id": "78-9012345",
+  "tax_id_type": "EIN",
+  "provider_name": "Lisa Washington, PT",
+  "provider_npi": "7890123456"
+}

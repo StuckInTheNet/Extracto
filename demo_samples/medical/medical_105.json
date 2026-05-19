@@ -1,0 +1,29 @@
+{
+  "person": {
+    "name": "Alex Moore",
+    "dob": "03/17/1989",
+    "phone": "(279) 761-8472",
+    "address": [
+      "1694 Oak St",
+      "Arlington, TX 63135"
+    ],
+    "sex": "Other"
+  },
+  "meta": {
+    "mrn": "649983-50",
+    "physician": "Dr. Thomas",
+    "emergency_contact": "Cameron Jones",
+    "emergency_phone": "(538) 979-8440",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "None Known"
+    ],
+    "symptoms": [
+      6,
+      7
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

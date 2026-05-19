@@ -1,0 +1,25 @@
+{
+  "form_type": "eob",
+  "payer_name": "Kaiser Permanente",
+  "member_name": "Alex Jones",
+  "claim_number": "CLM41182544",
+  "check_number": "975505",
+  "service_line_count": 5,
+  "service_line_cpts": [
+    "20610",
+    "72100",
+    "99213",
+    "99213",
+    "97140"
+  ],
+  "total_billed": 880.5,
+  "total_allowed": 586.96,
+  "total_plan_paid": 455.03,
+  "total_patient_resp": 131.93,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-1",
+    "PR-2",
+    "PR-3"
+  ]
+}

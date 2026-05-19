@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Skyler Garcia",
+    "dob": "08/02/1984",
+    "phone": "(679) 803-4010",
+    "address": [
+      "7375 Maple Ave",
+      "Riverton, AR 67383"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "C3066998",
+    "ins_type": "PPO",
+    "work_related": false,
+    "auto_accident": true,
+    "claim_type": "Procedure"
+  },
+  "type": "insurance",
+  "controls": []
+}

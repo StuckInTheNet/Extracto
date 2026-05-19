@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Sawyer Hernandez",
+    "dob": "07/09/1970",
+    "phone": "(527) 762-3273",
+    "address": [
+      "1563 Pine Rd",
+      "Clinton, IA 64628"
+    ],
+    "sex": "Female"
+  },
+  "meta": {
+    "policy_id": "B7220664",
+    "ins_type": "POS",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Medication"
+  },
+  "type": "insurance",
+  "controls": []
+}

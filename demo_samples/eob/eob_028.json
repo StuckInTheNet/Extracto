@@ -1,0 +1,20 @@
+{
+  "form_type": "eob",
+  "payer_name": "Cigna HealthCare",
+  "member_name": "Jordan Wilson",
+  "claim_number": "CLM83462947",
+  "check_number": "391622",
+  "service_line_count": 2,
+  "service_line_cpts": [
+    "97110",
+    "20610"
+  ],
+  "total_billed": 405.0,
+  "total_allowed": 268.86,
+  "total_plan_paid": 228.86,
+  "total_patient_resp": 40.0,
+  "reason_codes_used": [
+    "CO-45",
+    "PR-3"
+  ]
+}

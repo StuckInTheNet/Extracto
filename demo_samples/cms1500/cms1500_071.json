@@ -1,0 +1,37 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "FECA Blk Lung",
+  "patient_name": "Rodriguez, Pat",
+  "patient_dob": "07/17/1996",
+  "patient_sex": "M",
+  "relationship_to_insured": "Self",
+  "condition_employment": false,
+  "condition_auto": false,
+  "condition_other": true,
+  "auto_state": "",
+  "diagnoses": [
+    "M51.26"
+  ],
+  "service_lines": [
+    {
+      "date_from": "11/27/2024",
+      "cpt": "72100",
+      "pos": "11",
+      "charge": 555.0,
+      "units": 3
+    },
+    {
+      "date_from": "11/27/2024",
+      "cpt": "64483",
+      "pos": "23",
+      "charge": 1700.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 2255.0,
+  "accept_assignment": true,
+  "tax_id": "34-5678901",
+  "tax_id_type": "SSN",
+  "provider_name": "Emily Chen, MD",
+  "provider_npi": "3456789012"
+}

@@ -1,0 +1,62 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "Medicare",
+  "patient_name": "Garcia, Chris",
+  "patient_dob": "12/26/1956",
+  "patient_sex": "F",
+  "relationship_to_insured": "Spouse",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "CA",
+  "diagnoses": [
+    "R52",
+    "F32.9",
+    "M54.5",
+    "S06.0X0A",
+    "M54.2"
+  ],
+  "service_lines": [
+    {
+      "date_from": "01/29/2024",
+      "cpt": "99203",
+      "pos": "22",
+      "charge": 450.0,
+      "units": 2
+    },
+    {
+      "date_from": "01/29/2024",
+      "cpt": "64483",
+      "pos": "22",
+      "charge": 1700.0,
+      "units": 2
+    },
+    {
+      "date_from": "01/29/2024",
+      "cpt": "97112",
+      "pos": "11",
+      "charge": 90.0,
+      "units": 1
+    },
+    {
+      "date_from": "01/29/2024",
+      "cpt": "20610",
+      "pos": "12",
+      "charge": 320.0,
+      "units": 1
+    },
+    {
+      "date_from": "01/29/2024",
+      "cpt": "72148",
+      "pos": "21",
+      "charge": 3750.0,
+      "units": 3
+    }
+  ],
+  "total_charge": 6310.0,
+  "accept_assignment": true,
+  "tax_id": "45-6789012",
+  "tax_id_type": "SSN",
+  "provider_name": "Michael Thompson, DC",
+  "provider_npi": "4567890123"
+}

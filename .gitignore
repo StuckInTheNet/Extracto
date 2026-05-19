@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project outputs
+outputs/
+runs/
+dataset/
+demo_output/
+build/
+dist/
+*.spec
+
+# Deploy configs (not needed in repo)
+railway.toml
+nixpacks.toml
+Procfile
+.dockerignore
+
+# Real-world forms: exclude binary PDFs but keep reports and scripts
+real_forms/blank/
+real_forms/filled/
+real_forms/extracted/
+real_forms/unknown_test/
+
+# Models — exclude generic .pt EXCEPT trained Extracto models we want to ship
+*.pt
+*.onnx
+!extracto/detection/models/**/*.pt
+
+# Secrets
+.env
+*.key
+
+# Database files
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+data/
+runs/
+/Users/mattfish/runs/
+.claude/

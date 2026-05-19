@@ -1,0 +1,28 @@
+{
+  "person": {
+    "name": "Finley Williams",
+    "dob": "02/05/1958",
+    "phone": "(764) 426-3036",
+    "address": [
+      "582 Oak St",
+      "Clinton, MA 42224"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "806147-29",
+    "physician": "Dr. Miller",
+    "emergency_contact": "Peyton Jones",
+    "emergency_phone": "(331) 704-8362",
+    "smoker": false,
+    "diabetic": false,
+    "allergies": [
+      "Peanuts"
+    ],
+    "symptoms": [
+      6
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}

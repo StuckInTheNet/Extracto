@@ -1,0 +1,20 @@
+{
+  "form_type": "froi",
+  "employee_name": "Jordan Williams",
+  "employer_name": "Apex Construction Corp",
+  "injury_date": "07/09/2022",
+  "on_premises": false,
+  "injured_body_parts": [
+    "Fingers-R",
+    "Internal",
+    "Toes-L"
+  ],
+  "nature_of_injury": "Contusion",
+  "causes": [
+    "Chemical Exposure",
+    "Fall - From Height"
+  ],
+  "treatments": [
+    "Clinic/Doctor Visit"
+  ]
+}

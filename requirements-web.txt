@@ -1,0 +1,9 @@
+# Web demo dependencies (lightweight — no GPU/torch needed)
+PyMuPDF>=1.24,<2.0
+opencv-contrib-python-headless>=4.9,<5.0
+numpy>=1.26,<3.0
+joblib>=1.3,<2.0
+scikit-learn>=1.4,<2.0
+reportlab>=4.1,<5.0
+flask>=3.0,<4.0
+gunicorn>=22.0,<23.0

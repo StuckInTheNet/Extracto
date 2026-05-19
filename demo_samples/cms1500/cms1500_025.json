@@ -1,0 +1,42 @@
+{
+  "form_type": "cms1500",
+  "insurance_type": "CHAMPVA",
+  "patient_name": "Rodriguez, Alex",
+  "patient_dob": "05/24/2005",
+  "patient_sex": "M",
+  "relationship_to_insured": "Other",
+  "condition_employment": false,
+  "condition_auto": true,
+  "condition_other": false,
+  "auto_state": "FL",
+  "diagnoses": [
+    "M54.5",
+    "F41.1",
+    "R52",
+    "S06.0X0A",
+    "S39.012A",
+    "M79.2"
+  ],
+  "service_lines": [
+    {
+      "date_from": "07/28/2024",
+      "cpt": "95910",
+      "pos": "22",
+      "charge": 475.0,
+      "units": 1
+    },
+    {
+      "date_from": "07/28/2024",
+      "cpt": "64483",
+      "pos": "23",
+      "charge": 1700.0,
+      "units": 2
+    }
+  ],
+  "total_charge": 2175.0,
+  "accept_assignment": true,
+  "tax_id": "67-8901234",
+  "tax_id_type": "EIN",
+  "provider_name": "David Kim, MD",
+  "provider_npi": "6789012345"
+}

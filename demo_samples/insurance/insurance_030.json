@@ -1,0 +1,21 @@
+{
+  "person": {
+    "name": "Drew Rodriguez",
+    "dob": "07/02/1955",
+    "phone": "(594) 866-7938",
+    "address": [
+      "2375 Elm St",
+      "Arlington, NE 57642"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "policy_id": "D5836541",
+    "ins_type": "HMO",
+    "work_related": false,
+    "auto_accident": false,
+    "claim_type": "Visit"
+  },
+  "type": "insurance",
+  "controls": []
+}

@@ -1,0 +1,19 @@
+{
+  "form_type": "hipaa",
+  "patient_name": "Avery Garcia",
+  "patient_dob": "04/19/1959",
+  "date_range_from": "03/15/2023",
+  "date_range_to": "10/07/2023",
+  "record_types": [
+    "Discharge Summaries",
+    "Imaging Reports",
+    "Lab Results",
+    "Office Notes"
+  ],
+  "excluded_categories": [],
+  "purposes": [
+    "Legal Proceedings",
+    "Personal Use"
+  ],
+  "expiration_type": "specific_date"
+}

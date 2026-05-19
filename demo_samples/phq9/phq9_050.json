@@ -1,0 +1,19 @@
+{
+  "form_type": "phq9",
+  "patient_name": "Morgan Williams",
+  "date": "09/03/2023",
+  "scores": [
+    2,
+    0,
+    2,
+    3,
+    0,
+    1,
+    2,
+    0,
+    1
+  ],
+  "total": 11,
+  "difficulty": 2,
+  "severity": "Moderate depression"
+}

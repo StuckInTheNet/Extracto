@@ -1,0 +1,18 @@
+{
+  "form_type": "froi",
+  "employee_name": "Casey Smith",
+  "employer_name": "Acme Warehousing Corp",
+  "injury_date": "01/29/2022",
+  "on_premises": true,
+  "injured_body_parts": [
+    "Knee-L",
+    "Toes-L"
+  ],
+  "nature_of_injury": "Laceration",
+  "causes": [
+    "Struck Against Object"
+  ],
+  "treatments": [
+    "First Aid Only"
+  ]
+}

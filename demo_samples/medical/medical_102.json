@@ -1,0 +1,31 @@
+{
+  "person": {
+    "name": "Morgan Williams",
+    "dob": "01/29/1986",
+    "phone": "(880) 296-7627",
+    "address": [
+      "9349 Ash Ct",
+      "Riverton, TN 47575"
+    ],
+    "sex": "Male"
+  },
+  "meta": {
+    "mrn": "338998-48",
+    "physician": "Dr. Rodriguez",
+    "emergency_contact": "Sawyer Taylor",
+    "emergency_phone": "(915) 259-5180",
+    "smoker": true,
+    "diabetic": false,
+    "allergies": [
+      "Latex",
+      "Penicillin",
+      "Peanuts"
+    ],
+    "symptoms": [
+      2,
+      6
+    ]
+  },
+  "type": "medical",
+  "controls": []
+}
